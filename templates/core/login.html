@@ -1,0 +1,46 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center align-items-center" style="min-height: 75vh;">
+    <div class="col-md-5 col-lg-4">
+        <div class="card border-0 shadow-lg" style="background: var(--surface);">
+            <div class="card-body p-5">
+                <div class="text-center mb-5">
+                    <span style="font-size: 3.5rem;">🌱</span>
+                    <h2 class="fw-800 mt-4" style="color: #ffffff; letter-spacing: -0.04em;">Sign In</h2>
+                    <p class="text-muted small fw-500">Enter your details to access your account</p>
+                </div>
+
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-4">
+                        <label class="form-label">Username</label>
+                        <input type="text" name="username" class="form-control" required
+                            placeholder="Enter your username">
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" required
+                            placeholder="Enter your password">
+                    </div>
+
+                    <div class="d-grid mt-5">
+                        <button type="submit" class="btn-nav-primary"
+                            style="margin-left: 0; width: 100%; border: none;">
+                            Sign In
+                        </button>
+                    </div>
+                </form>
+
+                <div class="mt-5 pt-4 border-top border-secondary text-center small" style="color: rgba(255, 255, 255, 0.65);">
+                    Don't have an account? <a href="{% url 'register' %}"
+                        class="fw-800 text-primary text-decoration-none" style="filter: brightness(1.1);">Sign Up</a>.
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4 text-muted small">
+            &larr; <a href="/" class="text-decoration-none text-muted fw-600">Back to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

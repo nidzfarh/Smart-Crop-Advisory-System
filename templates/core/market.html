@@ -1,0 +1,230 @@
+{% extends 'core/base.html' %}
+
+{% block extra_head %}
+<style>
+    .market-header {
+        position: relative;
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .shop-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+    }
+
+    .shop-card:hover {
+        transform: translateY(-8px);
+        border-color: rgba(16, 185, 129, 0.4);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .dist-badge {
+        background: rgba(16, 185, 129, 0.1);
+        color: var(--primary);
+        font-weight: 800;
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        padding: 0.5rem 0.75rem;
+        border-radius: 10px;
+        font-size: 0.8rem;
+    }
+
+    .shop-icon-wrapper {
+        width: 64px;
+        height: 64px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.75rem;
+    }
+
+    .price-tag {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        padding: 0.4rem 1rem;
+        border-radius: 50px;
+        font-size: 0.7rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .price-Low { background: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.2); }
+    .price-Medium { background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.2); }
+    .price-High { background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.2); }
+
+    .shop-name {
+        color: var(--text-header);
+        font-weight: 800;
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+        letter-spacing: -0.02em;
+    }
+
+    .shop-loc {
+        color: var(--text-muted);
+        font-weight: 500;
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .action-row {
+        display: flex;
+        gap: 0.75rem;
+    }
+
+    .btn-action {
+        flex: 1;
+        padding: 0.75rem;
+        border-radius: 10px;
+        font-weight: 750;
+        font-size: 0.85rem;
+        transition: all 0.2s;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .btn-call {
+        background: var(--primary);
+        color: #0b0f19;
+        border: none;
+    }
+
+    .btn-call:hover {
+        background: var(--primary-light);
+        color: #0b0f19;
+    }
+
+    .btn-dir {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border);
+        color: var(--text-main);
+    }
+
+    .btn-dir:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #ffffff;
+    }
+
+    .recommendations-panel {
+        background: linear-gradient(135deg, #141d2e 0%, #0b111d 100%);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .rec-item {
+        padding: 0 1.5rem;
+        border-left: 1px solid var(--border);
+    }
+
+    .rec-item:first-child { border-left: none; padding-left: 0; }
+
+    .rec-title {
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0.05em;
+    }
+
+    .rec-text {
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="market-header d-flex justify-content-between align-items-end">
+    <div>
+        <h1 class="section-title">Seed Shop Intelligence</h1>
+        <p class="section-subtitle">Premium verified suppliers for <strong>{{ crop }}</strong> near your plot.</p>
+    </div>
+    <div class="text-end">
+        <a href="{% url 'dashboard' %}" class="btn btn-dir px-4">Exit to Dashboard</a>
+    </div>
+</div>
+
+<div class="row g-4">
+    {% for item in shops %}
+    <div class="col-lg-6">
+        <div class="shop-card p-4">
+            <span class="price-tag price-{{ item.shop.price_range }}">
+                {{ item.shop.price_range }} Price
+            </span>
+
+            <div class="d-flex align-items-center mb-4">
+                <div class="shop-icon-wrapper me-4">
+                    🏪
+                </div>
+                <div>
+                    <h3 class="shop-name">{{ item.shop.name }}</h3>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="dist-badge">📍 {{ item.distance|floatformat:1 }} km away</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="shop-loc">
+                <i class="opacity-50 me-1">🏠</i> {{ item.shop.location }}, {{ item.shop.district }}
+            </p>
+
+            <div class="action-row">
+                <a href="tel:{{ item.shop.contact_info }}" class="btn-action btn-call">
+                    📞 Call Supplier
+                </a>
+                <a href="#" class="btn-action btn-dir">
+                    🧭 Map Routing
+                </a>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="col-12">
+        <div class="card p-5 text-center text-muted border-0 shadow-sm" style="background: rgba(17, 24, 39, 0.4);">
+            <div class="opacity-25 mb-3" style="font-size: 4rem;">🚜</div>
+            <p class="h5 fw-700 mb-2">No Verified Shops Found</p>
+            <p class="small">We couldn't find registered {{ crop }} suppliers in your immediate vicinity. Try expanding your search radius.</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="recommendations-panel">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="rec-item">
+                <h6 class="rec-title">Bulk Procurement</h6>
+                <p class="rec-text">Commercial orders exceeding 50kg typically qualify for 5-10% yield margins. Always request batch-specific germination certifications.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="rec-item">
+                <h6 class="rec-title">State Subsidies</h6>
+                <p class="rec-text">Present your unique Farmer ID to any certified cooperative to access state-funded seed subsidies for the current monsoon cycle.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="rec-item">
+                <h6 class="rec-title">KAU Verification</h6>
+                <p class="rec-text">SmartCrop prioritizes vendors stocking Kerala Agricultural University (KAU) certified high-yield varieties for better resistance traits.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

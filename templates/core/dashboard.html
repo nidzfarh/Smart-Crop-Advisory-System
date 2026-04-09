@@ -1,0 +1,199 @@
+{% extends 'core/base.html' %}
+
+{% block extra_head %}
+<style>
+    .hero-card {
+        border-radius: 12px;
+        padding: 2.5rem;
+        text-align: center;
+        border: 1px solid var(--border);
+        margin-bottom: 2rem;
+        transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .hero-card h2 {
+        font-weight: 800;
+        margin-bottom: 0.75rem;
+        font-size: 2.25rem;
+        color: #ffffff;
+    }
+
+    .hero-card p {
+        color: var(--text-muted);
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .btn-white {
+        background: #ffffff;
+        color: #0b0f19;
+        font-weight: 800;
+        border-radius: 8px;
+        padding: 0.85rem 2.25rem;
+        border: none;
+        transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .btn-white:hover {
+        transform: translateY(-2px);
+        background: #e2e8f0;
+    }
+
+    .crop-card {
+        background: var(--surface);
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        padding: 1.75rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+
+    .crop-title {
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+        text-transform: capitalize;
+    }
+
+    .status-badge {
+        position: absolute;
+        top: 1.75rem;
+        right: 1.75rem;
+        background: #1f2937;
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        padding: 0.35rem 0.85rem;
+        border-radius: 6px;
+        font-weight: 700;
+        border: 1px solid var(--border);
+    }
+
+    .info-text {
+        font-size: 0.95rem;
+        color: var(--text-muted);
+        margin-bottom: 0.35rem;
+        font-weight: 500;
+    }
+
+    .stage-text {
+        font-weight: 750;
+        color: var(--text-main);
+    }
+
+    .stage-val {
+        color: #60a5fa;
+        /* Professional blue for progress */
+    }
+
+    .advisory-box {
+        background: rgba(16, 185, 129, 0.05);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        border-radius: 12px;
+        padding: 1.25rem;
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .advisory-text {
+        font-size: 0.95rem;
+        color: #cbd5e1;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+
+    .advisory-text strong {
+        color: var(--primary);
+        font-weight: 800;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row g-4 mb-5">
+    <!-- Analysis CTA Card -->
+    <div class="col-md-6">
+        <div class="hero-card shadow-sm"
+            style="background: linear-gradient(135deg, #064e3b 0%, #0b0f19 100%); border-color: rgba(16, 185, 129, 0.3);">
+            <h2>🔬 Soil Analysis</h2>
+            <p>Predict optimal crops based on your soil profile.</p>
+            <a href="{% url 'predict' %}" class="btn btn-white">Analyze Soil</a>
+        </div>
+    </div>
+    <!-- Tracking CTA Card -->
+    <div class="col-md-6">
+        <div class="hero-card shadow-sm" style="background: linear-gradient(135deg, #1e293b 0%, #0b0f19 100%);">
+            <h2>📝 Track Planted Crop</h2>
+            <p>Register a crop you have already started growing.</p>
+            <a href="{% url 'add_crop' %}" class="btn btn-white">Add New Crop</a>
+        </div>
+    </div>
+</div>
+
+{% if forecast %}
+<div class="weather-section mb-5">
+    <h3 class="fw-800 text-main mb-4" style="letter-spacing: -0.02em;">10-Day Intelligence Forecast</h3>
+    <div class="weather-forecast-scroll">
+        {% for day in forecast.days %}
+        <div class="forecast-card {% if day.is_today %}is-today{% endif %}">
+            <div class="fc-label">{{ day.label }}</div>
+            <span class="fc-icon">{{ day.icon }}</span>
+            <div class="fc-temp">{{ day.temp_avg }}°C</div>
+            <div class="fc-precip">💧 {{ day.precip }}mm</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<div class="mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-800 text-header mb-0" style="letter-spacing: -0.02em;">My Farm Status <span
+                class="text-muted fw-500" style="font-size: 1rem;">— {{ location }}</span></h3>
+    </div>
+
+    {% for item in enriched_crops %}
+    <div class="crop-card">
+        <span class="status-badge">{{ item.days }} DAYS OLD</span>
+        <h4 class="crop-title">{{ item.obj.crop_name }}</h4>
+        <div class="info-text">Sowing Date: <span class="text-main">{{ item.obj.planting_date }}</span></div>
+        <div class="info-text stage-text">Current Stage: <span class="stage-val">{{ item.stage }}</span></div>
+
+        <div class="advisory-box">
+            <span style="font-size: 1.5rem;">💡</span>
+            <p class="advisory-text"><strong>Intelligence Advisory:</strong> {{ item.advice }}</p>
+        </div>
+        <div class="mt-4 text-end d-flex justify-content-end gap-2">
+            <form action="{% url 'delete_crop' item.obj.id %}" method="post"
+                onsubmit="return confirm('Stop tracking this {{ item.obj.crop_name }}? This action cannot be undone.');">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-outline-danger px-4 fw-700"
+                    style="opacity: 0.8; border-radius: 8px;">Delete</button>
+            </form>
+            <a href="{% url 'crop_detail' item.obj.id %}" class="btn btn-sm btn-light px-4 fw-700">Digital Timeline
+                →</a>
+        </div>
+    </div>
+    {% empty %}
+    <div class="card border-0 shadow-lg p-5 text-center text-muted" style="background: rgba(17, 24, 39, 0.4);">
+        <div class="opacity-25 mb-3" style="font-size: 4rem;">🚜</div>
+        <p class="h5 fw-700 mb-2">No active cultivations</p>
+        <p class="small">Register your crops to start receiving automated intelligence updates.</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% if weather_alert %}
+<div class="alert alert-info border-0 shadow-sm d-flex align-items-center gap-4 p-4"
+    style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3) !important; border-radius: 16px;">
+    <span style="font-size: 2rem;">⚠️</span>
+    <div>
+        <h6 class="fw-800 mb-1" style="color: #60a5fa;">Regional Intelligence Alert: {{ location }}</h6>
+        <p class="mb-0 small" style="color: #e2e8f0; font-weight: 600;">{{ weather_alert }}</p>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

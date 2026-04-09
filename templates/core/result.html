@@ -1,0 +1,386 @@
+{% extends 'core/base.html' %}
+
+{% block extra_head %}
+<style>
+    .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 992px) {
+        .results-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .crop-card {
+        background: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 16px;
+        padding: 1.5rem;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .card-top-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .crop-name-id {
+        color: #10b981;
+        font-weight: 800;
+        font-size: 1.25rem;
+        margin: 0;
+    }
+
+    .best-badge {
+        background: #10b981;
+        color: #1e293b;
+        font-size: 0.75rem;
+        font-weight: 800;
+        padding: 0.2rem 0.6rem;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .main-profit-section {
+        text-align: center;
+    }
+
+    .land-context {
+        font-size: 0.8rem;
+        font-weight: 800;
+        color: #3b82f6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.25rem;
+    }
+
+    .total-profit-value {
+        font-size: 2.25rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+
+    .profit-label {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #94a3b8;
+    }
+
+    .viability-status {
+        display: inline-block;
+        padding: 0.4rem 1.2rem;
+        border-radius: 50px;
+        font-weight: 800;
+        font-size: 0.85rem;
+        color: #1e293b;
+        margin-top: 0.5rem;
+    }
+
+    .status-Moderate {
+        background: #f59e0b;
+    }
+
+    .status-High {
+        background: #10b981;
+    }
+
+    .status-Low {
+        background: #ef4444;
+    }
+
+    .stats-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .stats-box {
+        border: 1px solid #334155;
+        border-radius: 8px;
+        padding: 1rem;
+        background: rgba(15, 23, 42, 0.3);
+    }
+
+    .stats-box h6 {
+        font-size: 0.7rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.75rem;
+    }
+
+    .per-acre h6 {
+        color: #10b981;
+    }
+
+    .total-recs h6 {
+        color: #ffffff;
+    }
+
+    .stat-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .stat-row:last-child {
+        margin-bottom: 0;
+    }
+
+    .stat-label {
+        color: #94a3b8;
+    }
+
+    .stat-value {
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .cost-value {
+        color: #ef4444;
+    }
+
+    .market-analysis-box {
+        background: #0f172a;
+        border-left: 4px solid #10b981;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+
+    .market-analysis-box h6 {
+        color: #10b981;
+        font-size: 0.75rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    .analysis-text {
+        font-size: 0.85rem;
+        color: #cbd5e1;
+        line-height: 1.5;
+        margin-bottom: 0.75rem;
+    }
+
+    .footer-metrics {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .footer-metric-item {
+        flex: 1;
+        background: #0f172a;
+        border-radius: 8px;
+        padding: 0.75rem;
+        text-align: center;
+    }
+
+    .fm-label {
+        font-size: 0.75rem;
+        color: #64748b;
+        margin-bottom: 0.25rem;
+    }
+
+    .fm-value {
+        font-size: 1rem;
+        font-weight: 800;
+        color: #ffffff;
+    }
+
+    .final-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+
+    .next-step-text {
+        font-size: 0.75rem;
+        color: #94a3b8;
+        max-width: 60%;
+    }
+
+    .btn-shop {
+        background: #10b981;
+        color: #0b0f19;
+        border: none;
+        border-radius: var(--radius);
+        padding: 0.75rem 1.5rem;
+        font-weight: 800;
+        font-size: 0.95rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .btn-shop:hover {
+        transform: scale(1.05);
+        color: #1e293b;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="section-header d-flex justify-content-between align-items-end mb-5">
+    <div>
+        <h1 class="section-title">Analysis Report</h1>
+        <p class="section-subtitle">Ranked Suitability & Intelligence Forecast — <strong>{{ location }}</strong></p>
+    </div>
+    <div class="text-end">
+        <a href="{% url 'predict' %}" class="btn btn-nav-primary"
+            style="margin-left:0; padding: 0.5rem 1.25rem !important;">New Analysis</a>
+    </div>
+</div>
+
+<div class="row g-4 mb-5">
+    <div class="col-md-4">
+        <div class="card p-3 shadow-sm" style="border-left: 4px solid var(--primary) !important; background: rgba(255, 255, 255, 0.03);">
+            <div class="form-label mb-1" style="font-size: 0.75rem; letter-spacing: 0.05em;">Soil pH</div>
+            <div class="h3 fw-800 mb-0" style="color: #ffffff;">{{ climate.ph }}</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 shadow-sm" style="border-left: 4px solid #3b82f6 !important; background: rgba(255, 255, 255, 0.03);">
+            <div class="form-label mb-1" style="font-size: 0.75rem; letter-spacing: 0.05em;">Climate Context</div>
+            <div class="h3 fw-800 mb-0" style="color: #ffffff;">{{ climate.temp }}°C | {{ climate.rainfall }}mm</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 shadow-sm" style="border-left: 4px solid #f59e0b !important; background: rgba(255, 255, 255, 0.03);">
+            <div class="form-label mb-1" style="font-size: 0.75rem; letter-spacing: 0.05em;">Planned Area</div>
+            <div class="h3 fw-800 mb-0" style="color: #ffffff;">{{ land_info.value }} {{ land_info.unit }}</div>
+        </div>
+    </div>
+</div>
+
+{% if forecast %}
+<div class="weather-section">
+    <h5 class="fw-800 text-main mb-3" style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em;">
+        10-Day Intelligence Forecast
+    </h5>
+    <div class="weather-forecast-scroll">
+        {% for day in forecast.days %}
+        <div class="forecast-card {% if day.is_today %}is-today{% endif %}">
+            <div class="fc-label">{{ day.label }}</div>
+            <span class="fc-icon">{{ day.icon }}</span>
+            <div class="fc-temp">{{ day.temp_avg }}°C</div>
+            <div class="fc-precip">💧 {{ day.precip }}mm</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<div class="results-grid">
+    {% for res in results %}
+    <div class="crop-card">
+        <!-- Header -->
+        <div class="card-top-header">
+            <h5 class="crop-name-id">{{ res.rank }}. {{ res.crop }}</h5>
+            {% if res.rank == 1 %}
+            <div class="best-badge">
+                <span>🌟</span> Best
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Profit Summary -->
+        <div class="main-profit-section">
+            <div class="land-context">For Your {{ land_info.value }} {{ land_info.unit }} Land</div>
+            <div class="total-profit-value">₹{{ res.total_profit|floatformat:0 }}</div>
+            <div class="profit-label">net profit</div>
+            <div class="viability-status status-{{ res.viability }}">
+                {{ res.viability }} Viability
+            </div>
+        </div>
+
+        <!-- Statistics Grid -->
+        <div class="stats-columns">
+            <!-- Per Acre Stats -->
+            <div class="stats-box per-acre">
+                <h6>Per Acre Statistics</h6>
+                <div class="stat-row">
+                    <span class="stat-label">Yield</span>
+                    <span class="stat-value">{{ res.yield_acre }} t/ac</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Revenue</span>
+                    <span class="stat-value">₹{{ res.revenue_acre|floatformat:0 }}</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Seed Cost</span>
+                    <span class="stat-value cost-value">₹{{ res.seed_cost_acre|floatformat:0 }}</span>
+                </div>
+            </div>
+
+            <!-- Total Recs -->
+            <div class="stats-box total-recs">
+                <h6>Total Recommendations</h6>
+                <div class="stat-row">
+                    <span class="stat-label">Total Yield</span>
+                    <span class="stat-value">{{ res.total_yield|floatformat:2 }} t</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Seed Needs</span>
+                    <span class="stat-value">{{ res.total_seed_qty }} {{ res.seed_unit }}</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Seed Inv.</span>
+                    <span class="stat-value cost-value">₹{{ res.total_seed_cost|floatformat:0 }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="market-analysis-box">
+            <h6 style="color: var(--primary); font-weight: 800; font-size: 0.75rem; text-transform: uppercase; margin-bottom: 0.75rem;">Market Analysis</h6>
+            <p class="analysis-text" style="color: #ffffff; font-weight: 600; margin-bottom: 0.75rem;">
+                You are planting now for a <strong>{{ res.harvest_month_label }} harvest</strong>.
+                Historical demand is <strong>{{ res.demand }}</strong> with prices averaging
+                <strong>₹{{ res.price|floatformat:0 }}/unit</strong>.
+            </p>
+            <p class="analysis-text small mb-0" style="color: var(--text-muted); opacity: 0.9; line-height: 1.6;">
+                {{ res.rationale|truncatewords:60 }}
+            </p>
+        </div>
+
+        <!-- Footer Small Metrics -->
+        <div class="footer-metrics">
+            <div class="footer-metric-item">
+                <div class="fm-label">Expected Yield</div>
+                <div class="fm-value">{{ res.yield_acre }} t/ac</div>
+            </div>
+            <div class="footer-metric-item">
+                <div class="fm-label">Profit Rank</div>
+                <div class="fm-value" style="color: #3b82f6;">#{{ res.rank }} Overall</div>
+            </div>
+        </div>
+
+        <!-- Bottom Actions -->
+        <div class="final-actions">
+            <div class="next-step-text">
+                <strong>Next Step:</strong> {{ res.advisory }}
+            </div>
+            <a href="{% url 'market_view' res.crop %}" class="btn-shop">
+                🛒 Shop Seeds
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

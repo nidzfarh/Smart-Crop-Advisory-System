@@ -1,0 +1,110 @@
+Crop,Stage,Description
+Rice,Germination,"Seeds are raised in wet nursery beds with standing water; puddled soil ensures uniform sprouting."
+Rice,Vegetative,"Transplanted seedlings grow in flooded fields; requires continuous irrigation and nitrogen for tillering."
+Rice,Flowering,"Panicle initiation is sensitive to water stress; maintain water level and protect from stem borers."
+Rice,Harvesting,"Harvest when grains turn golden; fields are drained before cutting for easier harvesting."
+
+Black Pepper,Germination,"Stem cuttings are planted near support trees under shaded and humid conditions."
+Black Pepper,Vegetative,"Vines climb support trees; requires pruning, organic manure, and shade regulation."
+Black Pepper,Flowering,"Flower spikes emerge during humid weather; moisture is critical for berry formation."
+Black Pepper,Harvesting,"Harvest spikes when berries start reddening; dried to produce black pepper."
+
+Tea,Germination,"Propagation is done through cuttings in shaded nursery beds with high humidity."
+Tea,Vegetative,"Bushes are pruned regularly to encourage fresh leaf growth; requires acidic soil."
+Tea,Flowering,"Flowering is not important as leaves are the economic part of the crop."
+Tea,Harvesting,"Tender leaves are plucked frequently for processing throughout the year."
+
+Pineapple,Germination,"Planted using suckers or crowns which root slowly in well-drained sandy soil."
+Pineapple,Vegetative,"Forms a rosette of spiny leaves; requires moderate rainfall and good drainage."
+Pineapple,Flowering,"Flowering is often induced artificially using chemicals like ethylene."
+Pineapple,Harvesting,"Fruits are harvested when skin turns yellow and emits a sweet aroma."
+
+Arecanut,Germination,"Seeds germinate in shaded nursery over several weeks with consistent moisture."
+Arecanut,Vegetative,"Palm grows vertically; requires irrigation and organic manure application."
+Arecanut,Flowering,"Inflorescence develops under humid conditions; pollination occurs naturally."
+Arecanut,Harvesting,"Nuts are harvested when fully mature and dried for processing."
+
+Coconut,Germination,"Seed nuts sprout in nursery beds under warm and moist conditions."
+Coconut,Vegetative,"Palms grow slowly and require basin irrigation and fertilization."
+Coconut,Flowering,"Flowering occurs year-round with both male and female flowers in the same cluster."
+Coconut,Harvesting,"Mature coconuts are harvested periodically depending on use."
+
+Turmeric,Germination,"Rhizomes sprout in warm, moist soil with good organic content."
+Turmeric,Vegetative,"Plants develop lush foliage; requires regular irrigation and weed control."
+Turmeric,Flowering,"Flowering is not important; energy is directed to rhizome growth."
+Turmeric,Harvesting,"Harvest when leaves yellow and dry; rhizomes are boiled and dried."
+
+Tapioca,Germination,"Stem cuttings sprout quickly in loose, well-drained soil."
+Tapioca,Vegetative,"Plants grow bushy with large leaves; requires moderate rainfall."
+Tapioca,Flowering,"Flowering is minimal and not relevant for yield."
+Tapioca,Harvesting,"Tubers are harvested after maturity for starch extraction."
+
+Rubber,Germination,"Seeds germinate in nursery under humid conditions before transplanting."
+Rubber,Vegetative,"Trees grow slowly over years; requires deep soil and good drainage."
+Rubber,Flowering,"Flowering occurs after maturity but is not economically important."
+Rubber,Harvesting,"Latex is extracted by tapping bark after trees reach maturity."
+
+Ginger,Germination,"Rhizomes sprout in warm and moist soil beds with good drainage."
+Ginger,Vegetative,"Leafy shoots develop; requires mulching and organic manure."
+Ginger,Flowering,"Flowering is not significant; focus is on rhizome development."
+Ginger,Harvesting,"Harvest when leaves dry; rhizomes are cleaned and processed."
+
+Nutmeg,Germination,"Seeds germinate slowly in shaded nursery beds over several weeks."
+Nutmeg,Vegetative,"Trees grow slowly with dense canopy; requires humid climate."
+Nutmeg,Flowering,"Male and female flowers grow on separate trees affecting fruit set."
+Nutmeg,Harvesting,"Fruits split open when mature revealing nutmeg and mace."
+
+Clove,Germination,"Seeds germinate in moist and shaded conditions with rich soil."
+Clove,Vegetative,"Trees develop glossy leaves and require high humidity."
+Clove,Flowering,"Flower buds form in clusters under suitable climate."
+Clove,Harvesting,"Buds are harvested before blooming and dried for spice use."
+
+Mango,Germination,"Seeds germinate in warm soil with adequate sunlight."
+Mango,Vegetative,"Trees develop strong branches and require seasonal irrigation."
+Mango,Flowering,"Flowering is seasonal and influenced by temperature and dryness."
+Mango,Harvesting,"Fruits are harvested when mature but still firm."
+
+Banana,Germination,"Suckers are planted in pits enriched with organic manure."
+Banana,Vegetative,"Rapid growth with large leaves; requires heavy nutrients and water."
+Banana,Flowering,"Inflorescence forms a bunch; plants may need support."
+Banana,Harvesting,"Fruits are harvested when fully developed but green."
+
+Papaya,Germination,"Seeds germinate quickly in warm, well-drained soil."
+Papaya,Vegetative,"Plants grow rapidly with hollow stems; requires regular watering."
+Papaya,Flowering,"Flowering determines plant sex; only female plants bear fruit."
+Papaya,Harvesting,"Fruits are harvested when they begin to ripen."
+
+Cardamom,Germination,"Seeds germinate slowly under dense shade and moist soil."
+Cardamom,Vegetative,"Plants grow in clumps under forest-like conditions."
+Cardamom,Flowering,"Flowers appear near ground level in humid environment."
+Cardamom,Harvesting,"Capsules are harvested when mature but still green."
+
+Cinnamon,Germination,"Seeds sprout in moist tropical soil conditions."
+Cinnamon,Vegetative,"Plants are pruned to promote multiple shoots."
+Cinnamon,Flowering,"Flowering is not economically important."
+Cinnamon,Harvesting,"Inner bark is harvested and processed into spice."
+
+Cocoa,Germination,"Seeds germinate under shade in humid conditions."
+Cocoa,Vegetative,"Trees grow under shade; requires consistent rainfall."
+Cocoa,Flowering,"Flowers grow on trunk and branches directly."
+Cocoa,Harvesting,"Pods are harvested when ripe and processed."
+
+Coffee,Germination,"Seeds germinate in shaded nursery beds."
+Coffee,Vegetative,"Plants grow under shade trees; require moderate climate."
+Coffee,Flowering,"Flowering occurs after rainfall leading to berry formation."
+Coffee,Harvesting,"Ripe berries are selectively harvested."
+
+Vanilla,Germination,"Cuttings establish on support trees in humid conditions."
+Vanilla,Vegetative,"Vines grow and climb; require shade and careful maintenance."
+Vanilla,Flowering,"Flowers must be hand-pollinated for fruit set."
+Vanilla,Harvesting,"Beans are harvested and cured for flavor."
+
+Cashew,Germination,"Seeds germinate easily in sandy, well-drained soil."
+Cashew,Vegetative,"Trees grow with spreading canopy; require dry climate."
+Cashew,Flowering,"Flowers produce nuts and cashew apples."
+Cashew,Harvesting,"Nuts are collected after falling and processed."
+
+Sugarcane,Germination,"Stem cuttings (setts) sprout in moist soil."
+Sugarcane,Vegetative,"Plants grow tall with thick stalks; require heavy irrigation."
+Sugarcane,Flowering,"Flowering is rare and not required for yield."
+Sugarcane,Harvesting,"Harvest when canes reach peak sugar content."

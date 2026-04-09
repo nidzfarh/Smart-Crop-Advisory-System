@@ -1,0 +1,418 @@
+{% extends 'core/base.html' %}
+
+{% block extra_head %}
+<!-- PDF.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
+<style>
+    .input-group-text {
+        background-color: #0b0f19;
+        border-color: var(--border);
+        color: var(--text-muted);
+    }
+
+    #loadingOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(11, 15, 25, 0.95);
+        z-index: 9999;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(12px);
+    }
+
+    .section-header h1 {
+        font-weight: 800;
+        color: #ffffff;
+        letter-spacing: -0.04em;
+    }
+
+    .card-header .badge {
+        background: rgba(16, 185, 129, 0.1) !important;
+        color: var(--primary) !important;
+        font-weight: 800;
+        border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="loadingOverlay">
+    <div class="spinner-border text-primary mb-4" style="width: 3rem; height: 3rem; border-width: 0.25rem;"
+        role="status"></div>
+    <h4 class="fw-800 text-white mb-2">Executing Intelligence Engine</h4>
+    <p class="text-muted small fw-500">Processing climate datasets & soil composition models...</p>
+</div>
+
+<div class="section-header text-center mb-5">
+    <h1 class="section-title">Soil Intelligence Analysis</h1>
+    <p class="section-subtitle">Generate high-precision recommendations based on real-time chemical and climate
+        profiles.</p>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-9">
+        <form method="post" action="{% url 'result' %}" onsubmit="showLoading()">
+            {% csrf_token %}
+
+            {% if form.errors %}
+            <div class="alert alert-danger border-0 shadow-sm mb-4 p-4"
+                style="background: rgba(239, 68, 68, 0.1); border-radius: 12px;">
+                <h6 class="fw-800 mb-2" style="color: #f87171;">Structural Validation Errors:</h6>
+                <ul class="mb-0 small ps-3" style="color: #fca5a5; font-weight: 500;">
+                    {% for field, errors in form.errors.items %}
+                    <li>{{ field|title }}: {{ errors|striptags }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            <!-- PDF Smart Upload (Alternative Entry) -->
+            <div class="card mb-5 border-0 shadow-lg"
+                style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05)); border: 1px dashed rgba(16, 185, 129, 0.4) !important;">
+                <div class="card-body p-4 text-center">
+                    <div class="mb-3">
+                        <span class="fs-2">📄</span>
+                    </div>
+                    <h5 class="fw-800 text-white mb-1">Official Report Auto-Fill</h5>
+                    <p class="small mb-4 px-lg-5" style="color: rgba(255, 255, 255, 0.7); font-weight: 500;">
+                        Upload your PDF soil test report and our Intelligence Engine will extract the chemical profile for you.</p>
+
+                    <div class="d-flex justify-content-center align-items-center flex-column">
+                        <label class="btn-nav-primary px-4 py-2"
+                            style="cursor: pointer; border-radius: 8px; margin-left:0; background: rgba(16, 185, 129, 0.1); border: 1px solid var(--primary); color: var(--primary);">
+                            <input type="file" id="reportUpload" accept=".pdf" style="display: none;">
+                            <span id="uploadLabel">Select PDF Report</span>
+                        </label>
+
+                        <div id="extractionProgress" class="mt-4 w-75" style="display: none;">
+                            <div class="progress mb-2"
+                                style="height: 6px; background: rgba(255,255,255,0.05); border-radius: 10px; overflow: hidden;">
+                                <div id="extractBar" class="progress-bar"
+                                    style="width: 0%; background: var(--primary); transition: width 0.3s ease;"></div>
+                            </div>
+                            <div id="extractMessage" class="small text-primary fw-900" style="letter-spacing: 0.05em;">
+                                INITIALIZING EXTRACTION ENGINE...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 1: Chemical Composition -->
+            <div class="card mb-4">
+                <div class="card-header d-flex align-items-center">
+                    <span>Chemical Soil Composition</span>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <label class="form-label">Nitrogen (N)</label>
+                            <input type="number" name="nitrogen" class="form-control" required min="0" max="200"
+                                value="{{ form.nitrogen.value|default:'' }}" placeholder="mg/kg">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Phosphorus (P)</label>
+                            <input type="number" name="phosphorus" class="form-control" required min="0" max="200"
+                                value="{{ form.phosphorus.value|default:'' }}" placeholder="mg/kg">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Potassium (K)</label>
+                            <input type="number" name="potassium" class="form-control" required min="0" max="200"
+                                value="{{ form.potassium.value|default:'' }}" placeholder="mg/kg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <!-- Section 2: Environment -->
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header d-flex align-items-center">
+                            <span>Region & Environment</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="mb-4">
+                                <label class="form-label">Soil pH Level</label>
+                                <input type="number" step="0.1" name="ph" class="form-control" required min="0" max="14"
+                                    value="{{ form.ph.value|default:'' }}" placeholder="e.g. 6.5">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Soil Type</label>
+                                <select name="soil_type" class="form-select" required>
+                                    {% for value, label in form.soil_type.field.choices %}
+                                    <option value="{{ value }}" {% if form.soil_type.value == value %}selected{% endif %}>
+                                        {{ label }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div>
+                                <label class="form-label">Operational District</label>
+                                <select name="location" class="form-select" required>
+                                    {% for value, label in form.location.field.choices %}
+                                    <option value="{{ value }}" {% if form.location.value == value %}selected{% endif %}>
+                                        {{ label }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Farm Planning -->
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header d-flex align-items-center">
+                            <span>Operational Scale</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <div class="row g-2 mb-4">
+                                <div class="col-8">
+                                    <label class="form-label">Land Area</label>
+                                    <input type="number" step="0.01" name="land_area_value" class="form-control"
+                                        value="{{ form.land_area_value.value|default:'' }}" placeholder="Enter value"
+                                        required>
+                                </div>
+                                <div class="col-4">
+                                    <label class="form-label">Unit</label>
+                                    <select name="land_area_unit" class="form-select">
+                                        <option value="Acre">Acre</option>
+                                        <option value="Cent">Cent</option>
+                                        <option value="Hectare">Hectare</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="autocomplete-container" style="position: relative;">
+                                <label class="form-label">Target Crop (Optional Check)</label>
+                                <input type="text" name="crop_name" id="crop_name" class="form-control"
+                                    autocomplete="off" placeholder="Search suitability for specific crop">
+                                <div id="autocomplete-list" class="autocomplete-items"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <button type="submit" class="btn-nav-primary px-5 py-3"
+                    style="font-size: 1rem; border-radius: 12px; margin-left:0;">
+                    Initialize Decision Engine →
+                </button>
+                <div class="mt-4 text-muted small fw-500">
+                    &nbsp;
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function showLoading() {
+        document.getElementById('loadingOverlay').style.display = 'flex';
+    }
+
+    // Autocomplete Logic
+    const crops = {{ crops| safe }};
+    const input = document.getElementById('crop_name');
+    const list = document.getElementById('autocomplete-list');
+
+    input.addEventListener('input', function () {
+        const val = this.value;
+        list.innerHTML = '';
+        if (!val) return false;
+
+        const filtered = crops.filter(crop =>
+            crop.toLowerCase().startsWith(val.toLowerCase())
+        );
+
+        filtered.forEach(crop => {
+            const div = document.createElement('div');
+            div.innerHTML = `<strong>${crop.substr(0, val.length)}</strong>${crop.substr(val.length)}`;
+            div.addEventListener('click', function () {
+                input.value = crop;
+                list.innerHTML = '';
+            });
+            list.appendChild(div);
+        });
+    });
+
+    document.addEventListener('click', function (e) {
+        if (e.target !== input) {
+            list.innerHTML = '';
+        }
+    });
+
+    // Real PDF Extraction Engine (PDF.js)
+    const reportUpload = document.getElementById('reportUpload');
+    const extractionProgress = document.getElementById('extractionProgress');
+    const extractBar = document.getElementById('extractBar');
+    const extractMessage = document.getElementById('extractMessage');
+
+    reportUpload.addEventListener('change', async function (e) {
+        if (this.files && this.files[0]) {
+            const file = this.files[0];
+            extractionProgress.style.display = 'block';
+            extractBar.style.width = '10%';
+            extractBar.style.background = 'var(--primary)';
+            extractMessage.innerText = "INITIALIZING SCANNER...";
+
+            try {
+                const arrayBuffer = await file.arrayBuffer();
+                const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+                const pdf = await loadingTask.promise;
+
+                let fullText = "";
+                extractMessage.innerText = `READING ${pdf.numPages} PAGE(S)...`;
+
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    const page = await pdf.getPage(i);
+                    const content = await page.getTextContent();
+                    fullText += content.items.map(item => item.str).join(" ");
+                    extractBar.style.width = (10 + (i / pdf.numPages) * 40) + '%';
+                }
+
+                extractMessage.innerText = "ANALYZING CHEMICAL DATA...";
+                // Normalize text: replace multiple spaces with single space, keep separators
+                const text = fullText.replace(/[\r\n\t]+/g, ' ').replace(/\s{2,}/g, ' ').toUpperCase();
+                console.log("Intelligence Engine Scan Output:", text);
+
+                // Surgical Extraction: finds digit ONLY if it follows label with standard separator
+                function extractChemical(keywords) {
+                    for (let kw of keywords) {
+                        // Regex: Label + optional spaces/symbols (but NO other letters) + number
+                        // This prevents 'N' label from skipping ahead to 'P' or 'K' values
+                        const strictRegex = new RegExp("\\b" + kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "\\b" + "[\\s\\:\\-\\=\\(\\)]*(\\d+(\\.\\d+)?)", "i");
+                        const match = text.match(strictRegex);
+                        if (match) {
+                            console.log(`[STRICT MATCH] Label: ${kw} -> Value: ${match[1]}`);
+                            return match[1];
+                        }
+                    }
+                    return null;
+                }
+
+                // Hardened soil type detector (prevents header/footer false positives)
+                function extractSoilType(keywords) {
+                    const types = ["LATERITE", "BLACK", "SANDY", "ALLUVIAL", "CLAY", "RED", "PEATY", "LOAM", "SILTY"];
+                    for (let kw of keywords) {
+                        kw = kw.toUpperCase();
+                        const idx = text.indexOf(kw);
+                        if (idx !== -1) {
+                            // Only search within 100 characters of the 'Soil Type' label
+                            const window = text.substring(idx, idx + 100);
+                            for (let type of types) {
+                                // Find exactly as a word in the local window
+                                if (new RegExp("\\b" + type + "\\b", "i").test(window)) {
+                                    console.log(`[SOIL TYPE MATCH] Found ${type} near label ${kw}`);
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    return null;
+                }
+
+                // Explicitly store values first as requested by user
+                const data = {
+                    nitrogen: extractChemical(["TOTAL N", "NITROGEN", " N ", "N:"]),
+                    phosphorus: extractChemical(["AVAILABLE P", "PHOSPHORUS", " P ", "P:"]),
+                    potassium: extractChemical(["EXTRACTABLE K", "POTASSIUM", " K ", "K:"]),
+                    ph: extractChemical(["SOIL PH", "PH LEVEL", " PH ", "PH:"]),
+                    soil_type: extractSoilType(["SOIL TYPE", "CATEGORY", "CLASSIFICATION", "SOIL CATEGORY"])
+                };
+
+                console.log("Intelligence Engine Extracted Data:", data);
+
+                extractBar.style.width = '100%';
+                extractMessage.innerText = "SCAN COMPLETE!";
+
+                setTimeout(() => {
+                    extractionProgress.style.display = 'none';
+                    
+                    let foundCount = 0;
+                    let missingFields = [];
+                    
+                    const fieldMap = {
+                        nitrogen: "Nitrogen",
+                        phosphorus: "Phosphorus",
+                        potassium: "Potassium",
+                        ph: "Soil pH",
+                        soil_type: "Soil Type"
+                    };
+
+                    Object.keys(data).forEach(key => {
+                        const val = data[key];
+                        if (key === 'soil_type' && val) {
+                            const selectElement = document.querySelector('select[name="soil_type"]');
+                            // Find match regardless of case
+                            for (let i = 0; i < selectElement.options.length; i++) {
+                                if (selectElement.options[i].text.toUpperCase().includes(val.toUpperCase())) {
+                                    selectElement.selectedIndex = i;
+                                    selectElement.style.borderColor = 'var(--primary)';
+                                    selectElement.style.boxShadow = '0 0 15px rgba(16, 185, 129, 0.3)';
+                                    foundCount++;
+                                    setTimeout(() => { selectElement.style.borderColor = ''; selectElement.style.boxShadow = ''; }, 4000);
+                                    break;
+                                }
+                            }
+                        } else if (val) {
+                            const inputField = document.querySelector(`input[name="${key}"]`);
+                            if (inputField) {
+                                inputField.value = val;
+                                foundCount++;
+                                inputField.style.borderColor = 'var(--primary)';
+                                inputField.style.boxShadow = '0 0 15px rgba(16, 185, 129, 0.3)';
+                                setTimeout(() => { inputField.style.borderColor = ''; inputField.style.boxShadow = ''; }, 4000);
+                            }
+                        } else if (fieldMap[key]) {
+                            missingFields.push(fieldMap[key]);
+                        }
+                    });
+
+                    if (foundCount === 0) {
+                        alert("⚠️ Extraction Failed: This document does not appear to contain valid soil test data. Please enter details manually.");
+                        reportUpload.value = '';
+                    } else if (missingFields.length > 0) {
+                        alert("ℹ️ Partial Scan: Found " + foundCount + "/5 chemical parameters. The following were not detected and must be entered manually: " + missingFields.join(", "));
+                    } else {
+                        // Success Toast in UI
+                        const toast = document.createElement('div');
+                        toast.className = 'alert alert-success border-0 shadow-sm mt-3 py-2 text-center small fw-700';
+                        toast.style.background = 'rgba(16, 185, 129, 0.2)';
+                        toast.style.color = 'var(--primary)';
+                        toast.innerText = "✨ Intelligence Engine successfully extracted all chemical parameters.";
+                        extractionProgress.parentNode.appendChild(toast);
+                        setTimeout(() => toast.remove(), 5000);
+                    }
+                }, 800);
+
+            } catch (err) {
+                console.error("PDF Processing Error:", err);
+                extractMessage.innerText = "SCAN FAILED";
+                extractBar.style.background = "#ef4444";
+                alert("Could not process the PDF. Please ensure it is a valid, text-readable document.");
+                reportUpload.value = '';
+            }
+        }
+    });
+
+    // Keyboard support
+    input.addEventListener('keydown', function (e) {
+        let items = list.getElementsByTagName('div');
+        if (e.keyCode == 40) { // down
+            // Basic selection could be added here
+        } else if (e.keyCode == 38) { // up
+        } else if (e.keyCode == 13) { // enter
+            if (items.length > 0) {
+                // e.preventDefault();
+                // items[0].click();
+            }
+        }
+    });
+</script>
+{% endblock %}

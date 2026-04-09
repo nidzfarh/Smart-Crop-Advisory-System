@@ -1,0 +1,95 @@
+crop,stage,start_day,end_day,description
+Rice,germination,0,15,Seeds are raised in wet nursery beds with standing water. Maintain shallow water layer.
+Rice,seedling,16,25,Seedlings prepare for transplanting. Ensure adequate nursery nutrition.
+Rice,tillering,26,60,Active tiller formation. Requires continuous irrigation. Apply urea and weed field.
+Rice,panicle initiation,61,90,Reproductive stage begins. Critical for yield. Apply potassium to strengthen stems.
+Rice,flowering,91,105,Critical water dependency. Protect from stem borers and fungal infections. Avoid raining.
+Rice,grain filling,106,115,Grains start to harden and turn yellow. Maintain soil moisture but avoid flooding.
+Rice,harvest,116,120,Drain water 10 days before harvest. Cut the stems close to the ground when grains are golden.
+Banana,planting,0,30,"Proper layout and spacing are essential. Plant healthy suckers in well-prepared, manured pits."
+Banana,vegetative growth,31,150,Rapid leaf production. High demand for nitrogen and potassium. Regularly remove weeds and extra suckers.
+Banana,flower emergence,151,210,The inflorescence (bunch) emerges. Provide strong physical props/supports to prevent plants from toppling under weight.
+Banana,fruit development,211,280,Fingers start swelling rapidly. Apply the final dose of potassium. Bag the bunches if pest pressure is high.
+Banana,harvest,281,300,Fingers lose their sharp angles and become rounded. Harvest while still green for transport.
+Black Pepper,planting & establishment,0,60,Plant stem cuttings near living standard trees. Ensure shading from direct sun and maintain high humidity.
+Black Pepper,vegetative climbing,61,180,Vines rapidly climb the support. Prune to encourage lateral fruiting branches. Apply organic cow dung.
+Black Pepper,flowering,181,250,Tiny white flowers appear on spikes. Rain or high humidity is absolutely critical for successful pollination.
+Black Pepper,berry development,251,330,Berries fill out on the spike. Protect crops from the devastating quick wilt disease by improving field drainage.
+Black Pepper,harvest,331,365,Spikes are ready to pluck when one or two berries turn noticeably red or yellow. Sun-dry immediately.
+Tea,nursery & planting,0,90,Propagate from robust clonal cuttings. Maintain under controlled shade nets with regular misting.
+Tea,framework development,91,200,"Careful centering and tipping are required. The goal is to develop a wide, spreading bush frame rather than vertical height."
+Tea,plucking table formation,201,300,Bush reaches plucking height. Establish a flat plucking surface to maximize leaf generation.
+Tea,harvesting,301,365,"Pluck tender shoots consisting of ""two leaves and a bud"" at intervals of 7-14 days depending on growth flush."
+Pineapple,planting,0,60,Plant robust crowns or suckers in very well-drained sandy loam. Basal fertilizer application is important.
+Pineapple,rosette growth,61,250,Plant forms a dense rosette of spiny leaves. Keep weed-free; the shallow root system is easily outcompeted.
+Pineapple,flowering induction,251,300,"Natural flowering occurs, but can be synchronized by spraying ethylene-based chemicals to organize harvest."
+Pineapple,fruit expansion,301,400,The composite fruit slowly swells and gains weight. Ensure adequate soil moisture but strictly zero waterlogging.
+Pineapple,harvest,401,450,Harvest when the base of the fruit turns distinctly yellow-orange and emits a sweet fragrance.
+Arecanut,seedling stage,0,90,Germinate seed nuts under heavy shade. Ensure the soil remains moist but completely prevents water stagnation.
+Arecanut,vegetative growth,91,200,"Palms grow vertically, discarding older fronds. Protect the spindle (growing point) from spindle bug attacks."
+Arecanut,inflorescence emergence,201,280,Spathe opens to reveal flower clusters. Ensure robust irrigation to prevent the shedding of button-sized immature nuts.
+Arecanut,nut maturation & harvest,281,365,Prevent fungal Koleroga disease with Bordeaux mixture. Harvest bunches when the husks shift to a bright yellow-orange.
+Coconut,seed nut planting,0,90,Plant selected seed nuts horizontally or vertically in shaded raised nursery beds. Keep consistently irrigated.
+Coconut,frond development,91,180,Sapling develops split leaves. Apply organic matter like coir pith into the planting basin to retain summer moisture.
+Coconut,flowering & button setting,181,270,Inflorescence opens year-round. Consistent moisture is legally required to avoid massive button (immature nut) shedding.
+Coconut,nut maturation & harvest,271,365,Nuts take ~11 months to fully mature. Harvest every 45-60 days. Monitor strictly for rhinoceros beetle damage.
+Turmeric,rhizome planting,0,40,Plant healthy mother or finger rhizomes in raised beds. Apply a thick layer of mulch (like green leaves) instantly.
+Turmeric,tillering & foliage,41,120,Rapid leaf growth. Control weeds manually. Top dress with nitrogen and apply a second round of mulch.
+Turmeric,rhizome bulking,121,220,Foliage growth stops. Energy funnels down into massive rhizome expansion. Prevent water stagnation at all costs.
+Turmeric,drying & harvest,221,270,Leaves begin turning completely yellow and drying out. Carefully dig out the rhizomes without bruising them.
+Tapioca,cutting establishment,0,45,"Plant 20cm stem cuttings vertically or tilted in loose, well-draining mounds. Sprouting occurs quickly."
+Tapioca,canopy development,46,150,The bush develops a dense leafy canopy. High requirement for potassium fertilizer to initiate early tuber formation.
+Tapioca,tuber thickening,151,250,Tubers rapidly expand underground. Ensure the soil remains loose to allow unhindered tuber growth. Avoid heavy watering.
+Tapioca,harvest,251,300,Harvest when basal leaves turn yellow and drop off. Lift the entire plant gently to avoid snapping the brittle tubers.
+Rubber,stump planting,0,90,Plant budded stumps in standard pits. Protect the delicate bud patch from direct hot sunlight using bamboo baskets.
+Rubber,immature growth,91,200,"Maintain a pristine, weed-free basin. Apply complex fertilizers. Ensure a single, straight, unbranched main trunk up to 3 meters."
+Rubber,canopy formation,201,300,Side branches develop. Apply fungicides via fogging or spraying to prevent the devastating abnormal leaf fall disease.
+Rubber,tapping & harvest,301,365,Commence latex tapping strictly when the trunk girth reaches 50cm at a height of 125cm from the bud union.
+Ginger,planting,0,40,Plant treated rhizome bits with visible buds facing upwards. Heavy mulching is absolutely essential to protect against heat.
+Ginger,pseudostem growth,41,120,Multiple leafy shoots emerge. Earth up the soil around the base to encourage rhizome spread. Ensure proper drainage.
+Ginger,rhizome development,121,200,Rhizomes bulk up significantly. Control shoot borers. Yellowing of lower leaves is normal during this late phase.
+Ginger,harvest,201,240,Harvest when the foliage turns pale yellow and naturally begins to wither and dry. Clean rhizomes thoroughly.
+Nutmeg,seedling establishment,0,100,Plant epicotyl grafts in heavily shaded areas. Very sensitive to direct sunlight; construct artificial shade huts if necessary.
+Nutmeg,vegetative branching,101,200,"Develops a dense, conical canopy. Prune dead or heavily shaded inner branches. Highly responsive to organic manure grids."
+Nutmeg,flowering & fruiting,201,300,"If using seedlings, ensure at least a 1:10 ratio of male to female trees for vital pollination. Fruits take 9 months to mature."
+Nutmeg,harvest,301,365,"Do not pluck. Harvest only when the yellow fruit splits entirely open, revealing the highly prized striking red mace inside."
+Clove,nursery & transplanting,0,90,Transplant robust seedlings at the onset of monsoons. Direct sunlight is lethal to young plants; provide thatched shade.
+Clove,slow vegetative growth,91,200,"Growth is notoriously slow. Deep, infrequent summer watering is required. Apply slow-release NPK in a circular trench."
+Clove,bud formation,201,300,Clusters of buds appear at the tips of branches. Protect foliage from fungal leaf spots which can destroy the yield.
+Clove,harvest,301,365,"Timing is critical. Hand-pick the flower buds exactly when their base transitions from green to a distinct pink flush, before opening."
+Mango,post-harvest vegetative flush,0,40,Prune the center of the canopy to allow extreme sunlight penetration. Apply the main bulk of organic and chemical fertilizers now.
+Mango,flowering & fruit set,41,80,Strictly withhold all irrigation to induce heavy flowering. Spray preemptively against devastating mango hopper and powdery mildew.
+Mango,fruit development,81,100,Fruits swell. Provide light irrigation to prevent premature fruit drop. Tie bags around high-value fruits to stop fruit flies.
+Mango,harvest,101,120,Pluck fruits selectively with an 8mm stalk still attached to prevent sap burn on the skin. Harvest when shoulders outgrow the stem.
+Papaya,planting,0,40,Plant seedlings on raised mounds in extremely well-drained soil. Even 24 hours of waterlogging will rot the roots and kill the plant.
+Papaya,rapid vegetative growth,41,120,Grows rapidly with a hollow trunk. Highly demanding of potassium and boron. Apply micronutrient foliar sprays.
+Papaya,flowering & sex determination,121,180,Remove any male plants (unless keeping 10% for pollination) and violently eradicate any plants showing crinkled mosaic virus leaves.
+Papaya,fruiting & harvest,181,270,Harvest carefully when a distinct yellow streak breaks out on the apical end of the green fruit skin.
+Cardamom,sucker planting,0,90,Plant healthy tillers under dense forest canopy. This crop mandates 50-60% permanent shade and a thick layer of natural leaf litter.
+Cardamom,clump expansion,91,220,Tillers multiply into a large clump. Fork the soil lightly around the base and apply split dosages of NPK fertilizer. Avoid deep digging.
+Cardamom,panicle emergence & flowering,221,300,Panicles shoot out at ground level. Active honeybee populations are biologically required for pollination. Keep the ground clear of debris.
+Cardamom,harvest,301,365,"Capsules mature sequentially. Harvest manually every 30 days, picking only the firm, mature capsules while they are still dark green."
+Cinnamon,planting & establishment,0,100,Plant seedlings in well-drained pits. Ensure adequate shading during the first year to prevent serious sunburn to the delicate leaves.
+Cinnamon,coppicing & shoot growth,101,250,"Coppice (cut back) the main stem to a height of 15cm to force the explosive growth of 5-6 straight, healthy lateral side shoots."
+Cinnamon,peeling preparation,251,330,"Shoots mature. The ideal time for harvest is determined by peeling a tiny test strip; if the bark separates easily, the sap flow is perfect."
+Cinnamon,harvest & processing,331,365,"Cut the straight shoots. Scrape off the rough outer bark and expertly peel the inner bark, rolling it into standard quills for drying."
+Cocoa,seedling planting,0,90,"Plant heavily shaded seedlings, ideally as an intercrop between towering Arecanut or Coconut palms. Protect from heavy wind."
+Cocoa,formative pruning,91,200,"Crucial phase: Prune to establish a strict ""jorquette"" (branching point) at 1.5 meters height. Remove low-hanging chupon water shoots."
+Cocoa,cauliflory flowering,201,280,Tiny flowers appear directly on the main trunk and heavy branches (cauliflory). Ensure thick leaf litter to breed pollinating midges.
+Cocoa,pod harvest,281,365,Pods swell and completely change color. Harvest only fully mature yellow/orange pods by cutting the stalk cleanly without damaging the trunk cushion.
+Coffee,nursery & transplanting,0,90,Transplant polybag seedlings carefully to avoid taproot bending. Maintain under standard shade trees (like silver oak).
+Coffee,pruning & handling,91,200,"Perform strict centering and desuckering. Establish a strong, wide primary framework of branches to maximize future berry yield."
+Coffee,blossom showers,201,280,"Rain (or sprinkler irrigation) triggers synchronized, massive white flowering. Protect against the devastating coffee berry borer."
+Coffee,harvesting,281,365,"Berries transition to a deep crimson red. Hand-pick only the fully ripe ""cherries"" selectively over multiple rounds for premium quality."
+Vanilla,vine planting,0,100,Plant meter-long cuttings near support trees (like Glyricidia). Gently tie the growing vine to the standard and bury the basal nodes in thick humus.
+Vanilla,looping & stress,101,220,"When the vine reaches 2 meters, cleanly loop it back down to the ground. Induce mild moisture stress to shock the plant into producing flower buds."
+Vanilla,hand-pollination,221,280,"Flowers open early in the morning and only last one day. Immediate, skilled manual hand-pollination is required using a small stick or needle."
+Vanilla,bean curing & harvest,281,365,Beans elongate. Harvest precisely when the outermost tip turns pale yellow. Immediately begin the complex sweating and curing process.
+Cashew,graft planting,0,100,Plant softwood grafts deeply in standard pits. Highly drought-tolerant but immensely benefits from summer irrigation during its first year.
+Cashew,canopy management,101,200,Remove all sprouts arising from the rootstock below the graft union. Prune crisscrossing branches to allow deep sunlight penetration.
+Cashew,flushing & flowering,201,280,The tree puts out brilliant red new flushes followed by flowers. Aggressively spray to protect against the lethal tea mosquito bug.
+Cashew,harvest,281,365,"The swollen cashew apple drops to the ground with the true nut attached. Collect fallen nuts daily, detach the apple, and sun-dry the raw nuts."
+Sugarcane,sett planting,0,60,"Plant healthy, 3-budded setts end-to-end in deep furrows. Irrigate immediately. Germination completes rapidly within three weeks."
+Sugarcane,tillering & grand growth,61,200,"Formative stage requires immense nitrogen. ""Earth up"" the soil around the base to anchor the rapidly lengthening, heavy canes against lodging (falling over)."
+Sugarcane,ripening,201,300,Vegetative growth ceases. Sugar brutally accumulates in the internodes. Withhold massive irrigation during the final month to aggressively spike sucrose levels.
+Sugarcane,harvest,301,365,"Canes turn yellowish and metallic. Harvest manually by cutting absolutely flush with the ground, as the deepest basal internodes hold the highest sugar concentration."

@@ -1,0 +1,96 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="col-md-7 col-lg-6">
+        <div class="card border-0 shadow-lg" style="background: var(--surface);">
+            <div class="card-body p-5">
+                <div class="text-center mb-5">
+                    <span style="font-size: 3.5rem;">🏗️</span>
+                    <h2 class="fw-800 mt-4" style="color: #ffffff; letter-spacing: -0.04em;">Create Account</h2>
+                    <p class="text-muted small fw-500">Set up your profile to get started.</p>
+                </div>
+
+                <form method="post">
+                    {% csrf_token %}
+
+                    {% if form.errors %}
+                    <div class="alert alert-danger border-0 shadow-sm p-4 mb-4"
+                        style="background: rgba(239, 68, 68, 0.15); border-radius: 12px; color: #fecaca;">
+                        <h6 class="fw-800 mb-2">Please fix the following errors:</h6>
+                        <ul class="mb-0 small fw-600" style="list-style: none; padding-left: 0;">
+                            {% for field in form %}
+                            {% if field.errors %}
+                            {% for error in field.errors %}
+                            <li>⚠️ {{ error }}</li>
+                            {% endfor %}
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <label class="form-label">Username</label>
+                            <input type="text" name="username" class="form-control" required
+                                placeholder="Choose a username" value="{{ form.username.value|default:'' }}">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control" required
+                                placeholder="yourname@example.com" value="{{ form.email.value|default:'' }}">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">District</label>
+                            <div class="select-wrapper">
+                                {{ form.district }}
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" required placeholder="••••••••">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" name="confirm_password" class="form-control" required
+                                placeholder="••••••••">
+                        </div>
+                    </div>
+
+                    <div class="d-grid mt-5">
+                        <button type="submit" class="btn-nav-primary py-3"
+                            style="margin-left: 0; width: 100%; border: none;">
+                            Create Account
+                        </button>
+                    </div>
+                </form>
+
+                <div class="mt-5 pt-4 border-top border-secondary text-center small" style="color: rgba(255, 255, 255, 0.65);">
+                    Already have an account? <a href="{% url 'login' %}"
+                        class="fw-800 text-primary text-decoration-none" style="filter: brightness(1.1);">Sign In</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Styling for the Django-rendered select field */
+    select[name="district"] {
+        background-color: #0b0f19 !important;
+        border: 1px solid var(--border) !important;
+        padding: 0.85rem 1.15rem !important;
+        font-size: 0.95rem;
+        color: var(--text-main) !important;
+        border-radius: var(--radius);
+        width: 100%;
+        outline: none;
+    }
+
+    select[name="district"]:focus {
+        border-color: var(--primary) !important;
+        box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1) !important;
+    }
+</style>
+{% endblock %}

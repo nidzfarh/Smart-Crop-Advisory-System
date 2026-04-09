@@ -1,0 +1,102 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+<div class="section-header text-center mb-5">
+    <h1 class="section-title">Track New Cultivation</h1>
+    <p class="section-subtitle">Register a crop you have already started growing to begin receiving automated advisory
+        updates.</p>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-transparent py-3 border-0">
+                <h6 class="mb-0 fw-700">Crop Enrollment Details</h6>
+            </div>
+            <div class="card-body p-4">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-4 autocomplete-container" style="position: relative;">
+                        <label class="form-label">Crop Identity</label>
+                        <input type="text" name="crop_name" id="crop_name" class="form-control" 
+                            placeholder="e.g. Rice, Malabar Banana" autocomplete="off" required>
+                        <div id="autocomplete-list" class="autocomplete-items"></div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label">Planting/Sowing Date</label>
+                        <input type="date" name="planting_date" class="form-control" required>
+                        <small class="text-muted small d-block mt-1">We use this to estimate the current growth
+                            phase.</small>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label">Verified Starting Status</label>
+                        <select name="status" class="form-select">
+                            <option value="Sowing">Sowing / Nursery</option>
+                            <option value="Germination">Germination Phase</option>
+                            <option value="Vegetative">Vegetative Growth</option>
+                            <option value="Flowering">Flowering / Fruit Set</option>
+                            <option value="Harvesting">Maturation / Ready for Harvest</option>
+                        </select>
+                    </div>
+
+                    <div class="d-grid mt-5">
+                        <button type="submit" class="btn py-3 fw-700 text-white" style="background: var(--primary);">
+                            Initialize Lifecycle Monitoring →
+                        </button>
+                        <a href="{% url 'dashboard' %}"
+                            class="btn btn-link mt-2 text-muted small text-decoration-none">Cancel & Return</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="mt-4 p-3 bg-light rounded small text-muted">
+            <span class="fw-700 text-primary me-2">Tip:</span> Precise planting dates ensure more accurate fertilizer
+            and pest alert timing in your dashboard.
+        </div>
+    </div>
+</div>
+
+<script>
+    // Autocomplete Logic
+    const crops = [
+        {% for crop in crops %}
+        "{{ crop|escapejs }}",
+        {% endfor %}
+    ];
+    const input = document.getElementById('crop_name');
+    const list = document.getElementById('autocomplete-list');
+
+    function updateList() {
+        const val = input.value;
+        list.innerHTML = '';
+        if (!val) return false;
+
+        const filtered = crops.filter(crop =>
+            crop.toLowerCase().startsWith(val.toLowerCase())
+        );
+
+        filtered.forEach(crop => {
+            const div = document.createElement('div');
+            // Bold the matching part
+            div.innerHTML = `<strong>${crop.substr(0, val.length)}</strong>${crop.substr(val.length)}`;
+            div.addEventListener('click', function () {
+                input.value = crop;
+                list.innerHTML = '';
+            });
+            list.appendChild(div);
+        });
+    }
+
+    input.addEventListener('input', updateList);
+    input.addEventListener('focus', updateList);
+
+    document.addEventListener('click', function (e) {
+        if (e.target !== input) {
+            list.innerHTML = '';
+        }
+    });
+</script>
+{% endblock %}

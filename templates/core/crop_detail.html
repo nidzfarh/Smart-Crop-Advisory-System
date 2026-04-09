@@ -1,0 +1,309 @@
+{% extends 'core/base.html' %}
+
+{% block extra_head %}
+<style>
+    .timeline-item {
+        border-left: 2px solid var(--border);
+        padding-left: 1.5rem;
+        position: relative;
+        padding-bottom: 2rem;
+        transition: border-color 0.4s ease;
+    }
+
+    .timeline-item:last-child {
+        border-left: 2px solid transparent;
+    }
+
+    .timeline-item.line-active {
+        border-left-color: #10b981;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -7px;
+        top: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--border);
+        z-index: 2;
+    }
+
+    .dot-active::before {
+        background: #10b981 !important;
+        box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+    }
+
+    .progress-compact {
+        height: 8px;
+        border-radius: 4px;
+        background-color: var(--bg);
+    }
+
+    .progress-bar-primary {
+        background-color: #10b981 !important;
+        box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+    }
+
+    .metric-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        font-weight: 700;
+        letter-spacing: 0.025em;
+    }
+
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        text-align: center;
+    }
+
+    .cal-day-label {
+        font-size: 0.65rem;
+        font-weight: 800;
+        color: var(--text-muted);
+        padding-bottom: 5px;
+    }
+
+    .cal-date {
+        font-size: 0.8rem;
+        padding: 8px 0;
+        border-radius: 8px;
+        color: var(--text-main);
+        transition: all 0.2s;
+        cursor: default;
+    }
+
+    .cal-date.is-today {
+        background: var(--primary);
+        color: #fff;
+        font-weight: 700;
+        box-shadow: 0 0 10px rgba(56, 101, 86, 0.4);
+    }
+
+    .cal-date.has-milestone {
+        border: 2px solid #f59e0b;
+        color: #f59e0b;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .cal-date.has-milestone:hover {
+        background: rgba(245, 158, 11, 0.1);
+        transform: scale(1.1);
+    }
+
+    .dot-indicator {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+
+        // Month Navigation
+        let currentMonthIdx = 0;
+        const months = document.querySelectorAll('.month-container');
+        
+        // Find today's month index
+        months.forEach((m, idx) => {
+            if (m.style.display === 'block') {
+                currentMonthIdx = idx;
+            }
+        });
+
+        const prevBtn = document.getElementById('prevMonth');
+        const nextBtn = document.getElementById('nextMonth');
+
+        function updateButtons() {
+            prevBtn.style.opacity = currentMonthIdx === 0 ? '0.3' : '1';
+            prevBtn.style.pointerEvents = currentMonthIdx === 0 ? 'none' : 'auto';
+            nextBtn.style.opacity = currentMonthIdx === months.length - 1 ? '0.3' : '1';
+            nextBtn.style.pointerEvents = currentMonthIdx === months.length - 1 ? 'none' : 'auto';
+        }
+
+        function showMonth(idx) {
+            months.forEach(m => m.style.display = 'none');
+            months[idx].style.display = 'block';
+            updateButtons();
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentMonthIdx > 0) {
+                currentMonthIdx--;
+                showMonth(currentMonthIdx);
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentMonthIdx < months.length - 1) {
+                currentMonthIdx++;
+                showMonth(currentMonthIdx);
+            }
+        });
+
+        updateButtons();
+    });
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="section-header d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="section-title">{{ crop.crop_name }} Management</h1>
+        <p class="section-subtitle">Lifecycle monitoring tracking since <strong>{{ crop.planting_date }}</strong></p>
+    </div>
+    <div>
+        <form action="{% url 'delete_crop' crop.id %}" method="post" class="d-inline"
+            onsubmit="return confirm('Archive this crop tracking data?');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-sm btn-outline-danger px-3">Delete Crop</button>
+        </form>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Main Tracking Panel -->
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-header bg-transparent py-3">
+                <h6 class="mb-0 fw-700">Growth Timeline & Milestones</h6>
+            </div>
+            <div class="card-body p-4">
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="small fw-800"
+                            style="color: rgba(255, 255, 255, 0.6); letter-spacing: 0.05em;">ESTIMATED PROGRESS</span>
+                        <span class="small fw-800 text-primary">{{ progress|floatformat:0 }}%</span>
+                    </div>
+                    <div class="progress progress-compact" style="background: rgba(255, 255, 255, 0.05); height: 6px;">
+                        <div class="progress-bar"
+                            style="width: {{ progress }}%; background: var(--primary); box-shadow: 0 0 10px var(--primary); border-radius: 10px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline mt-5">
+                    {% for event in timeline %}
+                    <div class="timeline-item {% if days_elapsed >= event.days_offset %}dot-active line-active{% endif %}">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <h6 class="fw-700 mb-0"
+                                style="color: {% if days_elapsed >= event.days_offset %}var(--text-header){% else %}rgba(255, 255, 255, 0.4){% endif %};">
+                                Day {{ event.days_offset }}: {{ event.title }}
+                                {% if days_elapsed == event.days_offset %}
+                                <span class="ms-2 small text-primary fw-900">• CURRENT DAY</span>
+                                {% endif %}
+                            </h6>
+                            {% if days_elapsed > event.days_offset %}
+                            <span class="badge badge-success-soft"
+                                style="font-size: 0.6rem; color: #10b981; background: rgba(16, 185, 129, 0.1);">COMPLETED</span>
+                            {% elif days_elapsed == event.days_offset %}
+                            <span class="badge"
+                                style="font-size: 0.6rem; color: var(--primary); background: rgba(16, 185, 129, 0.1); border: 1px solid var(--primary);">ACTIVE
+                                PHASE</span>
+                            {% else %}
+                            <span class="badge opacity-50"
+                                style="font-size: 0.6rem; color: rgba(255, 255, 255, 0.3); border: 1px solid rgba(255, 255, 255, 0.1);">UPCOMING</span>
+                            {% endif %}
+                        </div>
+                        <p class="small mb-0"
+                            style="color: {% if days_elapsed >= event.days_offset %}var(--text-main){% else %}rgba(255, 255, 255, 0.25){% endif %};">
+                            {{ event.description }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health & Alerts Sidebar -->
+    <div class="col-lg-4">
+        <!-- Status Card -->
+        <!-- Status Card -->
+        <div class="card border-0 shadow-sm mb-4" style="background: var(--accent);">
+            <div class="card-body p-4">
+                <h6 class="metric-label mb-2">Current System Status</h6>
+                <div class="h4 fw-700 text-primary mb-3">{{ status_title }}</div>
+                <p class="small text-muted mb-0">{{ status_desc }}</p>
+            </div>
+        </div>
+        <!-- Lifecycle Calendar -->
+        <div class="card border-0 shadow-sm mb-4" style="background: var(--surface); border: 1px solid var(--border) !important;">
+            <div class="card-header bg-transparent py-3 d-flex justify-content-between align-items-center">
+                <h6 class="mb-0 fw-700 text-main">Seasonal Calendar</h6>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-sm btn-outline-secondary py-0 px-2" id="prevMonth" style="border-radius: 4px; border-color: rgba(255,255,255,0.1); color: var(--text-main);">&lsaquo;</button>
+                    <button class="btn btn-sm btn-outline-secondary py-0 px-2" id="nextMonth" style="border-radius: 4px; border-color: rgba(255,255,255,0.1); color: var(--text-main);">&rsaquo;</button>
+                </div>
+            </div>
+            <div class="card-body p-0" style="position: relative; overflow: hidden;">
+                {% for month in full_calendar %}
+                <div class="month-container p-3" id="month-{{ forloop.index0 }}" style="display: {% if month.month_name == today|date:'F Y' %}block{% else %}none{% endif %};">
+                    <div class="text-center mb-3">
+                        <span class="small fw-800 text-primary" style="letter-spacing: 0.05em;">{{ month.month_name }}</span>
+                    </div>
+                    <div class="calendar-grid">
+                        <div class="cal-day-label">S</div>
+                        <div class="cal-day-label">M</div>
+                        <div class="cal-day-label">T</div>
+                        <div class="cal-day-label">W</div>
+                        <div class="cal-day-label">T</div>
+                        <div class="cal-day-label">F</div>
+                        <div class="cal-day-label">S</div>
+                        
+                        {% for day in month.days %}
+                        <div class="cal-date {% if day.is_today %}is-today{% endif %} {% if day.milestone %}has-milestone{% endif %} {% if not day.is_current_month %}opacity-25{% endif %}"
+                             {% if day.milestone %}
+                             data-bs-toggle="tooltip" 
+                             data-bs-placement="top" 
+                             title="{{ day.milestone.title }}: {{ day.milestone.description }}"
+                             {% endif %}>
+                            {{ day.date.day }}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="card-footer bg-transparent py-2 border-top border-secondary">
+                <div class="d-flex justify-content-between align-items-center small">
+                    <span style="color: rgba(255,255,255,0.9); font-weight: 600;"><i class="dot-indicator bg-primary"></i> Today</span>
+                    <span style="color: rgba(255,255,255,0.9); font-weight: 600;"><i class="dot-indicator bg-warning"></i> Milestone</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Card -->
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-transparent py-3">
+                <h6 class="mb-0 fw-700 text-main">Recommended Actions</h6>
+            </div>
+            <div class="card-body p-3">
+                {% for action in actions %}
+                <div class="p-3 mb-2 rounded bg-light border-start border-4 border-{{ action.type }}">
+                    <h6 class="small fw-700 mb-1">{{ action.title }}</h6>
+                    <p class="small text-muted mb-0">{{ action.desc }}</p>
+                </div>
+                {% empty %}
+                <p class="small text-muted text-center py-3">No immediate actions required. Continue monitoring.</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

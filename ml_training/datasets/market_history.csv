@@ -1,0 +1,2677 @@
+Crop,Month,Year,Price_Per_Ton,Demand_Level
+Coconut,1,2021,39489.06,Medium
+Coconut,2,2021,38886.95,Medium
+Coconut,3,2021,43982.89,Medium
+Coconut,4,2021,39197.68,Medium
+Coconut,5,2021,40286.83,Medium
+Coconut,6,2021,40294.27,Medium
+Coconut,7,2021,41800.83,Medium
+Coconut,8,2021,40434.78,Medium
+Coconut,9,2021,42160.52,Medium
+Coconut,10,2021,43094.09,Medium
+Coconut,11,2021,42165.38,Medium
+Coconut,12,2021,41817.79,Medium
+Coconut,1,2022,39272.57,Medium
+Coconut,2,2022,36015.1,Medium
+Coconut,3,2022,43760.49,Medium
+Coconut,4,2022,42606.7,Medium
+Coconut,5,2022,41655.97,Medium
+Coconut,6,2022,43365.31,Medium
+Coconut,7,2022,42237.41,Medium
+Coconut,8,2022,43017.72,Medium
+Coconut,9,2022,43475.61,Medium
+Coconut,10,2022,37695.4,Medium
+Coconut,11,2022,36135.9,Medium
+Coconut,12,2022,41434.5,Medium
+Coconut,1,2023,36868.7,Medium
+Coconut,2,2023,40774.21,Medium
+Coconut,3,2023,39136.54,Medium
+Coconut,4,2023,36965.67,Medium
+Coconut,5,2023,42617.14,Medium
+Coconut,6,2023,37603.29,Medium
+Coconut,7,2023,42343.02,Medium
+Coconut,8,2023,38427.06,Medium
+Coconut,9,2023,43341.25,Medium
+Coconut,10,2023,39845.21,Medium
+Coconut,11,2023,42401.99,Medium
+Coconut,12,2023,37482.25,Medium
+Coconut,1,2024,38899.53,Medium
+Coconut,2,2024,38342.26,Medium
+Coconut,3,2024,40427.88,Medium
+Coconut,4,2024,43366.16,Medium
+Coconut,5,2024,38625.55,Medium
+Coconut,6,2024,36993.93,Medium
+Coconut,7,2024,37451.74,Medium
+Coconut,8,2024,40681.63,Medium
+Coconut,9,2024,43945.41,Medium
+Coconut,10,2024,40892.39,Medium
+Coconut,11,2024,36079.21,Medium
+Coconut,12,2024,36872.77,Medium
+Coconut,1,2025,37365.11,Medium
+Coconut,2,2025,37962.76,Medium
+Coconut,3,2025,43680.46,Medium
+Coconut,4,2025,41443.99,Medium
+Coconut,5,2025,36104.14,Medium
+Coconut,6,2025,43381.38,Medium
+Coconut,7,2025,36817.25,Medium
+Coconut,8,2025,40660.29,Medium
+Coconut,9,2025,39585.65,Medium
+Coconut,10,2025,37864.02,Medium
+Coconut,11,2025,43596.59,Medium
+Coconut,12,2025,40487.71,Medium
+Coconut,1,2026,40454.7,Medium
+Coconut,2,2026,38442.05,Medium
+Coconut,3,2026,42895.37,Medium
+Coconut,4,2026,40806.08,Medium
+Coconut,5,2026,39387.58,Medium
+Coconut,6,2026,36006.9,Medium
+Coconut,7,2026,41251.4,Medium
+Coconut,8,2026,42686.68,Medium
+Coconut,9,2026,42780.46,Medium
+Coconut,10,2026,43236.5,Medium
+Coconut,11,2026,43493.23,Medium
+Coconut,12,2026,39693.88,Medium
+Rubber,1,2021,169958.08,Medium
+Rubber,2,2021,163037.37,Medium
+Rubber,3,2021,145525.92,Medium
+Rubber,4,2021,152314.2,Medium
+Rubber,5,2021,145759.63,Medium
+Rubber,6,2021,155919.22,Medium
+Rubber,7,2021,174269.81,Medium
+Rubber,8,2021,168475.16,Medium
+Rubber,9,2021,160124.44,Medium
+Rubber,10,2021,149421.81,Medium
+Rubber,11,2021,145386.9,Medium
+Rubber,12,2021,152006.48,Medium
+Rubber,1,2022,173016.78,Medium
+Rubber,2,2022,165446.65,Medium
+Rubber,3,2022,162863.62,Medium
+Rubber,4,2022,164094.47,Medium
+Rubber,5,2022,170310.75,Medium
+Rubber,6,2022,163627.11,Medium
+Rubber,7,2022,168318.43,Medium
+Rubber,8,2022,168305.96,Medium
+Rubber,9,2022,153296.4,Medium
+Rubber,10,2022,148762.72,Medium
+Rubber,11,2022,159691.89,Medium
+Rubber,12,2022,162992.36,Medium
+Rubber,1,2023,167303.35,Medium
+Rubber,2,2023,151078.9,Medium
+Rubber,3,2023,153898.24,Medium
+Rubber,4,2023,164598.98,Medium
+Rubber,5,2023,147337.24,Medium
+Rubber,6,2023,154280.14,Medium
+Rubber,7,2023,160261.59,Medium
+Rubber,8,2023,173706.89,Medium
+Rubber,9,2023,150301.14,Medium
+Rubber,10,2023,149393.25,Medium
+Rubber,11,2023,150915.14,Medium
+Rubber,12,2023,172295.34,Medium
+Rubber,1,2024,146193.56,Medium
+Rubber,2,2024,162997.03,Medium
+Rubber,3,2024,161570.52,Medium
+Rubber,4,2024,156286.07,Medium
+Rubber,5,2024,175145.14,Medium
+Rubber,6,2024,160444.96,Medium
+Rubber,7,2024,149202.08,Medium
+Rubber,8,2024,156712.6,Medium
+Rubber,9,2024,174892.3,Medium
+Rubber,10,2024,151901.17,Medium
+Rubber,11,2024,157441.79,Medium
+Rubber,12,2024,146044.44,Medium
+Rubber,1,2025,171954.96,Medium
+Rubber,2,2025,150144.42,Medium
+Rubber,3,2025,147141.46,Medium
+Rubber,4,2025,159700.71,Medium
+Rubber,5,2025,154482.77,Medium
+Rubber,6,2025,148410.79,Medium
+Rubber,7,2025,158322.79,Medium
+Rubber,8,2025,161379.73,Medium
+Rubber,9,2025,151909.83,Medium
+Rubber,10,2025,154854.16,Medium
+Rubber,11,2025,175012.03,Medium
+Rubber,12,2025,174803.74,Medium
+Rubber,1,2026,173621.3,Medium
+Rubber,2,2026,173907.37,Medium
+Rubber,3,2026,164505.77,Medium
+Rubber,4,2026,164294.08,Medium
+Rubber,5,2026,153360.71,Medium
+Rubber,6,2026,153852.79,Medium
+Rubber,7,2026,169276.54,Medium
+Rubber,8,2026,163189.64,Medium
+Rubber,9,2026,153565.12,Medium
+Rubber,10,2026,160816.68,Medium
+Rubber,11,2026,154749.27,Medium
+Rubber,12,2026,150378.02,Medium
+Black Pepper,1,2021,478469.95,Medium
+Black Pepper,2,2021,459875.21,Medium
+Black Pepper,3,2021,542496.14,Medium
+Black Pepper,4,2021,505317.03,Medium
+Black Pepper,5,2021,502706.94,Medium
+Black Pepper,6,2021,460641.74,Medium
+Black Pepper,7,2021,532843.55,Medium
+Black Pepper,8,2021,495766.98,Medium
+Black Pepper,9,2021,455794.7,Medium
+Black Pepper,10,2021,504506.19,Medium
+Black Pepper,11,2021,493198.99,Medium
+Black Pepper,12,2021,509411.25,Medium
+Black Pepper,1,2022,486678.74,Medium
+Black Pepper,2,2022,453967.25,Medium
+Black Pepper,3,2022,486222.96,Medium
+Black Pepper,4,2022,452682.39,Medium
+Black Pepper,5,2022,464555.51,Medium
+Black Pepper,6,2022,486988.62,Medium
+Black Pepper,7,2022,522390.46,Medium
+Black Pepper,8,2022,528060.53,Medium
+Black Pepper,9,2022,479877.17,Medium
+Black Pepper,10,2022,453373.41,Medium
+Black Pepper,11,2022,495349.65,Medium
+Black Pepper,12,2022,534014.68,Medium
+Black Pepper,1,2023,535624.52,Medium
+Black Pepper,2,2023,458135.84,Medium
+Black Pepper,3,2023,549136.66,Medium
+Black Pepper,4,2023,481775.36,Medium
+Black Pepper,5,2023,474498.8,Medium
+Black Pepper,6,2023,524323.79,Medium
+Black Pepper,7,2023,531552.72,Medium
+Black Pepper,8,2023,469126.95,Medium
+Black Pepper,9,2023,460031.17,Medium
+Black Pepper,10,2023,473386.18,Medium
+Black Pepper,11,2023,476094.99,Medium
+Black Pepper,12,2023,541209.56,Medium
+Black Pepper,1,2024,509110.83,Medium
+Black Pepper,2,2024,499098.88,Medium
+Black Pepper,3,2024,508140.24,Medium
+Black Pepper,4,2024,464932.7,Medium
+Black Pepper,5,2024,465344.28,Medium
+Black Pepper,6,2024,460195.38,Medium
+Black Pepper,7,2024,521864.87,Medium
+Black Pepper,8,2024,504681.08,Medium
+Black Pepper,9,2024,454247.53,Medium
+Black Pepper,10,2024,494606.58,Medium
+Black Pepper,11,2024,536775.37,Medium
+Black Pepper,12,2024,538991.45,Medium
+Black Pepper,1,2025,500719.81,Medium
+Black Pepper,2,2025,527653.77,Medium
+Black Pepper,3,2025,482349.45,Medium
+Black Pepper,4,2025,530183.15,Medium
+Black Pepper,5,2025,512793.93,Medium
+Black Pepper,6,2025,458565.66,Medium
+Black Pepper,7,2025,511677.92,Medium
+Black Pepper,8,2025,501425.85,Medium
+Black Pepper,9,2025,517531.67,Medium
+Black Pepper,10,2025,464896.55,Medium
+Black Pepper,11,2025,528083.64,Medium
+Black Pepper,12,2025,496205.39,Medium
+Black Pepper,1,2026,549712.01,Medium
+Black Pepper,2,2026,549864.7,Medium
+Black Pepper,3,2026,534335.14,Medium
+Black Pepper,4,2026,529790.51,Medium
+Black Pepper,5,2026,543732.17,Medium
+Black Pepper,6,2026,472727.21,Medium
+Black Pepper,7,2026,503125.81,Medium
+Black Pepper,8,2026,473583.41,Medium
+Black Pepper,9,2026,499099.77,Medium
+Black Pepper,10,2026,533151.69,Medium
+Black Pepper,11,2026,493044.29,Medium
+Black Pepper,12,2026,490949.12,Medium
+Cardamom,1,2021,1181282.09,Medium
+Cardamom,2,2021,1100136.61,Medium
+Cardamom,3,2021,1175093.2,Medium
+Cardamom,4,2021,1159656.52,Medium
+Cardamom,5,2021,1235386.11,Medium
+Cardamom,6,2021,1096007.97,Medium
+Cardamom,7,2021,1178761.03,Medium
+Cardamom,8,2021,1161003.39,Medium
+Cardamom,9,2021,1136907.37,Medium
+Cardamom,10,2021,1315518.34,Medium
+Cardamom,11,2021,1292118.88,Medium
+Cardamom,12,2021,1290216.27,Medium
+Cardamom,1,2022,1261572.68,Medium
+Cardamom,2,2022,1083141.2,Medium
+Cardamom,3,2022,1237380.96,Medium
+Cardamom,4,2022,1208214.7,Medium
+Cardamom,5,2022,1177442.21,Medium
+Cardamom,6,2022,1308496.25,Medium
+Cardamom,7,2022,1103154.91,Medium
+Cardamom,8,2022,1310516.81,Medium
+Cardamom,9,2022,1141211.68,Medium
+Cardamom,10,2022,1244447.59,Medium
+Cardamom,11,2022,1183397.25,Medium
+Cardamom,12,2022,1084872.0,Medium
+Cardamom,1,2023,1152289.45,Medium
+Cardamom,2,2023,1237548.39,Medium
+Cardamom,3,2023,1084928.23,Medium
+Cardamom,4,2023,1201423.5,Medium
+Cardamom,5,2023,1174911.88,Medium
+Cardamom,6,2023,1125862.13,Medium
+Cardamom,7,2023,1306402.7,Medium
+Cardamom,8,2023,1241355.28,Medium
+Cardamom,9,2023,1269760.01,Medium
+Cardamom,10,2023,1170033.74,Medium
+Cardamom,11,2023,1112583.12,Medium
+Cardamom,12,2023,1312905.04,Medium
+Cardamom,1,2024,1090378.54,Medium
+Cardamom,2,2024,1187449.7,Medium
+Cardamom,3,2024,1189742.88,Medium
+Cardamom,4,2024,1120283.62,Medium
+Cardamom,5,2024,1215241.72,Medium
+Cardamom,6,2024,1281062.1,Medium
+Cardamom,7,2024,1256981.98,Medium
+Cardamom,8,2024,1306177.18,Medium
+Cardamom,9,2024,1210398.26,Medium
+Cardamom,10,2024,1131990.32,Medium
+Cardamom,11,2024,1244998.85,Medium
+Cardamom,12,2024,1216906.96,Medium
+Cardamom,1,2025,1083248.21,Medium
+Cardamom,2,2025,1174271.75,Medium
+Cardamom,3,2025,1267982.76,Medium
+Cardamom,4,2025,1215666.73,Medium
+Cardamom,5,2025,1094716.98,Medium
+Cardamom,6,2025,1095851.89,Medium
+Cardamom,7,2025,1220878.64,Medium
+Cardamom,8,2025,1166764.86,Medium
+Cardamom,9,2025,1158498.69,Medium
+Cardamom,10,2025,1104806.03,Medium
+Cardamom,11,2025,1098596.87,Medium
+Cardamom,12,2025,1150955.02,Medium
+Cardamom,1,2026,1246105.12,Medium
+Cardamom,2,2026,1289611.11,Medium
+Cardamom,3,2026,1148507.31,Medium
+Cardamom,4,2026,1208796.2,Medium
+Cardamom,5,2026,1189499.48,Medium
+Cardamom,6,2026,1283313.12,Medium
+Cardamom,7,2026,1177109.96,Medium
+Cardamom,8,2026,1128337.93,Medium
+Cardamom,9,2026,1246691.41,Medium
+Cardamom,10,2026,1255313.83,Medium
+Cardamom,11,2026,1263765.61,Medium
+Cardamom,12,2026,1109979.47,Medium
+Coffee,1,2021,175830.39,Medium
+Coffee,2,2021,162087.65,Medium
+Coffee,3,2021,192514.64,Medium
+Coffee,4,2021,177842.63,Medium
+Coffee,5,2021,165300.82,Medium
+Coffee,6,2021,166780.69,Medium
+Coffee,7,2021,176922.87,Medium
+Coffee,8,2021,174379.37,Medium
+Coffee,9,2021,163322.24,Medium
+Coffee,10,2021,184317.28,Medium
+Coffee,11,2021,194970.62,Medium
+Coffee,12,2021,185683.53,Medium
+Coffee,1,2022,176428.33,Medium
+Coffee,2,2022,193325.41,Medium
+Coffee,3,2022,162180.79,Medium
+Coffee,4,2022,183235.45,Medium
+Coffee,5,2022,169267.34,Medium
+Coffee,6,2022,182141.24,Medium
+Coffee,7,2022,164081.57,Medium
+Coffee,8,2022,170725.83,Medium
+Coffee,9,2022,173236.04,Medium
+Coffee,10,2022,174247.71,Medium
+Coffee,11,2022,189670.71,Medium
+Coffee,12,2022,168802.28,Medium
+Coffee,1,2023,184863.72,Medium
+Coffee,2,2023,173156.98,Medium
+Coffee,3,2023,166670.26,Medium
+Coffee,4,2023,165348.13,Medium
+Coffee,5,2023,175032.13,Medium
+Coffee,6,2023,182971.27,Medium
+Coffee,7,2023,165477.46,Medium
+Coffee,8,2023,174999.65,Medium
+Coffee,9,2023,188620.54,Medium
+Coffee,10,2023,179168.97,Medium
+Coffee,11,2023,197473.08,Medium
+Coffee,12,2023,182325.93,Medium
+Coffee,1,2024,165236.15,Medium
+Coffee,2,2024,169141.29,Medium
+Coffee,3,2024,192015.74,Medium
+Coffee,4,2024,177974.73,Medium
+Coffee,5,2024,197230.93,Medium
+Coffee,6,2024,185532.07,Medium
+Coffee,7,2024,174298.34,Medium
+Coffee,8,2024,191788.17,Medium
+Coffee,9,2024,193256.96,Medium
+Coffee,10,2024,183846.83,Medium
+Coffee,11,2024,197426.96,Medium
+Coffee,12,2024,164141.82,Medium
+Coffee,1,2025,193989.75,Medium
+Coffee,2,2025,184251.3,Medium
+Coffee,3,2025,175757.3,Medium
+Coffee,4,2025,181631.31,Medium
+Coffee,5,2025,171398.49,Medium
+Coffee,6,2025,164679.7,Medium
+Coffee,7,2025,191203.34,Medium
+Coffee,8,2025,184913.79,Medium
+Coffee,9,2025,196255.38,Medium
+Coffee,10,2025,184072.89,Medium
+Coffee,11,2025,165739.21,Medium
+Coffee,12,2025,164438.55,Medium
+Coffee,1,2026,186502.4,Medium
+Coffee,2,2026,188762.46,Medium
+Coffee,3,2026,191279.2,Medium
+Coffee,4,2026,173798.71,Medium
+Coffee,5,2026,181396.0,Medium
+Coffee,6,2026,190763.6,Medium
+Coffee,7,2026,172031.51,Medium
+Coffee,8,2026,168622.8,Medium
+Coffee,9,2026,193021.43,Medium
+Coffee,10,2026,166222.21,Medium
+Coffee,11,2026,167763.26,Medium
+Coffee,12,2026,186928.5,Medium
+Tea,1,2021,150123.31,Medium
+Tea,2,2021,146481.33,Medium
+Tea,3,2021,141059.49,Medium
+Tea,4,2021,146938.05,Medium
+Tea,5,2021,130714.15,Medium
+Tea,6,2021,128646.11,Medium
+Tea,7,2021,135792.91,Medium
+Tea,8,2021,150649.86,Medium
+Tea,9,2021,139109.01,Medium
+Tea,10,2021,144062.59,Medium
+Tea,11,2021,134962.71,Medium
+Tea,12,2021,152754.35,Medium
+Tea,1,2022,151571.44,Medium
+Tea,2,2022,131860.29,Medium
+Tea,3,2022,128614.51,Medium
+Tea,4,2022,134979.24,Medium
+Tea,5,2022,145666.7,Medium
+Tea,6,2022,144315.87,Medium
+Tea,7,2022,150853.4,Medium
+Tea,8,2022,131384.04,Medium
+Tea,9,2022,151529.42,Medium
+Tea,10,2022,133731.67,Medium
+Tea,11,2022,145829.68,Medium
+Tea,12,2022,146711.76,Medium
+Tea,1,2023,131137.95,Medium
+Tea,2,2023,127668.91,Medium
+Tea,3,2023,139062.38,Medium
+Tea,4,2023,153211.55,Medium
+Tea,5,2023,143942.94,Medium
+Tea,6,2023,148877.03,Medium
+Tea,7,2023,135249.15,Medium
+Tea,8,2023,150973.81,Medium
+Tea,9,2023,149479.79,Medium
+Tea,10,2023,142343.26,Medium
+Tea,11,2023,145400.09,Medium
+Tea,12,2023,142716.69,Medium
+Tea,1,2024,133558.33,Medium
+Tea,2,2024,146603.8,Medium
+Tea,3,2024,146837.73,Medium
+Tea,4,2024,145261.93,Medium
+Tea,5,2024,128313.48,Medium
+Tea,6,2024,143584.71,Medium
+Tea,7,2024,138916.89,Medium
+Tea,8,2024,132833.92,Medium
+Tea,9,2024,147431.59,Medium
+Tea,10,2024,131989.41,Medium
+Tea,11,2024,142375.92,Medium
+Tea,12,2024,136421.74,Medium
+Tea,1,2025,146658.73,Medium
+Tea,2,2025,127225.22,Medium
+Tea,3,2025,132075.91,Medium
+Tea,4,2025,136472.31,Medium
+Tea,5,2025,134885.29,Medium
+Tea,6,2025,153704.26,Medium
+Tea,7,2025,134082.38,Medium
+Tea,8,2025,131947.02,Medium
+Tea,9,2025,137878.31,Medium
+Tea,10,2025,150892.0,Medium
+Tea,11,2025,142587.83,Medium
+Tea,12,2025,127999.12,Medium
+Tea,1,2026,134056.68,Medium
+Tea,2,2026,144796.34,Medium
+Tea,3,2026,150906.78,Medium
+Tea,4,2026,134446.02,Medium
+Tea,5,2026,128674.69,Medium
+Tea,6,2026,133752.7,Medium
+Tea,7,2026,134936.06,Medium
+Tea,8,2026,131470.83,Medium
+Tea,9,2026,139683.55,Medium
+Tea,10,2026,147357.97,Medium
+Tea,11,2026,129372.09,Medium
+Tea,12,2026,139564.01,Medium
+Cocoa,1,2021,202280.22,Medium
+Cocoa,2,2021,212349.5,Medium
+Cocoa,3,2021,207987.97,Medium
+Cocoa,4,2021,236304.04,Medium
+Cocoa,5,2021,198232.07,Medium
+Cocoa,6,2021,206316.16,Medium
+Cocoa,7,2021,199558.84,Medium
+Cocoa,8,2021,216400.01,Medium
+Cocoa,9,2021,241911.52,Medium
+Cocoa,10,2021,205691.72,Medium
+Cocoa,11,2021,226400.71,Medium
+Cocoa,12,2021,223838.78,Medium
+Cocoa,1,2022,223225.04,Medium
+Cocoa,2,2022,214586.1,Medium
+Cocoa,3,2022,204547.91,Medium
+Cocoa,4,2022,238021.13,Medium
+Cocoa,5,2022,208027.31,Medium
+Cocoa,6,2022,239378.43,Medium
+Cocoa,7,2022,202846.08,Medium
+Cocoa,8,2022,231814.93,Medium
+Cocoa,9,2022,214095.17,Medium
+Cocoa,10,2022,224119.41,Medium
+Cocoa,11,2022,217484.82,Medium
+Cocoa,12,2022,239463.44,Medium
+Cocoa,1,2023,238733.1,Medium
+Cocoa,2,2023,206866.87,Medium
+Cocoa,3,2023,221343.56,Medium
+Cocoa,4,2023,220076.98,Medium
+Cocoa,5,2023,199627.44,Medium
+Cocoa,6,2023,238223.63,Medium
+Cocoa,7,2023,229076.22,Medium
+Cocoa,8,2023,226201.84,Medium
+Cocoa,9,2023,238741.09,Medium
+Cocoa,10,2023,218275.8,Medium
+Cocoa,11,2023,213320.56,Medium
+Cocoa,12,2023,206671.18,Medium
+Cocoa,1,2024,232427.07,Medium
+Cocoa,2,2024,232361.2,Medium
+Cocoa,3,2024,234753.95,Medium
+Cocoa,4,2024,228459.37,Medium
+Cocoa,5,2024,211765.85,Medium
+Cocoa,6,2024,236701.78,Medium
+Cocoa,7,2024,202635.68,Medium
+Cocoa,8,2024,208014.71,Medium
+Cocoa,9,2024,223040.14,Medium
+Cocoa,10,2024,234318.82,Medium
+Cocoa,11,2024,232653.72,Medium
+Cocoa,12,2024,231160.37,Medium
+Cocoa,1,2025,229031.59,Medium
+Cocoa,2,2025,233497.67,Medium
+Cocoa,3,2025,225038.03,Medium
+Cocoa,4,2025,210326.6,Medium
+Cocoa,5,2025,225718.2,Medium
+Cocoa,6,2025,213604.18,Medium
+Cocoa,7,2025,220290.12,Medium
+Cocoa,8,2025,238131.77,Medium
+Cocoa,9,2025,204648.17,Medium
+Cocoa,10,2025,201683.43,Medium
+Cocoa,11,2025,205340.36,Medium
+Cocoa,12,2025,201689.05,Medium
+Cocoa,1,2026,241518.18,Medium
+Cocoa,2,2026,201345.4,Medium
+Cocoa,3,2026,199922.12,Medium
+Cocoa,4,2026,221779.99,Medium
+Cocoa,5,2026,233973.99,Medium
+Cocoa,6,2026,228832.95,Medium
+Cocoa,7,2026,221857.46,Medium
+Cocoa,8,2026,213116.41,Medium
+Cocoa,9,2026,200169.2,Medium
+Cocoa,10,2026,215915.38,Medium
+Cocoa,11,2026,214395.57,Medium
+Cocoa,12,2026,232662.51,Medium
+Arecanut,1,2021,480864.04,Medium
+Arecanut,2,2021,435775.55,Medium
+Arecanut,3,2021,479930.6,Medium
+Arecanut,4,2021,468976.54,Medium
+Arecanut,5,2021,483042.9,Medium
+Arecanut,6,2021,407194.74,Medium
+Arecanut,7,2021,470150.33,Medium
+Arecanut,8,2021,432116.66,Medium
+Arecanut,9,2021,436522.71,Medium
+Arecanut,10,2021,485165.73,Medium
+Arecanut,11,2021,484886.82,Medium
+Arecanut,12,2021,478049.34,Medium
+Arecanut,1,2022,440313.33,Medium
+Arecanut,2,2022,441221.06,Medium
+Arecanut,3,2022,458340.1,Medium
+Arecanut,4,2022,477648.36,Medium
+Arecanut,5,2022,448515.9,Medium
+Arecanut,6,2022,432623.75,Medium
+Arecanut,7,2022,449293.2,Medium
+Arecanut,8,2022,406472.17,Medium
+Arecanut,9,2022,448280.05,Medium
+Arecanut,10,2022,459011.79,Medium
+Arecanut,11,2022,470401.19,Medium
+Arecanut,12,2022,420569.51,Medium
+Arecanut,1,2023,431696.98,Medium
+Arecanut,2,2023,488948.73,Medium
+Arecanut,3,2023,428758.04,Medium
+Arecanut,4,2023,459545.94,Medium
+Arecanut,5,2023,454135.57,Medium
+Arecanut,6,2023,444855.74,Medium
+Arecanut,7,2023,485129.39,Medium
+Arecanut,8,2023,456216.67,Medium
+Arecanut,9,2023,439050.85,Medium
+Arecanut,10,2023,409262.43,Medium
+Arecanut,11,2023,440556.25,Medium
+Arecanut,12,2023,431007.35,Medium
+Arecanut,1,2024,467368.86,Medium
+Arecanut,2,2024,434331.12,Medium
+Arecanut,3,2024,455222.19,Medium
+Arecanut,4,2024,407383.89,Medium
+Arecanut,5,2024,485316.67,Medium
+Arecanut,6,2024,436345.34,Medium
+Arecanut,7,2024,488345.43,Medium
+Arecanut,8,2024,436326.38,Medium
+Arecanut,9,2024,473143.47,Medium
+Arecanut,10,2024,442575.17,Medium
+Arecanut,11,2024,473128.59,Medium
+Arecanut,12,2024,435247.99,Medium
+Arecanut,1,2025,414916.45,Medium
+Arecanut,2,2025,492552.14,Medium
+Arecanut,3,2025,489792.85,Medium
+Arecanut,4,2025,468918.82,Medium
+Arecanut,5,2025,444010.68,Medium
+Arecanut,6,2025,452318.2,Medium
+Arecanut,7,2025,461774.17,Medium
+Arecanut,8,2025,425030.82,Medium
+Arecanut,9,2025,429906.06,Medium
+Arecanut,10,2025,433250.69,Medium
+Arecanut,11,2025,446879.36,Medium
+Arecanut,12,2025,484472.42,Medium
+Arecanut,1,2026,485177.99,Medium
+Arecanut,2,2026,463014.85,Medium
+Arecanut,3,2026,451175.92,Medium
+Arecanut,4,2026,487437.72,Medium
+Arecanut,5,2026,466343.19,Medium
+Arecanut,6,2026,410686.11,Medium
+Arecanut,7,2026,489669.39,Medium
+Arecanut,8,2026,479528.96,Medium
+Arecanut,9,2026,426940.97,Medium
+Arecanut,10,2026,417236.97,Medium
+Arecanut,11,2026,432041.86,Medium
+Arecanut,12,2026,469797.22,Medium
+Banana,1,2021,27401.04,Medium
+Banana,2,2021,24093.29,Medium
+Banana,3,2021,27298.79,Medium
+Banana,4,2021,27147.07,Medium
+Banana,5,2021,27397.55,Medium
+Banana,6,2021,22949.01,Medium
+Banana,7,2021,23075.67,Medium
+Banana,8,2021,37819.62,High
+Banana,9,2021,23799.27,Medium
+Banana,10,2021,25061.14,Medium
+Banana,11,2021,25752.82,Medium
+Banana,12,2021,23000.35,Medium
+Banana,1,2022,23213.05,Medium
+Banana,2,2022,26225.7,Medium
+Banana,3,2022,25622.35,Medium
+Banana,4,2022,24340.23,Medium
+Banana,5,2022,27064.13,Medium
+Banana,6,2022,22623.44,Medium
+Banana,7,2022,24638.08,Medium
+Banana,8,2022,34395.18,High
+Banana,9,2022,24167.49,Medium
+Banana,10,2022,25378.05,Medium
+Banana,11,2022,25355.72,Medium
+Banana,12,2022,26188.94,Medium
+Banana,1,2023,23231.41,Medium
+Banana,2,2023,27495.18,Medium
+Banana,3,2023,22821.66,Medium
+Banana,4,2023,24809.73,Medium
+Banana,5,2023,23861.65,Medium
+Banana,6,2023,24373.69,Medium
+Banana,7,2023,24471.02,Medium
+Banana,8,2023,38303.84,High
+Banana,9,2023,25154.35,Medium
+Banana,10,2023,24360.03,Medium
+Banana,11,2023,25495.38,Medium
+Banana,12,2023,23287.11,Medium
+Banana,1,2024,25129.43,Medium
+Banana,2,2024,25688.76,Medium
+Banana,3,2024,22958.98,Medium
+Banana,4,2024,25994.77,Medium
+Banana,5,2024,24694.99,Medium
+Banana,6,2024,26073.68,Medium
+Banana,7,2024,26464.78,Medium
+Banana,8,2024,32155.68,High
+Banana,9,2024,25032.13,Medium
+Banana,10,2024,27499.89,Medium
+Banana,11,2024,26859.88,Medium
+Banana,12,2024,23082.43,Medium
+Banana,1,2025,23150.88,Medium
+Banana,2,2025,22697.12,Medium
+Banana,3,2025,24997.1,Medium
+Banana,4,2025,24057.5,Medium
+Banana,5,2025,23376.03,Medium
+Banana,6,2025,25163.16,Medium
+Banana,7,2025,25410.33,Medium
+Banana,8,2025,37364.22,High
+Banana,9,2025,24164.07,Medium
+Banana,10,2025,26121.71,Medium
+Banana,11,2025,22711.19,Medium
+Banana,12,2025,25838.91,Medium
+Banana,1,2026,27496.77,Medium
+Banana,2,2026,23745.63,Medium
+Banana,3,2026,25551.56,Medium
+Banana,4,2026,25160.0,Medium
+Banana,5,2026,24783.81,Medium
+Banana,6,2026,27013.41,Medium
+Banana,7,2026,25280.06,Medium
+Banana,8,2026,33717.92,High
+Banana,9,2026,23855.4,Medium
+Banana,10,2026,23204.01,Medium
+Banana,11,2026,22594.21,Medium
+Banana,12,2026,27114.4,Medium
+Mango,1,2021,58525.23,Medium
+Mango,2,2021,55513.47,Medium
+Mango,3,2021,54636.69,Medium
+Mango,4,2021,41986.3,High
+Mango,5,2021,44816.69,High
+Mango,6,2021,65683.89,Medium
+Mango,7,2021,54579.49,Medium
+Mango,8,2021,58242.26,Medium
+Mango,9,2021,58881.55,Medium
+Mango,10,2021,56787.37,Medium
+Mango,11,2021,63950.51,Medium
+Mango,12,2021,65423.39,Medium
+Mango,1,2022,55077.91,Medium
+Mango,2,2022,62287.2,Medium
+Mango,3,2022,61569.22,Medium
+Mango,4,2022,46177.35,High
+Mango,5,2022,38246.09,High
+Mango,6,2022,61296.02,Medium
+Mango,7,2022,55786.58,Medium
+Mango,8,2022,59299.98,Medium
+Mango,9,2022,56063.63,Medium
+Mango,10,2022,60005.29,Medium
+Mango,11,2022,58471.43,Medium
+Mango,12,2022,63296.39,Medium
+Mango,1,2023,63058.21,Medium
+Mango,2,2023,61075.15,Medium
+Mango,3,2023,59707.86,Medium
+Mango,4,2023,42469.89,High
+Mango,5,2023,39937.35,High
+Mango,6,2023,64275.71,Medium
+Mango,7,2023,60267.2,Medium
+Mango,8,2023,55978.49,Medium
+Mango,9,2023,63861.68,Medium
+Mango,10,2023,60288.14,Medium
+Mango,11,2023,55035.19,Medium
+Mango,12,2023,61218.74,Medium
+Mango,1,2024,55504.86,Medium
+Mango,2,2024,55767.46,Medium
+Mango,3,2024,63381.13,Medium
+Mango,4,2024,44767.82,High
+Mango,5,2024,40970.43,High
+Mango,6,2024,59737.56,Medium
+Mango,7,2024,60110.66,Medium
+Mango,8,2024,63215.19,Medium
+Mango,9,2024,61427.18,Medium
+Mango,10,2024,61217.25,Medium
+Mango,11,2024,59235.56,Medium
+Mango,12,2024,55762.11,Medium
+Mango,1,2025,56137.92,Medium
+Mango,2,2025,64350.27,Medium
+Mango,3,2025,55254.82,Medium
+Mango,4,2025,46169.15,High
+Mango,5,2025,43963.9,High
+Mango,6,2025,65081.06,Medium
+Mango,7,2025,61490.41,Medium
+Mango,8,2025,60016.35,Medium
+Mango,9,2025,63818.91,Medium
+Mango,10,2025,60077.95,Medium
+Mango,11,2025,54518.73,Medium
+Mango,12,2025,56022.03,Medium
+Mango,1,2026,60467.98,Medium
+Mango,2,2026,60133.67,Medium
+Mango,3,2026,61151.57,Medium
+Mango,4,2026,40548.15,High
+Mango,5,2026,42590.37,High
+Mango,6,2026,58744.85,Medium
+Mango,7,2026,59279.56,Medium
+Mango,8,2026,55853.8,Medium
+Mango,9,2026,57557.74,Medium
+Mango,10,2026,64819.7,Medium
+Mango,11,2026,58290.53,Medium
+Mango,12,2026,65139.14,Medium
+Papaya,1,2021,20500.2,Medium
+Papaya,2,2021,19890.83,Medium
+Papaya,3,2021,19900.6,Medium
+Papaya,4,2021,18681.21,Medium
+Papaya,5,2021,20277.96,Medium
+Papaya,6,2021,19851.08,Medium
+Papaya,7,2021,18702.87,Medium
+Papaya,8,2021,20137.42,Medium
+Papaya,9,2021,20264.8,Medium
+Papaya,10,2021,19438.5,Medium
+Papaya,11,2021,19712.2,Medium
+Papaya,12,2021,21060.57,Medium
+Papaya,1,2022,19329.08,Medium
+Papaya,2,2022,19344.31,Medium
+Papaya,3,2022,18264.18,Medium
+Papaya,4,2022,19723.55,Medium
+Papaya,5,2022,19443.9,Medium
+Papaya,6,2022,20350.73,Medium
+Papaya,7,2022,18917.57,Medium
+Papaya,8,2022,19074.41,Medium
+Papaya,9,2022,21955.32,Medium
+Papaya,10,2022,20378.8,Medium
+Papaya,11,2022,20377.53,Medium
+Papaya,12,2022,19381.55,Medium
+Papaya,1,2023,18633.19,Medium
+Papaya,2,2023,20166.35,Medium
+Papaya,3,2023,21496.0,Medium
+Papaya,4,2023,18948.09,Medium
+Papaya,5,2023,21488.72,Medium
+Papaya,6,2023,21984.48,Medium
+Papaya,7,2023,21994.49,Medium
+Papaya,8,2023,18994.6,Medium
+Papaya,9,2023,19308.35,Medium
+Papaya,10,2023,20045.74,Medium
+Papaya,11,2023,21706.4,Medium
+Papaya,12,2023,21064.29,Medium
+Papaya,1,2024,19474.24,Medium
+Papaya,2,2024,20175.54,Medium
+Papaya,3,2024,21250.94,Medium
+Papaya,4,2024,20674.57,Medium
+Papaya,5,2024,20246.99,Medium
+Papaya,6,2024,19700.9,Medium
+Papaya,7,2024,18435.47,Medium
+Papaya,8,2024,18414.89,Medium
+Papaya,9,2024,19138.58,Medium
+Papaya,10,2024,19454.74,Medium
+Papaya,11,2024,18329.57,Medium
+Papaya,12,2024,21433.11,Medium
+Papaya,1,2025,19704.68,Medium
+Papaya,2,2025,19865.11,Medium
+Papaya,3,2025,19312.57,Medium
+Papaya,4,2025,19645.32,Medium
+Papaya,5,2025,20672.7,Medium
+Papaya,6,2025,21527.42,Medium
+Papaya,7,2025,18404.8,Medium
+Papaya,8,2025,21538.72,Medium
+Papaya,9,2025,19808.34,Medium
+Papaya,10,2025,19457.87,Medium
+Papaya,11,2025,20930.77,Medium
+Papaya,12,2025,19200.87,Medium
+Papaya,1,2026,21263.18,Medium
+Papaya,2,2026,18182.6,Medium
+Papaya,3,2026,19827.61,Medium
+Papaya,4,2026,19402.51,Medium
+Papaya,5,2026,19505.43,Medium
+Papaya,6,2026,21828.16,Medium
+Papaya,7,2026,18986.12,Medium
+Papaya,8,2026,21988.37,Medium
+Papaya,9,2026,21529.0,Medium
+Papaya,10,2026,20254.59,Medium
+Papaya,11,2026,19094.24,Medium
+Papaya,12,2026,19881.99,Medium
+Pineapple,1,2021,30993.13,Medium
+Pineapple,2,2021,30484.14,Medium
+Pineapple,3,2021,31916.55,Medium
+Pineapple,4,2021,27255.43,Medium
+Pineapple,5,2021,27291.42,Medium
+Pineapple,6,2021,28834.96,Medium
+Pineapple,7,2021,27384.73,Medium
+Pineapple,8,2021,32071.41,Medium
+Pineapple,9,2021,30793.63,Medium
+Pineapple,10,2021,27058.22,Medium
+Pineapple,11,2021,31538.97,Medium
+Pineapple,12,2021,27217.84,Medium
+Pineapple,1,2022,27047.39,Medium
+Pineapple,2,2022,29991.82,Medium
+Pineapple,3,2022,31673.03,Medium
+Pineapple,4,2022,31266.77,Medium
+Pineapple,5,2022,30115.96,Medium
+Pineapple,6,2022,28430.85,Medium
+Pineapple,7,2022,29258.66,Medium
+Pineapple,8,2022,32039.78,Medium
+Pineapple,9,2022,30157.27,Medium
+Pineapple,10,2022,27495.21,Medium
+Pineapple,11,2022,31321.73,Medium
+Pineapple,12,2022,28919.37,Medium
+Pineapple,1,2023,30064.39,Medium
+Pineapple,2,2023,29841.68,Medium
+Pineapple,3,2023,32919.68,Medium
+Pineapple,4,2023,28158.15,Medium
+Pineapple,5,2023,31929.97,Medium
+Pineapple,6,2023,32400.4,Medium
+Pineapple,7,2023,28540.75,Medium
+Pineapple,8,2023,29361.25,Medium
+Pineapple,9,2023,32550.62,Medium
+Pineapple,10,2023,28488.46,Medium
+Pineapple,11,2023,31262.21,Medium
+Pineapple,12,2023,27428.68,Medium
+Pineapple,1,2024,32879.69,Medium
+Pineapple,2,2024,29848.52,Medium
+Pineapple,3,2024,29654.68,Medium
+Pineapple,4,2024,29823.78,Medium
+Pineapple,5,2024,28373.62,Medium
+Pineapple,6,2024,30951.38,Medium
+Pineapple,7,2024,31923.44,Medium
+Pineapple,8,2024,31593.25,Medium
+Pineapple,9,2024,27524.58,Medium
+Pineapple,10,2024,27397.34,Medium
+Pineapple,11,2024,30038.1,Medium
+Pineapple,12,2024,32465.0,Medium
+Pineapple,1,2025,30789.23,Medium
+Pineapple,2,2025,29588.57,Medium
+Pineapple,3,2025,27259.82,Medium
+Pineapple,4,2025,29330.8,Medium
+Pineapple,5,2025,28002.83,Medium
+Pineapple,6,2025,31270.06,Medium
+Pineapple,7,2025,27485.11,Medium
+Pineapple,8,2025,30714.92,Medium
+Pineapple,9,2025,32386.49,Medium
+Pineapple,10,2025,28640.04,Medium
+Pineapple,11,2025,32619.15,Medium
+Pineapple,12,2025,29395.82,Medium
+Pineapple,1,2026,27121.43,Medium
+Pineapple,2,2026,32667.57,Medium
+Pineapple,3,2026,32268.3,Medium
+Pineapple,4,2026,31784.45,Medium
+Pineapple,5,2026,32401.29,Medium
+Pineapple,6,2026,27000.94,Medium
+Pineapple,7,2026,27198.09,Medium
+Pineapple,8,2026,27367.25,Medium
+Pineapple,9,2026,27225.57,Medium
+Pineapple,10,2026,27055.62,Medium
+Pineapple,11,2026,27218.28,Medium
+Pineapple,12,2026,30170.13,Medium
+Jackfruit,1,2021,13956.12,Medium
+Jackfruit,2,2021,16319.08,Medium
+Jackfruit,3,2021,15567.17,Medium
+Jackfruit,4,2021,14055.24,Medium
+Jackfruit,5,2021,16360.96,Medium
+Jackfruit,6,2021,13864.85,Medium
+Jackfruit,7,2021,15309.89,Medium
+Jackfruit,8,2021,15874.04,Medium
+Jackfruit,9,2021,15998.41,Medium
+Jackfruit,10,2021,15174.2,Medium
+Jackfruit,11,2021,16148.73,Medium
+Jackfruit,12,2021,15749.88,Medium
+Jackfruit,1,2022,15319.78,Medium
+Jackfruit,2,2022,15247.37,Medium
+Jackfruit,3,2022,15890.79,Medium
+Jackfruit,4,2022,13989.7,Medium
+Jackfruit,5,2022,13949.01,Medium
+Jackfruit,6,2022,14726.43,Medium
+Jackfruit,7,2022,15413.73,Medium
+Jackfruit,8,2022,14741.07,Medium
+Jackfruit,9,2022,15612.11,Medium
+Jackfruit,10,2022,14547.53,Medium
+Jackfruit,11,2022,14426.06,Medium
+Jackfruit,12,2022,13607.25,Medium
+Jackfruit,1,2023,15375.9,Medium
+Jackfruit,2,2023,15822.91,Medium
+Jackfruit,3,2023,15610.27,Medium
+Jackfruit,4,2023,15275.55,Medium
+Jackfruit,5,2023,14380.66,Medium
+Jackfruit,6,2023,13941.95,Medium
+Jackfruit,7,2023,14553.53,Medium
+Jackfruit,8,2023,15293.47,Medium
+Jackfruit,9,2023,13877.33,Medium
+Jackfruit,10,2023,13999.57,Medium
+Jackfruit,11,2023,16376.43,Medium
+Jackfruit,12,2023,15374.56,Medium
+Jackfruit,1,2024,16011.16,Medium
+Jackfruit,2,2024,15849.64,Medium
+Jackfruit,3,2024,13577.89,Medium
+Jackfruit,4,2024,15962.17,Medium
+Jackfruit,5,2024,16204.49,Medium
+Jackfruit,6,2024,16355.34,Medium
+Jackfruit,7,2024,16116.63,Medium
+Jackfruit,8,2024,14530.94,Medium
+Jackfruit,9,2024,14148.58,Medium
+Jackfruit,10,2024,14595.94,Medium
+Jackfruit,11,2024,16285.98,Medium
+Jackfruit,12,2024,16270.98,Medium
+Jackfruit,1,2025,15028.98,Medium
+Jackfruit,2,2025,16077.08,Medium
+Jackfruit,3,2025,14106.58,Medium
+Jackfruit,4,2025,15978.11,Medium
+Jackfruit,5,2025,13620.09,Medium
+Jackfruit,6,2025,15851.81,Medium
+Jackfruit,7,2025,14862.29,Medium
+Jackfruit,8,2025,15937.06,Medium
+Jackfruit,9,2025,14418.1,Medium
+Jackfruit,10,2025,13755.77,Medium
+Jackfruit,11,2025,14765.61,Medium
+Jackfruit,12,2025,16154.27,Medium
+Jackfruit,1,2026,13956.41,Medium
+Jackfruit,2,2026,14359.07,Medium
+Jackfruit,3,2026,14476.79,Medium
+Jackfruit,4,2026,15191.21,Medium
+Jackfruit,5,2026,14417.64,Medium
+Jackfruit,6,2026,15465.53,Medium
+Jackfruit,7,2026,15961.52,Medium
+Jackfruit,8,2026,15379.04,Medium
+Jackfruit,9,2026,16191.14,Medium
+Jackfruit,10,2026,14939.55,Medium
+Jackfruit,11,2026,13737.79,Medium
+Jackfruit,12,2026,15421.63,Medium
+Guava,1,2021,41174.79,Medium
+Guava,2,2021,41538.63,Medium
+Guava,3,2021,39370.13,Medium
+Guava,4,2021,41829.54,Medium
+Guava,5,2021,39950.41,Medium
+Guava,6,2021,38575.73,Medium
+Guava,7,2021,40425.36,Medium
+Guava,8,2021,37365.7,Medium
+Guava,9,2021,42747.04,Medium
+Guava,10,2021,39196.03,Medium
+Guava,11,2021,42770.25,Medium
+Guava,12,2021,36512.1,Medium
+Guava,1,2022,42140.89,Medium
+Guava,2,2022,41351.95,Medium
+Guava,3,2022,43529.36,Medium
+Guava,4,2022,38627.23,Medium
+Guava,5,2022,36236.2,Medium
+Guava,6,2022,36688.2,Medium
+Guava,7,2022,38363.33,Medium
+Guava,8,2022,42997.3,Medium
+Guava,9,2022,36111.0,Medium
+Guava,10,2022,38255.72,Medium
+Guava,11,2022,36130.74,Medium
+Guava,12,2022,36751.17,Medium
+Guava,1,2023,43827.74,Medium
+Guava,2,2023,41127.15,Medium
+Guava,3,2023,39662.76,Medium
+Guava,4,2023,40687.05,Medium
+Guava,5,2023,36724.98,Medium
+Guava,6,2023,41093.99,Medium
+Guava,7,2023,40217.66,Medium
+Guava,8,2023,39366.69,Medium
+Guava,9,2023,36621.58,Medium
+Guava,10,2023,36957.35,Medium
+Guava,11,2023,42970.27,Medium
+Guava,12,2023,40126.72,Medium
+Guava,1,2024,40886.17,Medium
+Guava,2,2024,38634.71,Medium
+Guava,3,2024,36286.72,Medium
+Guava,4,2024,39359.68,Medium
+Guava,5,2024,36778.25,Medium
+Guava,6,2024,36691.01,Medium
+Guava,7,2024,40877.56,Medium
+Guava,8,2024,41957.65,Medium
+Guava,9,2024,41787.82,Medium
+Guava,10,2024,42580.48,Medium
+Guava,11,2024,38377.18,Medium
+Guava,12,2024,37355.25,Medium
+Guava,1,2025,41546.67,Medium
+Guava,2,2025,38599.24,Medium
+Guava,3,2025,37097.67,Medium
+Guava,4,2025,38889.23,Medium
+Guava,5,2025,39598.33,Medium
+Guava,6,2025,40905.18,Medium
+Guava,7,2025,37242.57,Medium
+Guava,8,2025,42658.9,Medium
+Guava,9,2025,39104.81,Medium
+Guava,10,2025,40989.16,Medium
+Guava,11,2025,40683.46,Medium
+Guava,12,2025,43205.53,Medium
+Guava,1,2026,41210.97,Medium
+Guava,2,2026,38242.53,Medium
+Guava,3,2026,38198.34,Medium
+Guava,4,2026,40393.89,Medium
+Guava,5,2026,36096.2,Medium
+Guava,6,2026,40683.89,Medium
+Guava,7,2026,38535.94,Medium
+Guava,8,2026,40851.17,Medium
+Guava,9,2026,41236.6,Medium
+Guava,10,2026,40147.31,Medium
+Guava,11,2026,42541.47,Medium
+Guava,12,2026,41157.85,Medium
+Sapota,1,2021,37079.76,Medium
+Sapota,2,2021,37501.84,Medium
+Sapota,3,2021,35553.95,Medium
+Sapota,4,2021,38406.84,Medium
+Sapota,5,2021,36323.03,Medium
+Sapota,6,2021,34482.37,Medium
+Sapota,7,2021,38430.18,Medium
+Sapota,8,2021,35032.66,Medium
+Sapota,9,2021,35758.66,Medium
+Sapota,10,2021,36365.53,Medium
+Sapota,11,2021,38488.2,Medium
+Sapota,12,2021,32457.06,Medium
+Sapota,1,2022,37255.0,Medium
+Sapota,2,2022,32294.24,Medium
+Sapota,3,2022,35292.44,Medium
+Sapota,4,2022,35005.88,Medium
+Sapota,5,2022,32853.94,Medium
+Sapota,6,2022,38181.35,Medium
+Sapota,7,2022,35629.66,Medium
+Sapota,8,2022,33207.0,Medium
+Sapota,9,2022,37219.12,Medium
+Sapota,10,2022,38389.55,Medium
+Sapota,11,2022,38428.27,Medium
+Sapota,12,2022,32748.5,Medium
+Sapota,1,2023,34220.23,Medium
+Sapota,2,2023,35681.58,Medium
+Sapota,3,2023,36663.91,Medium
+Sapota,4,2023,33514.68,Medium
+Sapota,5,2023,33033.87,Medium
+Sapota,6,2023,33562.21,Medium
+Sapota,7,2023,35652.71,Medium
+Sapota,8,2023,36026.68,Medium
+Sapota,9,2023,31585.22,Medium
+Sapota,10,2023,33873.97,Medium
+Sapota,11,2023,33733.26,Medium
+Sapota,12,2023,34029.8,Medium
+Sapota,1,2024,35233.49,Medium
+Sapota,2,2024,37534.42,Medium
+Sapota,3,2024,32590.66,Medium
+Sapota,4,2024,36031.84,Medium
+Sapota,5,2024,33400.55,Medium
+Sapota,6,2024,35457.4,Medium
+Sapota,7,2024,34621.34,Medium
+Sapota,8,2024,36923.41,Medium
+Sapota,9,2024,38349.62,Medium
+Sapota,10,2024,35464.16,Medium
+Sapota,11,2024,37821.98,Medium
+Sapota,12,2024,34896.84,Medium
+Sapota,1,2025,37498.66,Medium
+Sapota,2,2025,37812.32,Medium
+Sapota,3,2025,38414.37,Medium
+Sapota,4,2025,32509.45,Medium
+Sapota,5,2025,34979.79,Medium
+Sapota,6,2025,32549.24,Medium
+Sapota,7,2025,32613.28,Medium
+Sapota,8,2025,33969.19,Medium
+Sapota,9,2025,38450.97,Medium
+Sapota,10,2025,38009.04,Medium
+Sapota,11,2025,34134.62,Medium
+Sapota,12,2025,37650.23,Medium
+Sapota,1,2026,34760.37,Medium
+Sapota,2,2026,35380.48,Medium
+Sapota,3,2026,31979.65,Medium
+Sapota,4,2026,37362.45,Medium
+Sapota,5,2026,32353.41,Medium
+Sapota,6,2026,33117.26,Medium
+Sapota,7,2026,33647.59,Medium
+Sapota,8,2026,35576.78,Medium
+Sapota,9,2026,32605.68,Medium
+Sapota,10,2026,37314.11,Medium
+Sapota,11,2026,33033.31,Medium
+Sapota,12,2026,38343.97,Medium
+Custard Apple,1,2021,50006.0,Medium
+Custard Apple,2,2021,52426.57,Medium
+Custard Apple,3,2021,47167.85,Medium
+Custard Apple,4,2021,48580.51,Medium
+Custard Apple,5,2021,49854.33,Medium
+Custard Apple,6,2021,47241.6,Medium
+Custard Apple,7,2021,52870.11,Medium
+Custard Apple,8,2021,51538.04,Medium
+Custard Apple,9,2021,46500.19,Medium
+Custard Apple,10,2021,48311.03,Medium
+Custard Apple,11,2021,52073.49,Medium
+Custard Apple,12,2021,47875.03,Medium
+Custard Apple,1,2022,51461.44,Medium
+Custard Apple,2,2022,50876.1,Medium
+Custard Apple,3,2022,45739.39,Medium
+Custard Apple,4,2022,53208.1,Medium
+Custard Apple,5,2022,47579.92,Medium
+Custard Apple,6,2022,48724.14,Medium
+Custard Apple,7,2022,48610.45,Medium
+Custard Apple,8,2022,52192.8,Medium
+Custard Apple,9,2022,47234.16,Medium
+Custard Apple,10,2022,50317.29,Medium
+Custard Apple,11,2022,49086.49,Medium
+Custard Apple,12,2022,50457.21,Medium
+Custard Apple,1,2023,45297.39,Medium
+Custard Apple,2,2023,45484.2,Medium
+Custard Apple,3,2023,49584.63,Medium
+Custard Apple,4,2023,48130.66,Medium
+Custard Apple,5,2023,46232.7,Medium
+Custard Apple,6,2023,46780.16,Medium
+Custard Apple,7,2023,49625.68,Medium
+Custard Apple,8,2023,45743.44,Medium
+Custard Apple,9,2023,50271.76,Medium
+Custard Apple,10,2023,49395.67,Medium
+Custard Apple,11,2023,45848.63,Medium
+Custard Apple,12,2023,54231.55,Medium
+Custard Apple,1,2024,51536.27,Medium
+Custard Apple,2,2024,45241.75,Medium
+Custard Apple,3,2024,46983.9,Medium
+Custard Apple,4,2024,53996.75,Medium
+Custard Apple,5,2024,47453.94,Medium
+Custard Apple,6,2024,51596.85,Medium
+Custard Apple,7,2024,53575.37,Medium
+Custard Apple,8,2024,49748.2,Medium
+Custard Apple,9,2024,54711.24,Medium
+Custard Apple,10,2024,49637.96,Medium
+Custard Apple,11,2024,46727.79,Medium
+Custard Apple,12,2024,48926.66,Medium
+Custard Apple,1,2025,46288.69,Medium
+Custard Apple,2,2025,51244.02,Medium
+Custard Apple,3,2025,52978.25,Medium
+Custard Apple,4,2025,50506.71,Medium
+Custard Apple,5,2025,53779.35,Medium
+Custard Apple,6,2025,51972.85,Medium
+Custard Apple,7,2025,54898.98,Medium
+Custard Apple,8,2025,53957.96,Medium
+Custard Apple,9,2025,49241.56,Medium
+Custard Apple,10,2025,52577.06,Medium
+Custard Apple,11,2025,45373.86,Medium
+Custard Apple,12,2025,51730.99,Medium
+Custard Apple,1,2026,53961.87,Medium
+Custard Apple,2,2026,51076.84,Medium
+Custard Apple,3,2026,48027.92,Medium
+Custard Apple,4,2026,51439.74,Medium
+Custard Apple,5,2026,48689.64,Medium
+Custard Apple,6,2026,48587.98,Medium
+Custard Apple,7,2026,50443.66,Medium
+Custard Apple,8,2026,53061.66,Medium
+Custard Apple,9,2026,45707.25,Medium
+Custard Apple,10,2026,52522.29,Medium
+Custard Apple,11,2026,51290.58,Medium
+Custard Apple,12,2026,49655.79,Medium
+Rice,1,2021,32787.51,Medium
+Rice,2,2021,28004.98,Medium
+Rice,3,2021,32136.41,Medium
+Rice,4,2021,27186.34,Medium
+Rice,5,2021,30333.69,Medium
+Rice,6,2021,27700.2,Medium
+Rice,7,2021,30084.67,Medium
+Rice,8,2021,29968.29,Medium
+Rice,9,2021,32993.94,Medium
+Rice,10,2021,27679.85,Medium
+Rice,11,2021,31046.95,Medium
+Rice,12,2021,31111.94,Medium
+Rice,1,2022,28471.94,Medium
+Rice,2,2022,27012.31,Medium
+Rice,3,2022,30642.17,Medium
+Rice,4,2022,29534.11,Medium
+Rice,5,2022,30233.16,Medium
+Rice,6,2022,30032.19,Medium
+Rice,7,2022,31600.29,Medium
+Rice,8,2022,31685.28,Medium
+Rice,9,2022,30273.07,Medium
+Rice,10,2022,30515.16,Medium
+Rice,11,2022,30658.79,Medium
+Rice,12,2022,27522.05,Medium
+Rice,1,2023,28160.81,Medium
+Rice,2,2023,32574.99,Medium
+Rice,3,2023,27779.63,Medium
+Rice,4,2023,29447.47,Medium
+Rice,5,2023,28054.34,Medium
+Rice,6,2023,32878.96,Medium
+Rice,7,2023,30321.86,Medium
+Rice,8,2023,29781.69,Medium
+Rice,9,2023,27961.87,Medium
+Rice,10,2023,29738.81,Medium
+Rice,11,2023,28301.34,Medium
+Rice,12,2023,32023.95,Medium
+Rice,1,2024,31072.21,Medium
+Rice,2,2024,29307.53,Medium
+Rice,3,2024,28268.57,Medium
+Rice,4,2024,31771.57,Medium
+Rice,5,2024,27764.8,Medium
+Rice,6,2024,32804.84,Medium
+Rice,7,2024,31460.66,Medium
+Rice,8,2024,32836.9,Medium
+Rice,9,2024,32733.98,Medium
+Rice,10,2024,28474.37,Medium
+Rice,11,2024,32866.05,Medium
+Rice,12,2024,28737.77,Medium
+Rice,1,2025,32222.82,Medium
+Rice,2,2025,27313.31,Medium
+Rice,3,2025,31874.01,Medium
+Rice,4,2025,27100.88,Medium
+Rice,5,2025,28716.98,Medium
+Rice,6,2025,31892.91,Medium
+Rice,7,2025,31987.53,Medium
+Rice,8,2025,29118.06,Medium
+Rice,9,2025,30355.37,Medium
+Rice,10,2025,28264.83,Medium
+Rice,11,2025,32120.87,Medium
+Rice,12,2025,31201.24,Medium
+Rice,1,2026,29087.29,Medium
+Rice,2,2026,28175.87,Medium
+Rice,3,2026,32002.32,Medium
+Rice,4,2026,31864.44,Medium
+Rice,5,2026,29238.23,Medium
+Rice,6,2026,30648.57,Medium
+Rice,7,2026,32303.83,Medium
+Rice,8,2026,30912.64,Medium
+Rice,9,2026,32464.48,Medium
+Rice,10,2026,30409.71,Medium
+Rice,11,2026,29057.85,Medium
+Rice,12,2026,32493.56,Medium
+Tapioca,1,2021,12534.85,Medium
+Tapioca,2,2021,12351.33,Medium
+Tapioca,3,2021,11822.13,Medium
+Tapioca,4,2021,11932.11,Medium
+Tapioca,5,2021,11000.73,Medium
+Tapioca,6,2021,12835.88,Medium
+Tapioca,7,2021,11008.47,Medium
+Tapioca,8,2021,13025.78,Medium
+Tapioca,9,2021,12362.07,Medium
+Tapioca,10,2021,12924.41,Medium
+Tapioca,11,2021,11226.63,Medium
+Tapioca,12,2021,12449.38,Medium
+Tapioca,1,2022,11883.73,Medium
+Tapioca,2,2022,10932.17,Medium
+Tapioca,3,2022,10962.75,Medium
+Tapioca,4,2022,11322.46,Medium
+Tapioca,5,2022,12600.78,Medium
+Tapioca,6,2022,11011.03,Medium
+Tapioca,7,2022,12246.57,Medium
+Tapioca,8,2022,12163.33,Medium
+Tapioca,9,2022,11208.43,Medium
+Tapioca,10,2022,11171.94,Medium
+Tapioca,11,2022,11319.19,Medium
+Tapioca,12,2022,12434.54,Medium
+Tapioca,1,2023,12514.27,Medium
+Tapioca,2,2023,12794.46,Medium
+Tapioca,3,2023,11472.31,Medium
+Tapioca,4,2023,13127.54,Medium
+Tapioca,5,2023,12346.54,Medium
+Tapioca,6,2023,11587.85,Medium
+Tapioca,7,2023,13031.59,Medium
+Tapioca,8,2023,13084.14,Medium
+Tapioca,9,2023,11151.5,Medium
+Tapioca,10,2023,11809.14,Medium
+Tapioca,11,2023,12448.49,Medium
+Tapioca,12,2023,10806.34,Medium
+Tapioca,1,2024,12863.6,Medium
+Tapioca,2,2024,11881.87,Medium
+Tapioca,3,2024,12082.17,Medium
+Tapioca,4,2024,11830.31,Medium
+Tapioca,5,2024,13068.82,Medium
+Tapioca,6,2024,13029.22,Medium
+Tapioca,7,2024,11768.08,Medium
+Tapioca,8,2024,11492.7,Medium
+Tapioca,9,2024,12406.6,Medium
+Tapioca,10,2024,12628.46,Medium
+Tapioca,11,2024,12991.24,Medium
+Tapioca,12,2024,10890.21,Medium
+Tapioca,1,2025,11974.0,Medium
+Tapioca,2,2025,11354.96,Medium
+Tapioca,3,2025,12349.75,Medium
+Tapioca,4,2025,12419.42,Medium
+Tapioca,5,2025,12268.22,Medium
+Tapioca,6,2025,12528.24,Medium
+Tapioca,7,2025,12980.06,Medium
+Tapioca,8,2025,11011.27,Medium
+Tapioca,9,2025,12113.22,Medium
+Tapioca,10,2025,12200.3,Medium
+Tapioca,11,2025,11559.1,Medium
+Tapioca,12,2025,11012.85,Medium
+Tapioca,1,2026,12575.19,Medium
+Tapioca,2,2026,12563.77,Medium
+Tapioca,3,2026,13131.27,Medium
+Tapioca,4,2026,10806.6,Medium
+Tapioca,5,2026,11445.29,Medium
+Tapioca,6,2026,11278.85,Medium
+Tapioca,7,2026,10980.52,Medium
+Tapioca,8,2026,11042.58,Medium
+Tapioca,9,2026,11195.36,Medium
+Tapioca,10,2026,12990.74,Medium
+Tapioca,11,2026,11648.27,Medium
+Tapioca,12,2026,11880.09,Medium
+Maize,1,2021,21864.66,Medium
+Maize,2,2021,21879.47,Medium
+Maize,3,2021,21564.75,Medium
+Maize,4,2021,19123.2,Medium
+Maize,5,2021,19606.71,Medium
+Maize,6,2021,19976.89,Medium
+Maize,7,2021,19545.42,Medium
+Maize,8,2021,19301.78,Medium
+Maize,9,2021,18096.42,Medium
+Maize,10,2021,19805.57,Medium
+Maize,11,2021,20627.43,Medium
+Maize,12,2021,20275.25,Medium
+Maize,1,2022,18928.67,Medium
+Maize,2,2022,18511.72,Medium
+Maize,3,2022,19107.27,Medium
+Maize,4,2022,18563.23,Medium
+Maize,5,2022,19275.62,Medium
+Maize,6,2022,18035.27,Medium
+Maize,7,2022,20142.89,Medium
+Maize,8,2022,20968.02,Medium
+Maize,9,2022,21995.53,Medium
+Maize,10,2022,18317.37,Medium
+Maize,11,2022,19225.31,Medium
+Maize,12,2022,20284.43,Medium
+Maize,1,2023,19061.17,Medium
+Maize,2,2023,20764.58,Medium
+Maize,3,2023,21344.95,Medium
+Maize,4,2023,21443.44,Medium
+Maize,5,2023,21585.86,Medium
+Maize,6,2023,20746.62,Medium
+Maize,7,2023,19692.35,Medium
+Maize,8,2023,21826.93,Medium
+Maize,9,2023,19483.75,Medium
+Maize,10,2023,19023.53,Medium
+Maize,11,2023,18683.76,Medium
+Maize,12,2023,19201.19,Medium
+Maize,1,2024,18610.89,Medium
+Maize,2,2024,18602.76,Medium
+Maize,3,2024,20004.4,Medium
+Maize,4,2024,18092.88,Medium
+Maize,5,2024,18912.81,Medium
+Maize,6,2024,18612.32,Medium
+Maize,7,2024,18011.44,Medium
+Maize,8,2024,20278.47,Medium
+Maize,9,2024,20589.04,Medium
+Maize,10,2024,20806.04,Medium
+Maize,11,2024,21826.09,Medium
+Maize,12,2024,19157.53,Medium
+Maize,1,2025,20243.5,Medium
+Maize,2,2025,21256.9,Medium
+Maize,3,2025,19824.28,Medium
+Maize,4,2025,19696.4,Medium
+Maize,5,2025,21295.06,Medium
+Maize,6,2025,20545.5,Medium
+Maize,7,2025,19798.55,Medium
+Maize,8,2025,21281.35,Medium
+Maize,9,2025,21713.25,Medium
+Maize,10,2025,21034.43,Medium
+Maize,11,2025,18652.16,Medium
+Maize,12,2025,18399.21,Medium
+Maize,1,2026,20202.53,Medium
+Maize,2,2026,19816.93,Medium
+Maize,3,2026,21457.92,Medium
+Maize,4,2026,18340.55,Medium
+Maize,5,2026,20737.34,Medium
+Maize,6,2026,20396.48,Medium
+Maize,7,2026,21344.9,Medium
+Maize,8,2026,21891.5,Medium
+Maize,9,2026,21967.23,Medium
+Maize,10,2026,18654.12,Medium
+Maize,11,2026,20072.77,Medium
+Maize,12,2026,21780.5,Medium
+Cowpea,1,2021,44321.61,Medium
+Cowpea,2,2021,49364.34,Medium
+Cowpea,3,2021,47932.86,Medium
+Cowpea,4,2021,48375.86,Medium
+Cowpea,5,2021,46346.98,Medium
+Cowpea,6,2021,42693.53,Medium
+Cowpea,7,2021,49427.67,Medium
+Cowpea,8,2021,46430.42,Medium
+Cowpea,9,2021,41189.66,Medium
+Cowpea,10,2021,47987.57,Medium
+Cowpea,11,2021,45711.1,Medium
+Cowpea,12,2021,45446.57,Medium
+Cowpea,1,2022,47873.98,Medium
+Cowpea,2,2022,48669.45,Medium
+Cowpea,3,2022,46072.01,Medium
+Cowpea,4,2022,41461.18,Medium
+Cowpea,5,2022,44487.82,Medium
+Cowpea,6,2022,41224.38,Medium
+Cowpea,7,2022,45184.38,Medium
+Cowpea,8,2022,45512.21,Medium
+Cowpea,9,2022,41981.17,Medium
+Cowpea,10,2022,42618.71,Medium
+Cowpea,11,2022,46867.89,Medium
+Cowpea,12,2022,43715.75,Medium
+Cowpea,1,2023,41586.43,Medium
+Cowpea,2,2023,43603.2,Medium
+Cowpea,3,2023,40762.47,Medium
+Cowpea,4,2023,46521.67,Medium
+Cowpea,5,2023,45757.17,Medium
+Cowpea,6,2023,48544.09,Medium
+Cowpea,7,2023,44137.36,Medium
+Cowpea,8,2023,44443.87,Medium
+Cowpea,9,2023,40939.78,Medium
+Cowpea,10,2023,47820.2,Medium
+Cowpea,11,2023,48969.02,Medium
+Cowpea,12,2023,42839.44,Medium
+Cowpea,1,2024,46476.42,Medium
+Cowpea,2,2024,45258.59,Medium
+Cowpea,3,2024,42053.39,Medium
+Cowpea,4,2024,44860.08,Medium
+Cowpea,5,2024,49161.48,Medium
+Cowpea,6,2024,48135.14,Medium
+Cowpea,7,2024,46765.35,Medium
+Cowpea,8,2024,44375.14,Medium
+Cowpea,9,2024,40869.18,Medium
+Cowpea,10,2024,47290.09,Medium
+Cowpea,11,2024,41301.83,Medium
+Cowpea,12,2024,44416.27,Medium
+Cowpea,1,2025,48737.43,Medium
+Cowpea,2,2025,44239.1,Medium
+Cowpea,3,2025,48963.99,Medium
+Cowpea,4,2025,41584.28,Medium
+Cowpea,5,2025,47134.15,Medium
+Cowpea,6,2025,41086.17,Medium
+Cowpea,7,2025,47101.31,Medium
+Cowpea,8,2025,48757.39,Medium
+Cowpea,9,2025,42907.85,Medium
+Cowpea,10,2025,43832.32,Medium
+Cowpea,11,2025,44606.97,Medium
+Cowpea,12,2025,45966.59,Medium
+Cowpea,1,2026,48430.71,Medium
+Cowpea,2,2026,48251.56,Medium
+Cowpea,3,2026,46671.14,Medium
+Cowpea,4,2026,48401.13,Medium
+Cowpea,5,2026,42518.46,Medium
+Cowpea,6,2026,48000.05,Medium
+Cowpea,7,2026,41411.97,Medium
+Cowpea,8,2026,41835.57,Medium
+Cowpea,9,2026,40673.66,Medium
+Cowpea,10,2026,47669.32,Medium
+Cowpea,11,2026,44919.94,Medium
+Cowpea,12,2026,43975.26,Medium
+Green gram,1,2021,82207.97,Medium
+Green gram,2,2021,71645.27,Medium
+Green gram,3,2021,71464.96,Medium
+Green gram,4,2021,68805.93,Medium
+Green gram,5,2021,72476.15,Medium
+Green gram,6,2021,69093.54,Medium
+Green gram,7,2021,69210.39,Medium
+Green gram,8,2021,72300.84,Medium
+Green gram,9,2021,81290.13,Medium
+Green gram,10,2021,81438.9,Medium
+Green gram,11,2021,77342.38,Medium
+Green gram,12,2021,69035.8,Medium
+Green gram,1,2022,77453.13,Medium
+Green gram,2,2022,78586.87,Medium
+Green gram,3,2022,71603.87,Medium
+Green gram,4,2022,77603.57,Medium
+Green gram,5,2022,68977.08,Medium
+Green gram,6,2022,79011.92,Medium
+Green gram,7,2022,68547.06,Medium
+Green gram,8,2022,75064.55,Medium
+Green gram,9,2022,74178.96,Medium
+Green gram,10,2022,72362.37,Medium
+Green gram,11,2022,81113.4,Medium
+Green gram,12,2022,70365.2,Medium
+Green gram,1,2023,77049.82,Medium
+Green gram,2,2023,78510.83,Medium
+Green gram,3,2023,78217.94,Medium
+Green gram,4,2023,80934.09,Medium
+Green gram,5,2023,82353.59,Medium
+Green gram,6,2023,70885.38,Medium
+Green gram,7,2023,78035.24,Medium
+Green gram,8,2023,77469.58,Medium
+Green gram,9,2023,76778.14,Medium
+Green gram,10,2023,74840.63,Medium
+Green gram,11,2023,80717.31,Medium
+Green gram,12,2023,74658.94,Medium
+Green gram,1,2024,69848.09,Medium
+Green gram,2,2024,69203.0,Medium
+Green gram,3,2024,73232.48,Medium
+Green gram,4,2024,71834.15,Medium
+Green gram,5,2024,80891.5,Medium
+Green gram,6,2024,68683.98,Medium
+Green gram,7,2024,73332.67,Medium
+Green gram,8,2024,70169.54,Medium
+Green gram,9,2024,75956.64,Medium
+Green gram,10,2024,70438.15,Medium
+Green gram,11,2024,71331.08,Medium
+Green gram,12,2024,71541.37,Medium
+Green gram,1,2025,76679.32,Medium
+Green gram,2,2025,74596.79,Medium
+Green gram,3,2025,75511.5,Medium
+Green gram,4,2025,78708.41,Medium
+Green gram,5,2025,67965.5,Medium
+Green gram,6,2025,80063.85,Medium
+Green gram,7,2025,78844.44,Medium
+Green gram,8,2025,70418.32,Medium
+Green gram,9,2025,69822.71,Medium
+Green gram,10,2025,76132.14,Medium
+Green gram,11,2025,82201.01,Medium
+Green gram,12,2025,73935.72,Medium
+Green gram,1,2026,73375.9,Medium
+Green gram,2,2026,75524.73,Medium
+Green gram,3,2026,81662.45,Medium
+Green gram,4,2026,75931.44,Medium
+Green gram,5,2026,80260.05,Medium
+Green gram,6,2026,77548.26,Medium
+Green gram,7,2026,67761.27,Medium
+Green gram,8,2026,72087.98,Medium
+Green gram,9,2026,81395.55,Medium
+Green gram,10,2026,78807.13,Medium
+Green gram,11,2026,68190.04,Medium
+Green gram,12,2026,82354.91,Medium
+Black gram,1,2021,69960.71,Medium
+Black gram,2,2021,73500.56,Medium
+Black gram,3,2021,66345.31,Medium
+Black gram,4,2021,75231.35,Medium
+Black gram,5,2021,73016.53,Medium
+Black gram,6,2021,67934.44,Medium
+Black gram,7,2021,72821.37,Medium
+Black gram,8,2021,68571.71,Medium
+Black gram,9,2021,73382.26,Medium
+Black gram,10,2021,73960.28,Medium
+Black gram,11,2021,68040.81,Medium
+Black gram,12,2021,64960.35,Medium
+Black gram,1,2022,69980.97,Medium
+Black gram,2,2022,65653.62,Medium
+Black gram,3,2022,75532.85,Medium
+Black gram,4,2022,74419.42,Medium
+Black gram,5,2022,67347.06,Medium
+Black gram,6,2022,65748.73,Medium
+Black gram,7,2022,67543.46,Medium
+Black gram,8,2022,69610.95,Medium
+Black gram,9,2022,70776.95,Medium
+Black gram,10,2022,72575.86,Medium
+Black gram,11,2022,64666.18,Medium
+Black gram,12,2022,65409.36,Medium
+Black gram,1,2023,74447.05,Medium
+Black gram,2,2023,63153.49,Medium
+Black gram,3,2023,67154.76,Medium
+Black gram,4,2023,68388.32,Medium
+Black gram,5,2023,73003.08,Medium
+Black gram,6,2023,66022.5,Medium
+Black gram,7,2023,70198.8,Medium
+Black gram,8,2023,70308.09,Medium
+Black gram,9,2023,70986.26,Medium
+Black gram,10,2023,73067.22,Medium
+Black gram,11,2023,73577.5,Medium
+Black gram,12,2023,69265.44,Medium
+Black gram,1,2024,64569.94,Medium
+Black gram,2,2024,76176.81,Medium
+Black gram,3,2024,72577.99,Medium
+Black gram,4,2024,75597.13,Medium
+Black gram,5,2024,76401.16,Medium
+Black gram,6,2024,70995.4,Medium
+Black gram,7,2024,64131.63,Medium
+Black gram,8,2024,67218.64,Medium
+Black gram,9,2024,67937.0,Medium
+Black gram,10,2024,74993.42,Medium
+Black gram,11,2024,66170.05,Medium
+Black gram,12,2024,72948.59,Medium
+Black gram,1,2025,64728.8,Medium
+Black gram,2,2025,66682.32,Medium
+Black gram,3,2025,70139.77,Medium
+Black gram,4,2025,71998.22,Medium
+Black gram,5,2025,73209.31,Medium
+Black gram,6,2025,76776.69,Medium
+Black gram,7,2025,73678.66,Medium
+Black gram,8,2025,74523.65,Medium
+Black gram,9,2025,69839.68,Medium
+Black gram,10,2025,64795.37,Medium
+Black gram,11,2025,72520.5,Medium
+Black gram,12,2025,70075.51,Medium
+Black gram,1,2026,64440.01,Medium
+Black gram,2,2026,73994.78,Medium
+Black gram,3,2026,68320.02,Medium
+Black gram,4,2026,67197.18,Medium
+Black gram,5,2026,75468.76,Medium
+Black gram,6,2026,70588.83,Medium
+Black gram,7,2026,74258.49,Medium
+Black gram,8,2026,76213.05,Medium
+Black gram,9,2026,69422.94,Medium
+Black gram,10,2026,65582.84,Medium
+Black gram,11,2026,66613.83,Medium
+Black gram,12,2026,69105.35,Medium
+Ginger,1,2021,101873.32,High
+Ginger,2,2021,75205.04,Medium
+Ginger,3,2021,83118.57,Medium
+Ginger,4,2021,74685.16,Medium
+Ginger,5,2021,73906.27,Medium
+Ginger,6,2021,85987.45,Medium
+Ginger,7,2021,86929.43,Medium
+Ginger,8,2021,76634.51,Medium
+Ginger,9,2021,81390.66,Medium
+Ginger,10,2021,72943.0,Medium
+Ginger,11,2021,78200.84,Medium
+Ginger,12,2021,93975.42,High
+Ginger,1,2022,86650.83,High
+Ginger,2,2022,80406.7,Medium
+Ginger,3,2022,79909.39,Medium
+Ginger,4,2022,78379.73,Medium
+Ginger,5,2022,74019.71,Medium
+Ginger,6,2022,72494.05,Medium
+Ginger,7,2022,87982.82,Medium
+Ginger,8,2022,80952.92,Medium
+Ginger,9,2022,87100.78,Medium
+Ginger,10,2022,75449.37,Medium
+Ginger,11,2022,86831.75,Medium
+Ginger,12,2022,86993.73,High
+Ginger,1,2023,97497.42,High
+Ginger,2,2023,79500.44,Medium
+Ginger,3,2023,75700.36,Medium
+Ginger,4,2023,77152.85,Medium
+Ginger,5,2023,80931.14,Medium
+Ginger,6,2023,81617.14,Medium
+Ginger,7,2023,74851.4,Medium
+Ginger,8,2023,77070.41,Medium
+Ginger,9,2023,72395.38,Medium
+Ginger,10,2023,74275.64,Medium
+Ginger,11,2023,87216.68,Medium
+Ginger,12,2023,99410.62,High
+Ginger,1,2024,89430.24,High
+Ginger,2,2024,80664.16,Medium
+Ginger,3,2024,77640.69,Medium
+Ginger,4,2024,86471.03,Medium
+Ginger,5,2024,73205.57,Medium
+Ginger,6,2024,77759.02,Medium
+Ginger,7,2024,79859.08,Medium
+Ginger,8,2024,83574.29,Medium
+Ginger,9,2024,87257.0,Medium
+Ginger,10,2024,77260.53,Medium
+Ginger,11,2024,84696.93,Medium
+Ginger,12,2024,90755.59,High
+Ginger,1,2025,94939.93,High
+Ginger,2,2025,84325.76,Medium
+Ginger,3,2025,82487.15,Medium
+Ginger,4,2025,72686.35,Medium
+Ginger,5,2025,78282.14,Medium
+Ginger,6,2025,85000.22,Medium
+Ginger,7,2025,80423.39,Medium
+Ginger,8,2025,76496.93,Medium
+Ginger,9,2025,81820.47,Medium
+Ginger,10,2025,78542.5,Medium
+Ginger,11,2025,74653.49,Medium
+Ginger,12,2025,101831.85,High
+Ginger,1,2026,96291.53,High
+Ginger,2,2026,75011.59,Medium
+Ginger,3,2026,75320.8,Medium
+Ginger,4,2026,81333.31,Medium
+Ginger,5,2026,81381.22,Medium
+Ginger,6,2026,79061.09,Medium
+Ginger,7,2026,79615.32,Medium
+Ginger,8,2026,87170.1,Medium
+Ginger,9,2026,75322.17,Medium
+Ginger,10,2026,72819.47,Medium
+Ginger,11,2026,75106.32,Medium
+Ginger,12,2026,98477.22,High
+Turmeric,1,2021,87820.68,Medium
+Turmeric,2,2021,85526.78,Medium
+Turmeric,3,2021,86789.04,Medium
+Turmeric,4,2021,91700.79,Medium
+Turmeric,5,2021,90870.92,Medium
+Turmeric,6,2021,97939.45,Medium
+Turmeric,7,2021,89732.77,Medium
+Turmeric,8,2021,86512.51,Medium
+Turmeric,9,2021,83676.86,Medium
+Turmeric,10,2021,95741.64,Medium
+Turmeric,11,2021,89161.44,Medium
+Turmeric,12,2021,97293.23,Medium
+Turmeric,1,2022,90651.27,Medium
+Turmeric,2,2022,84758.62,Medium
+Turmeric,3,2022,93306.98,Medium
+Turmeric,4,2022,84454.23,Medium
+Turmeric,5,2022,94591.64,Medium
+Turmeric,6,2022,98967.67,Medium
+Turmeric,7,2022,96962.02,Medium
+Turmeric,8,2022,92791.32,Medium
+Turmeric,9,2022,93078.27,Medium
+Turmeric,10,2022,81326.97,Medium
+Turmeric,11,2022,94492.51,Medium
+Turmeric,12,2022,97317.03,Medium
+Turmeric,1,2023,82560.36,Medium
+Turmeric,2,2023,93714.26,Medium
+Turmeric,3,2023,85313.0,Medium
+Turmeric,4,2023,92467.79,Medium
+Turmeric,5,2023,83781.65,Medium
+Turmeric,6,2023,98997.03,Medium
+Turmeric,7,2023,90618.89,Medium
+Turmeric,8,2023,84762.87,Medium
+Turmeric,9,2023,88388.24,Medium
+Turmeric,10,2023,82795.42,Medium
+Turmeric,11,2023,93957.38,Medium
+Turmeric,12,2023,93649.36,Medium
+Turmeric,1,2024,83556.71,Medium
+Turmeric,2,2024,89444.36,Medium
+Turmeric,3,2024,86201.88,Medium
+Turmeric,4,2024,85193.83,Medium
+Turmeric,5,2024,82565.33,Medium
+Turmeric,6,2024,82154.75,Medium
+Turmeric,7,2024,81279.14,Medium
+Turmeric,8,2024,90092.83,Medium
+Turmeric,9,2024,83318.08,Medium
+Turmeric,10,2024,96661.77,Medium
+Turmeric,11,2024,90371.93,Medium
+Turmeric,12,2024,83012.39,Medium
+Turmeric,1,2025,82716.68,Medium
+Turmeric,2,2025,84403.52,Medium
+Turmeric,3,2025,88722.68,Medium
+Turmeric,4,2025,84106.29,Medium
+Turmeric,5,2025,90887.68,Medium
+Turmeric,6,2025,95670.35,Medium
+Turmeric,7,2025,95897.53,Medium
+Turmeric,8,2025,89613.11,Medium
+Turmeric,9,2025,92549.34,Medium
+Turmeric,10,2025,82856.37,Medium
+Turmeric,11,2025,90785.75,Medium
+Turmeric,12,2025,96875.84,Medium
+Turmeric,1,2026,98823.33,Medium
+Turmeric,2,2026,88336.4,Medium
+Turmeric,3,2026,82944.74,Medium
+Turmeric,4,2026,88482.42,Medium
+Turmeric,5,2026,83871.31,Medium
+Turmeric,6,2026,88791.27,Medium
+Turmeric,7,2026,85319.75,Medium
+Turmeric,8,2026,93672.75,Medium
+Turmeric,9,2026,83980.68,Medium
+Turmeric,10,2026,96040.9,Medium
+Turmeric,11,2026,97192.31,Medium
+Turmeric,12,2026,88575.36,Medium
+Clove,1,2021,804077.79,Medium
+Clove,2,2021,846634.13,Medium
+Clove,3,2021,742187.23,Medium
+Clove,4,2021,828076.94,Medium
+Clove,5,2021,835187.06,Medium
+Clove,6,2021,863056.18,Medium
+Clove,7,2021,810077.76,Medium
+Clove,8,2021,837189.06,Medium
+Clove,9,2021,810427.26,Medium
+Clove,10,2021,785016.92,Medium
+Clove,11,2021,781490.02,Medium
+Clove,12,2021,812110.47,Medium
+Clove,1,2022,812373.71,Medium
+Clove,2,2022,752535.82,Medium
+Clove,3,2022,869985.11,Medium
+Clove,4,2022,730760.3,Medium
+Clove,5,2022,745423.64,Medium
+Clove,6,2022,846988.2,Medium
+Clove,7,2022,835185.35,Medium
+Clove,8,2022,867928.32,Medium
+Clove,9,2022,731434.86,Medium
+Clove,10,2022,790712.6,Medium
+Clove,11,2022,826861.94,Medium
+Clove,12,2022,780476.84,Medium
+Clove,1,2023,754144.32,Medium
+Clove,2,2023,874716.22,Medium
+Clove,3,2023,727393.09,Medium
+Clove,4,2023,805322.54,Medium
+Clove,5,2023,740854.26,Medium
+Clove,6,2023,858427.16,Medium
+Clove,7,2023,854772.62,Medium
+Clove,8,2023,763887.77,Medium
+Clove,9,2023,825282.95,Medium
+Clove,10,2023,830036.82,Medium
+Clove,11,2023,755291.3,Medium
+Clove,12,2023,735222.08,Medium
+Clove,1,2024,740897.84,Medium
+Clove,2,2024,812114.32,Medium
+Clove,3,2024,724428.43,Medium
+Clove,4,2024,791430.56,Medium
+Clove,5,2024,873703.09,Medium
+Clove,6,2024,876229.23,Medium
+Clove,7,2024,748261.43,Medium
+Clove,8,2024,735836.02,Medium
+Clove,9,2024,807560.08,Medium
+Clove,10,2024,754129.15,Medium
+Clove,11,2024,851737.33,Medium
+Clove,12,2024,776407.08,Medium
+Clove,1,2025,794766.81,Medium
+Clove,2,2025,724970.83,Medium
+Clove,3,2025,828689.45,Medium
+Clove,4,2025,829197.99,Medium
+Clove,5,2025,848830.15,Medium
+Clove,6,2025,814129.86,Medium
+Clove,7,2025,737499.76,Medium
+Clove,8,2025,833462.6,Medium
+Clove,9,2025,755717.06,Medium
+Clove,10,2025,764267.96,Medium
+Clove,11,2025,869150.41,Medium
+Clove,12,2025,794832.61,Medium
+Clove,1,2026,869541.07,Medium
+Clove,2,2026,747703.04,Medium
+Clove,3,2026,802560.3,Medium
+Clove,4,2026,849700.93,Medium
+Clove,5,2026,806029.81,Medium
+Clove,6,2026,721645.35,Medium
+Clove,7,2026,724124.19,Medium
+Clove,8,2026,736850.44,Medium
+Clove,9,2026,847188.21,Medium
+Clove,10,2026,731971.5,Medium
+Clove,11,2026,854548.16,Medium
+Clove,12,2026,825964.45,Medium
+Nutmeg,1,2021,545816.7,Medium
+Nutmeg,2,2021,509321.23,Medium
+Nutmeg,3,2021,490970.81,Medium
+Nutmeg,4,2021,462724.55,Medium
+Nutmeg,5,2021,549494.33,Medium
+Nutmeg,6,2021,503639.42,Medium
+Nutmeg,7,2021,491977.6,Medium
+Nutmeg,8,2021,474462.41,Medium
+Nutmeg,9,2021,549632.82,Medium
+Nutmeg,10,2021,473865.63,Medium
+Nutmeg,11,2021,503422.28,Medium
+Nutmeg,12,2021,476581.48,Medium
+Nutmeg,1,2022,526887.11,Medium
+Nutmeg,2,2022,466323.11,Medium
+Nutmeg,3,2022,485780.63,Medium
+Nutmeg,4,2022,502071.05,Medium
+Nutmeg,5,2022,545576.57,Medium
+Nutmeg,6,2022,548245.89,Medium
+Nutmeg,7,2022,547006.12,Medium
+Nutmeg,8,2022,456170.81,Medium
+Nutmeg,9,2022,463511.73,Medium
+Nutmeg,10,2022,534959.59,Medium
+Nutmeg,11,2022,513282.92,Medium
+Nutmeg,12,2022,457009.77,Medium
+Nutmeg,1,2023,489415.73,Medium
+Nutmeg,2,2023,526404.09,Medium
+Nutmeg,3,2023,486837.32,Medium
+Nutmeg,4,2023,460551.39,Medium
+Nutmeg,5,2023,456994.92,Medium
+Nutmeg,6,2023,476272.99,Medium
+Nutmeg,7,2023,494102.78,Medium
+Nutmeg,8,2023,549133.96,Medium
+Nutmeg,9,2023,525652.23,Medium
+Nutmeg,10,2023,474282.57,Medium
+Nutmeg,11,2023,478147.05,Medium
+Nutmeg,12,2023,548586.29,Medium
+Nutmeg,1,2024,493042.18,Medium
+Nutmeg,2,2024,512569.8,Medium
+Nutmeg,3,2024,478246.66,Medium
+Nutmeg,4,2024,512172.99,Medium
+Nutmeg,5,2024,515712.38,Medium
+Nutmeg,6,2024,515733.06,Medium
+Nutmeg,7,2024,513263.05,Medium
+Nutmeg,8,2024,540895.81,Medium
+Nutmeg,9,2024,529877.31,Medium
+Nutmeg,10,2024,450777.66,Medium
+Nutmeg,11,2024,474034.09,Medium
+Nutmeg,12,2024,451912.09,Medium
+Nutmeg,1,2025,488286.1,Medium
+Nutmeg,2,2025,527753.75,Medium
+Nutmeg,3,2025,454696.89,Medium
+Nutmeg,4,2025,549653.87,Medium
+Nutmeg,5,2025,460225.15,Medium
+Nutmeg,6,2025,519140.79,Medium
+Nutmeg,7,2025,494817.89,Medium
+Nutmeg,8,2025,546161.82,Medium
+Nutmeg,9,2025,484932.1,Medium
+Nutmeg,10,2025,512436.01,Medium
+Nutmeg,11,2025,489297.19,Medium
+Nutmeg,12,2025,474640.72,Medium
+Nutmeg,1,2026,495454.27,Medium
+Nutmeg,2,2026,533455.03,Medium
+Nutmeg,3,2026,537673.58,Medium
+Nutmeg,4,2026,500114.12,Medium
+Nutmeg,5,2026,490849.0,Medium
+Nutmeg,6,2026,516545.99,Medium
+Nutmeg,7,2026,549677.01,Medium
+Nutmeg,8,2026,532929.29,Medium
+Nutmeg,9,2026,525101.08,Medium
+Nutmeg,10,2026,512212.13,Medium
+Nutmeg,11,2026,491438.83,Medium
+Nutmeg,12,2026,473292.58,Medium
+Cinnamon,1,2021,438665.93,Medium
+Cinnamon,2,2021,425357.41,Medium
+Cinnamon,3,2021,373858.49,Medium
+Cinnamon,4,2021,409986.94,Medium
+Cinnamon,5,2021,369820.49,Medium
+Cinnamon,6,2021,380774.35,Medium
+Cinnamon,7,2021,417762.6,Medium
+Cinnamon,8,2021,386907.09,Medium
+Cinnamon,9,2021,398800.74,Medium
+Cinnamon,10,2021,390130.69,Medium
+Cinnamon,11,2021,411880.25,Medium
+Cinnamon,12,2021,380409.78,Medium
+Cinnamon,1,2022,429534.16,Medium
+Cinnamon,2,2022,407857.61,Medium
+Cinnamon,3,2022,421870.93,Medium
+Cinnamon,4,2022,365550.39,Medium
+Cinnamon,5,2022,379576.19,Medium
+Cinnamon,6,2022,377632.29,Medium
+Cinnamon,7,2022,362977.53,Medium
+Cinnamon,8,2022,369412.67,Medium
+Cinnamon,9,2022,377889.79,Medium
+Cinnamon,10,2022,425158.81,Medium
+Cinnamon,11,2022,417217.13,Medium
+Cinnamon,12,2022,413346.92,Medium
+Cinnamon,1,2023,397361.11,Medium
+Cinnamon,2,2023,439563.61,Medium
+Cinnamon,3,2023,391718.53,Medium
+Cinnamon,4,2023,409100.87,Medium
+Cinnamon,5,2023,427395.52,Medium
+Cinnamon,6,2023,429586.74,Medium
+Cinnamon,7,2023,418214.13,Medium
+Cinnamon,8,2023,434934.9,Medium
+Cinnamon,9,2023,411257.35,Medium
+Cinnamon,10,2023,403913.66,Medium
+Cinnamon,11,2023,424215.31,Medium
+Cinnamon,12,2023,365289.05,Medium
+Cinnamon,1,2024,430440.5,Medium
+Cinnamon,2,2024,412367.67,Medium
+Cinnamon,3,2024,438565.55,Medium
+Cinnamon,4,2024,436993.38,Medium
+Cinnamon,5,2024,381358.25,Medium
+Cinnamon,6,2024,367022.98,Medium
+Cinnamon,7,2024,386385.06,Medium
+Cinnamon,8,2024,433335.9,Medium
+Cinnamon,9,2024,390548.4,Medium
+Cinnamon,10,2024,421163.55,Medium
+Cinnamon,11,2024,373171.55,Medium
+Cinnamon,12,2024,370244.8,Medium
+Cinnamon,1,2025,396039.07,Medium
+Cinnamon,2,2025,381902.26,Medium
+Cinnamon,3,2025,362782.85,Medium
+Cinnamon,4,2025,411210.7,Medium
+Cinnamon,5,2025,395427.01,Medium
+Cinnamon,6,2025,425393.07,Medium
+Cinnamon,7,2025,420066.48,Medium
+Cinnamon,8,2025,432143.79,Medium
+Cinnamon,9,2025,374264.72,Medium
+Cinnamon,10,2025,396982.7,Medium
+Cinnamon,11,2025,420949.93,Medium
+Cinnamon,12,2025,434517.62,Medium
+Cinnamon,1,2026,365071.93,Medium
+Cinnamon,2,2026,395131.49,Medium
+Cinnamon,3,2026,387422.77,Medium
+Cinnamon,4,2026,439756.55,Medium
+Cinnamon,5,2026,424920.6,Medium
+Cinnamon,6,2026,404570.31,Medium
+Cinnamon,7,2026,393485.48,Medium
+Cinnamon,8,2026,395303.11,Medium
+Cinnamon,9,2026,420996.5,Medium
+Cinnamon,10,2026,381092.03,Medium
+Cinnamon,11,2026,377729.93,Medium
+Cinnamon,12,2026,382117.56,Medium
+Vanilla,1,2021,15096969.71,Medium
+Vanilla,2,2021,16165536.92,Medium
+Vanilla,3,2021,16031034.4,Medium
+Vanilla,4,2021,13750266.31,Medium
+Vanilla,5,2021,14883030.62,Medium
+Vanilla,6,2021,16189589.74,Medium
+Vanilla,7,2021,15293748.87,Medium
+Vanilla,8,2021,13533471.04,Medium
+Vanilla,9,2021,15001603.61,Medium
+Vanilla,10,2021,15380750.61,Medium
+Vanilla,11,2021,14932425.63,Medium
+Vanilla,12,2021,16409885.06,Medium
+Vanilla,1,2022,13539140.27,Medium
+Vanilla,2,2022,16095731.36,Medium
+Vanilla,3,2022,14606037.66,Medium
+Vanilla,4,2022,16276897.91,Medium
+Vanilla,5,2022,15167501.2,Medium
+Vanilla,6,2022,14013297.99,Medium
+Vanilla,7,2022,13832863.21,Medium
+Vanilla,8,2022,16200870.96,Medium
+Vanilla,9,2022,13635839.97,Medium
+Vanilla,10,2022,15755450.77,Medium
+Vanilla,11,2022,16235710.93,Medium
+Vanilla,12,2022,14207390.19,Medium
+Vanilla,1,2023,14374220.9,Medium
+Vanilla,2,2023,16052084.28,Medium
+Vanilla,3,2023,16423357.91,Medium
+Vanilla,4,2023,13843279.64,Medium
+Vanilla,5,2023,13503443.16,Medium
+Vanilla,6,2023,14023784.08,Medium
+Vanilla,7,2023,13720527.1,Medium
+Vanilla,8,2023,15188356.72,Medium
+Vanilla,9,2023,13714255.69,Medium
+Vanilla,10,2023,13574537.84,Medium
+Vanilla,11,2023,16144537.47,Medium
+Vanilla,12,2023,16291395.0,Medium
+Vanilla,1,2024,13946309.59,Medium
+Vanilla,2,2024,15082652.63,Medium
+Vanilla,3,2024,16358719.44,Medium
+Vanilla,4,2024,16299118.58,Medium
+Vanilla,5,2024,14875779.61,Medium
+Vanilla,6,2024,15724382.82,Medium
+Vanilla,7,2024,15290867.39,Medium
+Vanilla,8,2024,15373545.66,Medium
+Vanilla,9,2024,14960904.03,Medium
+Vanilla,10,2024,14022300.03,Medium
+Vanilla,11,2024,14755821.42,Medium
+Vanilla,12,2024,14222866.91,Medium
+Vanilla,1,2025,15194343.77,Medium
+Vanilla,2,2025,16244203.94,Medium
+Vanilla,3,2025,14165504.93,Medium
+Vanilla,4,2025,16206883.75,Medium
+Vanilla,5,2025,16205398.85,Medium
+Vanilla,6,2025,13536524.92,Medium
+Vanilla,7,2025,15930504.45,Medium
+Vanilla,8,2025,14010649.16,Medium
+Vanilla,9,2025,15585687.66,Medium
+Vanilla,10,2025,13989048.8,Medium
+Vanilla,11,2025,13924369.08,Medium
+Vanilla,12,2025,13525098.95,Medium
+Vanilla,1,2026,14667573.67,Medium
+Vanilla,2,2026,13913853.81,Medium
+Vanilla,3,2026,14311697.43,Medium
+Vanilla,4,2026,14949652.95,Medium
+Vanilla,5,2026,14410024.45,Medium
+Vanilla,6,2026,15083959.81,Medium
+Vanilla,7,2026,13631269.01,Medium
+Vanilla,8,2026,14702995.87,Medium
+Vanilla,9,2026,15900305.56,Medium
+Vanilla,10,2026,15276120.85,Medium
+Vanilla,11,2026,15036110.64,Medium
+Vanilla,12,2026,15715294.61,Medium
+Bitter gourd,1,2021,33254.49,Medium
+Bitter gourd,2,2021,36335.62,Medium
+Bitter gourd,3,2021,35763.92,Medium
+Bitter gourd,4,2021,35952.89,Medium
+Bitter gourd,5,2021,38256.64,Medium
+Bitter gourd,6,2021,35643.35,Medium
+Bitter gourd,7,2021,37551.01,Medium
+Bitter gourd,8,2021,32724.24,Medium
+Bitter gourd,9,2021,34307.47,Medium
+Bitter gourd,10,2021,36451.2,Medium
+Bitter gourd,11,2021,35569.92,Medium
+Bitter gourd,12,2021,37291.78,Medium
+Bitter gourd,1,2022,37244.88,Medium
+Bitter gourd,2,2022,37782.56,Medium
+Bitter gourd,3,2022,31828.02,Medium
+Bitter gourd,4,2022,38289.59,Medium
+Bitter gourd,5,2022,32805.16,Medium
+Bitter gourd,6,2022,37360.18,Medium
+Bitter gourd,7,2022,37882.84,Medium
+Bitter gourd,8,2022,36916.26,Medium
+Bitter gourd,9,2022,36863.22,Medium
+Bitter gourd,10,2022,36552.18,Medium
+Bitter gourd,11,2022,38477.09,Medium
+Bitter gourd,12,2022,32426.92,Medium
+Bitter gourd,1,2023,35357.44,Medium
+Bitter gourd,2,2023,37241.78,Medium
+Bitter gourd,3,2023,35828.95,Medium
+Bitter gourd,4,2023,32628.53,Medium
+Bitter gourd,5,2023,36641.79,Medium
+Bitter gourd,6,2023,33819.82,Medium
+Bitter gourd,7,2023,35536.86,Medium
+Bitter gourd,8,2023,32824.76,Medium
+Bitter gourd,9,2023,37806.66,Medium
+Bitter gourd,10,2023,33527.06,Medium
+Bitter gourd,11,2023,33079.55,Medium
+Bitter gourd,12,2023,33365.84,Medium
+Bitter gourd,1,2024,32025.77,Medium
+Bitter gourd,2,2024,32804.94,Medium
+Bitter gourd,3,2024,35296.99,Medium
+Bitter gourd,4,2024,36773.84,Medium
+Bitter gourd,5,2024,31752.63,Medium
+Bitter gourd,6,2024,38002.97,Medium
+Bitter gourd,7,2024,37866.74,Medium
+Bitter gourd,8,2024,33909.23,Medium
+Bitter gourd,9,2024,33547.5,Medium
+Bitter gourd,10,2024,32498.15,Medium
+Bitter gourd,11,2024,31566.01,Medium
+Bitter gourd,12,2024,37027.29,Medium
+Bitter gourd,1,2025,33822.39,Medium
+Bitter gourd,2,2025,35859.17,Medium
+Bitter gourd,3,2025,38222.27,Medium
+Bitter gourd,4,2025,32323.69,Medium
+Bitter gourd,5,2025,38415.74,Medium
+Bitter gourd,6,2025,35129.27,Medium
+Bitter gourd,7,2025,36825.83,Medium
+Bitter gourd,8,2025,35222.5,Medium
+Bitter gourd,9,2025,38055.66,Medium
+Bitter gourd,10,2025,38300.32,Medium
+Bitter gourd,11,2025,35760.89,Medium
+Bitter gourd,12,2025,34232.7,Medium
+Bitter gourd,1,2026,38078.09,Medium
+Bitter gourd,2,2026,38299.3,Medium
+Bitter gourd,3,2026,37385.49,Medium
+Bitter gourd,4,2026,33630.02,Medium
+Bitter gourd,5,2026,34658.67,Medium
+Bitter gourd,6,2026,33344.76,Medium
+Bitter gourd,7,2026,35409.77,Medium
+Bitter gourd,8,2026,33801.99,Medium
+Bitter gourd,9,2026,32326.63,Medium
+Bitter gourd,10,2026,37376.64,Medium
+Bitter gourd,11,2026,32449.75,Medium
+Bitter gourd,12,2026,34552.17,Medium
+Snake gourd,1,2021,27183.38,Medium
+Snake gourd,2,2021,22860.06,Medium
+Snake gourd,3,2021,23416.67,Medium
+Snake gourd,4,2021,24339.07,Medium
+Snake gourd,5,2021,23616.68,Medium
+Snake gourd,6,2021,27205.16,Medium
+Snake gourd,7,2021,26335.32,Medium
+Snake gourd,8,2021,25866.41,Medium
+Snake gourd,9,2021,22838.04,Medium
+Snake gourd,10,2021,25845.01,Medium
+Snake gourd,11,2021,23587.01,Medium
+Snake gourd,12,2021,26238.83,Medium
+Snake gourd,1,2022,27367.88,Medium
+Snake gourd,2,2022,25680.43,Medium
+Snake gourd,3,2022,25575.59,Medium
+Snake gourd,4,2022,24165.76,Medium
+Snake gourd,5,2022,26361.91,Medium
+Snake gourd,6,2022,23758.97,Medium
+Snake gourd,7,2022,26387.82,Medium
+Snake gourd,8,2022,23901.19,Medium
+Snake gourd,9,2022,25780.24,Medium
+Snake gourd,10,2022,22796.78,Medium
+Snake gourd,11,2022,23331.77,Medium
+Snake gourd,12,2022,25913.1,Medium
+Snake gourd,1,2023,23508.75,Medium
+Snake gourd,2,2023,25742.02,Medium
+Snake gourd,3,2023,25052.63,Medium
+Snake gourd,4,2023,27233.28,Medium
+Snake gourd,5,2023,25724.94,Medium
+Snake gourd,6,2023,26339.96,Medium
+Snake gourd,7,2023,26120.77,Medium
+Snake gourd,8,2023,23743.22,Medium
+Snake gourd,9,2023,25661.69,Medium
+Snake gourd,10,2023,25241.39,Medium
+Snake gourd,11,2023,24876.53,Medium
+Snake gourd,12,2023,24418.83,Medium
+Snake gourd,1,2024,25800.78,Medium
+Snake gourd,2,2024,25820.2,Medium
+Snake gourd,3,2024,25548.56,Medium
+Snake gourd,4,2024,23951.84,Medium
+Snake gourd,5,2024,22709.35,Medium
+Snake gourd,6,2024,26558.05,Medium
+Snake gourd,7,2024,27004.31,Medium
+Snake gourd,8,2024,26583.36,Medium
+Snake gourd,9,2024,22543.88,Medium
+Snake gourd,10,2024,23293.2,Medium
+Snake gourd,11,2024,26044.62,Medium
+Snake gourd,12,2024,24671.38,Medium
+Snake gourd,1,2025,24779.05,Medium
+Snake gourd,2,2025,27432.98,Medium
+Snake gourd,3,2025,26476.14,Medium
+Snake gourd,4,2025,25424.83,Medium
+Snake gourd,5,2025,23012.87,Medium
+Snake gourd,6,2025,24886.39,Medium
+Snake gourd,7,2025,27281.05,Medium
+Snake gourd,8,2025,22509.0,Medium
+Snake gourd,9,2025,24069.51,Medium
+Snake gourd,10,2025,22643.46,Medium
+Snake gourd,11,2025,23299.0,Medium
+Snake gourd,12,2025,23452.96,Medium
+Snake gourd,1,2026,22603.17,Medium
+Snake gourd,2,2026,25899.84,Medium
+Snake gourd,3,2026,23662.27,Medium
+Snake gourd,4,2026,26775.34,Medium
+Snake gourd,5,2026,27417.79,Medium
+Snake gourd,6,2026,22793.2,Medium
+Snake gourd,7,2026,22542.37,Medium
+Snake gourd,8,2026,22688.73,Medium
+Snake gourd,9,2026,25438.0,Medium
+Snake gourd,10,2026,26707.36,Medium
+Snake gourd,11,2026,23046.9,Medium
+Snake gourd,12,2026,25295.64,Medium
+Ash gourd,1,2021,18202.2,Medium
+Ash gourd,2,2021,21800.97,Medium
+Ash gourd,3,2021,21274.5,Medium
+Ash gourd,4,2021,21544.62,Medium
+Ash gourd,5,2021,18449.43,Medium
+Ash gourd,6,2021,21835.05,Medium
+Ash gourd,7,2021,18014.68,Medium
+Ash gourd,8,2021,21408.53,Medium
+Ash gourd,9,2021,20175.43,Medium
+Ash gourd,10,2021,21686.74,Medium
+Ash gourd,11,2021,19924.24,Medium
+Ash gourd,12,2021,18420.33,Medium
+Ash gourd,1,2022,18458.18,Medium
+Ash gourd,2,2022,19161.14,Medium
+Ash gourd,3,2022,19861.93,Medium
+Ash gourd,4,2022,20322.12,Medium
+Ash gourd,5,2022,18642.22,Medium
+Ash gourd,6,2022,19467.98,Medium
+Ash gourd,7,2022,21904.59,Medium
+Ash gourd,8,2022,21195.14,Medium
+Ash gourd,9,2022,21491.16,Medium
+Ash gourd,10,2022,21620.74,Medium
+Ash gourd,11,2022,18704.74,Medium
+Ash gourd,12,2022,19125.47,Medium
+Ash gourd,1,2023,18558.01,Medium
+Ash gourd,2,2023,19420.32,Medium
+Ash gourd,3,2023,20703.61,Medium
+Ash gourd,4,2023,19466.32,Medium
+Ash gourd,5,2023,21665.16,Medium
+Ash gourd,6,2023,20040.55,Medium
+Ash gourd,7,2023,18197.55,Medium
+Ash gourd,8,2023,19912.97,Medium
+Ash gourd,9,2023,20324.58,Medium
+Ash gourd,10,2023,19269.29,Medium
+Ash gourd,11,2023,19210.39,Medium
+Ash gourd,12,2023,21891.86,Medium
+Ash gourd,1,2024,18699.9,Medium
+Ash gourd,2,2024,20839.39,Medium
+Ash gourd,3,2024,21439.49,Medium
+Ash gourd,4,2024,19438.23,Medium
+Ash gourd,5,2024,20647.84,Medium
+Ash gourd,6,2024,21783.09,Medium
+Ash gourd,7,2024,20834.75,Medium
+Ash gourd,8,2024,18907.16,Medium
+Ash gourd,9,2024,18250.54,Medium
+Ash gourd,10,2024,19499.35,Medium
+Ash gourd,11,2024,20120.42,Medium
+Ash gourd,12,2024,19928.32,Medium
+Ash gourd,1,2025,19248.14,Medium
+Ash gourd,2,2025,21161.56,Medium
+Ash gourd,3,2025,19620.79,Medium
+Ash gourd,4,2025,18726.28,Medium
+Ash gourd,5,2025,21376.46,Medium
+Ash gourd,6,2025,21990.33,Medium
+Ash gourd,7,2025,21693.6,Medium
+Ash gourd,8,2025,19567.45,Medium
+Ash gourd,9,2025,18232.33,Medium
+Ash gourd,10,2025,19941.37,Medium
+Ash gourd,11,2025,20396.13,Medium
+Ash gourd,12,2025,20042.68,Medium
+Ash gourd,1,2026,18615.16,Medium
+Ash gourd,2,2026,21586.21,Medium
+Ash gourd,3,2026,21349.99,Medium
+Ash gourd,4,2026,18091.81,Medium
+Ash gourd,5,2026,18426.08,Medium
+Ash gourd,6,2026,19167.63,Medium
+Ash gourd,7,2026,21128.39,Medium
+Ash gourd,8,2026,18391.74,Medium
+Ash gourd,9,2026,18159.03,Medium
+Ash gourd,10,2026,18270.36,Medium
+Ash gourd,11,2026,20563.42,Medium
+Ash gourd,12,2026,20414.0,Medium
+Brinjal,1,2021,31364.02,Medium
+Brinjal,2,2021,31424.59,Medium
+Brinjal,3,2021,29754.95,Medium
+Brinjal,4,2021,27269.89,Medium
+Brinjal,5,2021,31314.73,Medium
+Brinjal,6,2021,27066.08,Medium
+Brinjal,7,2021,28638.25,Medium
+Brinjal,8,2021,32692.86,Medium
+Brinjal,9,2021,32433.33,Medium
+Brinjal,10,2021,30696.0,Medium
+Brinjal,11,2021,32554.1,Medium
+Brinjal,12,2021,27187.85,Medium
+Brinjal,1,2022,31232.04,Medium
+Brinjal,2,2022,27079.99,Medium
+Brinjal,3,2022,28600.0,Medium
+Brinjal,4,2022,28049.88,Medium
+Brinjal,5,2022,28323.48,Medium
+Brinjal,6,2022,29099.6,Medium
+Brinjal,7,2022,28700.86,Medium
+Brinjal,8,2022,29136.19,Medium
+Brinjal,9,2022,32744.37,Medium
+Brinjal,10,2022,31551.34,Medium
+Brinjal,11,2022,32849.52,Medium
+Brinjal,12,2022,27738.06,Medium
+Brinjal,1,2023,28408.97,Medium
+Brinjal,2,2023,31923.94,Medium
+Brinjal,3,2023,32721.38,Medium
+Brinjal,4,2023,31110.7,Medium
+Brinjal,5,2023,30833.59,Medium
+Brinjal,6,2023,27674.15,Medium
+Brinjal,7,2023,27503.06,Medium
+Brinjal,8,2023,28676.1,Medium
+Brinjal,9,2023,31403.2,Medium
+Brinjal,10,2023,28446.01,Medium
+Brinjal,11,2023,31412.01,Medium
+Brinjal,12,2023,30451.51,Medium
+Brinjal,1,2024,28954.89,Medium
+Brinjal,2,2024,29785.87,Medium
+Brinjal,3,2024,32459.43,Medium
+Brinjal,4,2024,31296.61,Medium
+Brinjal,5,2024,30472.23,Medium
+Brinjal,6,2024,27634.17,Medium
+Brinjal,7,2024,29074.16,Medium
+Brinjal,8,2024,32372.74,Medium
+Brinjal,9,2024,31944.46,Medium
+Brinjal,10,2024,27897.01,Medium
+Brinjal,11,2024,31296.05,Medium
+Brinjal,12,2024,29321.4,Medium
+Brinjal,1,2025,28813.15,Medium
+Brinjal,2,2025,32010.45,Medium
+Brinjal,3,2025,30130.92,Medium
+Brinjal,4,2025,27613.95,Medium
+Brinjal,5,2025,27764.48,Medium
+Brinjal,6,2025,30331.65,Medium
+Brinjal,7,2025,29327.31,Medium
+Brinjal,8,2025,31851.1,Medium
+Brinjal,9,2025,28192.68,Medium
+Brinjal,10,2025,29363.48,Medium
+Brinjal,11,2025,28562.29,Medium
+Brinjal,12,2025,30797.22,Medium
+Brinjal,1,2026,30981.03,Medium
+Brinjal,2,2026,30451.46,Medium
+Brinjal,3,2026,29778.84,Medium
+Brinjal,4,2026,32833.46,Medium
+Brinjal,5,2026,30750.75,Medium
+Brinjal,6,2026,31214.47,Medium
+Brinjal,7,2026,30443.7,Medium
+Brinjal,8,2026,30389.38,Medium
+Brinjal,9,2026,27911.31,Medium
+Brinjal,10,2026,29162.86,Medium
+Brinjal,11,2026,28833.39,Medium
+Brinjal,12,2026,31351.54,Medium
+Okra,1,2021,36649.31,Medium
+Okra,2,2021,33845.26,Medium
+Okra,3,2021,33738.86,Medium
+Okra,4,2021,36953.41,Medium
+Okra,5,2021,34201.04,Medium
+Okra,6,2021,36302.17,Medium
+Okra,7,2021,32107.4,Medium
+Okra,8,2021,32774.98,Medium
+Okra,9,2021,31644.87,Medium
+Okra,10,2021,37525.79,Medium
+Okra,11,2021,37529.31,Medium
+Okra,12,2021,34235.11,Medium
+Okra,1,2022,37272.84,Medium
+Okra,2,2022,37509.04,Medium
+Okra,3,2022,37603.12,Medium
+Okra,4,2022,32473.06,Medium
+Okra,5,2022,35375.77,Medium
+Okra,6,2022,34451.27,Medium
+Okra,7,2022,37373.67,Medium
+Okra,8,2022,35407.55,Medium
+Okra,9,2022,36950.34,Medium
+Okra,10,2022,33595.21,Medium
+Okra,11,2022,37557.49,Medium
+Okra,12,2022,34431.26,Medium
+Okra,1,2023,31766.01,Medium
+Okra,2,2023,34918.01,Medium
+Okra,3,2023,34950.07,Medium
+Okra,4,2023,35060.93,Medium
+Okra,5,2023,35587.0,Medium
+Okra,6,2023,35189.4,Medium
+Okra,7,2023,34197.6,Medium
+Okra,8,2023,37551.85,Medium
+Okra,9,2023,35144.33,Medium
+Okra,10,2023,34988.25,Medium
+Okra,11,2023,33540.32,Medium
+Okra,12,2023,33121.05,Medium
+Okra,1,2024,37291.0,Medium
+Okra,2,2024,35831.34,Medium
+Okra,3,2024,38058.44,Medium
+Okra,4,2024,36697.71,Medium
+Okra,5,2024,37796.39,Medium
+Okra,6,2024,35144.74,Medium
+Okra,7,2024,33900.17,Medium
+Okra,8,2024,36982.93,Medium
+Okra,9,2024,32587.32,Medium
+Okra,10,2024,36808.32,Medium
+Okra,11,2024,35392.67,Medium
+Okra,12,2024,31909.23,Medium
+Okra,1,2025,35493.64,Medium
+Okra,2,2025,34288.93,Medium
+Okra,3,2025,32631.51,Medium
+Okra,4,2025,32667.02,Medium
+Okra,5,2025,38492.02,Medium
+Okra,6,2025,33752.43,Medium
+Okra,7,2025,35398.47,Medium
+Okra,8,2025,37612.56,Medium
+Okra,9,2025,36427.48,Medium
+Okra,10,2025,36991.92,Medium
+Okra,11,2025,33045.85,Medium
+Okra,12,2025,36727.05,Medium
+Okra,1,2026,37119.21,Medium
+Okra,2,2026,31953.32,Medium
+Okra,3,2026,36598.75,Medium
+Okra,4,2026,32016.72,Medium
+Okra,5,2026,33992.52,Medium
+Okra,6,2026,32408.26,Medium
+Okra,7,2026,33618.62,Medium
+Okra,8,2026,35044.26,Medium
+Okra,9,2026,36133.17,Medium
+Okra,10,2026,38339.13,Medium
+Okra,11,2026,32031.61,Medium
+Okra,12,2026,33372.23,Medium
+Tomato,1,2021,26349.81,Medium
+Tomato,2,2021,27233.38,Medium
+Tomato,3,2021,25532.24,Medium
+Tomato,4,2021,23427.06,Medium
+Tomato,5,2021,27107.54,Medium
+Tomato,6,2021,24553.0,Medium
+Tomato,7,2021,22892.78,Medium
+Tomato,8,2021,25438.36,Medium
+Tomato,9,2021,24738.09,Medium
+Tomato,10,2021,25938.14,Medium
+Tomato,11,2021,23730.85,Medium
+Tomato,12,2021,23992.7,Medium
+Tomato,1,2022,24759.32,Medium
+Tomato,2,2022,24637.36,Medium
+Tomato,3,2022,24337.2,Medium
+Tomato,4,2022,23431.46,Medium
+Tomato,5,2022,27101.06,Medium
+Tomato,6,2022,25790.36,Medium
+Tomato,7,2022,26186.75,Medium
+Tomato,8,2022,22515.44,Medium
+Tomato,9,2022,23086.68,Medium
+Tomato,10,2022,25930.99,Medium
+Tomato,11,2022,27422.2,Medium
+Tomato,12,2022,26150.87,Medium
+Tomato,1,2023,27355.38,Medium
+Tomato,2,2023,26988.73,Medium
+Tomato,3,2023,23014.12,Medium
+Tomato,4,2023,24618.63,Medium
+Tomato,5,2023,25192.01,Medium
+Tomato,6,2023,26577.07,Medium
+Tomato,7,2023,24922.95,Medium
+Tomato,8,2023,25834.26,Medium
+Tomato,9,2023,27032.42,Medium
+Tomato,10,2023,24272.67,Medium
+Tomato,11,2023,25696.66,Medium
+Tomato,12,2023,25228.5,Medium
+Tomato,1,2024,27157.27,Medium
+Tomato,2,2024,23088.68,Medium
+Tomato,3,2024,27339.38,Medium
+Tomato,4,2024,26299.88,Medium
+Tomato,5,2024,27250.62,Medium
+Tomato,6,2024,27294.51,Medium
+Tomato,7,2024,22707.64,Medium
+Tomato,8,2024,25152.08,Medium
+Tomato,9,2024,24132.19,Medium
+Tomato,10,2024,22961.91,Medium
+Tomato,11,2024,26805.17,Medium
+Tomato,12,2024,26256.0,Medium
+Tomato,1,2025,25189.11,Medium
+Tomato,2,2025,22588.96,Medium
+Tomato,3,2025,26697.24,Medium
+Tomato,4,2025,22574.58,Medium
+Tomato,5,2025,25933.17,Medium
+Tomato,6,2025,24233.6,Medium
+Tomato,7,2025,24892.16,Medium
+Tomato,8,2025,22803.13,Medium
+Tomato,9,2025,24096.28,Medium
+Tomato,10,2025,25185.91,Medium
+Tomato,11,2025,27314.36,Medium
+Tomato,12,2025,22803.47,Medium
+Tomato,1,2026,25633.76,Medium
+Tomato,2,2026,23022.62,Medium
+Tomato,3,2026,26265.14,Medium
+Tomato,4,2026,22941.85,Medium
+Tomato,5,2026,26309.24,Medium
+Tomato,6,2026,24044.6,Medium
+Tomato,7,2026,23168.37,Medium
+Tomato,8,2026,27420.41,Medium
+Tomato,9,2026,25965.35,Medium
+Tomato,10,2026,22885.29,Medium
+Tomato,11,2026,22805.18,Medium
+Tomato,12,2026,24593.91,Medium
+Chilli,1,2021,78166.71,Medium
+Chilli,2,2021,78897.12,Medium
+Chilli,3,2021,87167.79,Medium
+Chilli,4,2021,78945.51,Medium
+Chilli,5,2021,74430.95,Medium
+Chilli,6,2021,83246.64,Medium
+Chilli,7,2021,79556.1,Medium
+Chilli,8,2021,80381.7,Medium
+Chilli,9,2021,73043.18,Medium
+Chilli,10,2021,77621.45,Medium
+Chilli,11,2021,76366.45,Medium
+Chilli,12,2021,86301.16,Medium
+Chilli,1,2022,77385.82,Medium
+Chilli,2,2022,87511.94,Medium
+Chilli,3,2022,83831.46,Medium
+Chilli,4,2022,78308.76,Medium
+Chilli,5,2022,82158.15,Medium
+Chilli,6,2022,77427.38,Medium
+Chilli,7,2022,77187.33,Medium
+Chilli,8,2022,87860.28,Medium
+Chilli,9,2022,81470.12,Medium
+Chilli,10,2022,84979.63,Medium
+Chilli,11,2022,77285.85,Medium
+Chilli,12,2022,84048.56,Medium
+Chilli,1,2023,76260.09,Medium
+Chilli,2,2023,79584.9,Medium
+Chilli,3,2023,77017.81,Medium
+Chilli,4,2023,72941.69,Medium
+Chilli,5,2023,72490.18,Medium
+Chilli,6,2023,78022.34,Medium
+Chilli,7,2023,82206.6,Medium
+Chilli,8,2023,77387.07,Medium
+Chilli,9,2023,86255.84,Medium
+Chilli,10,2023,82885.1,Medium
+Chilli,11,2023,86473.85,Medium
+Chilli,12,2023,76100.89,Medium
+Chilli,1,2024,84379.18,Medium
+Chilli,2,2024,84219.9,Medium
+Chilli,3,2024,78100.0,Medium
+Chilli,4,2024,75538.04,Medium
+Chilli,5,2024,87771.64,Medium
+Chilli,6,2024,85423.85,Medium
+Chilli,7,2024,72102.34,Medium
+Chilli,8,2024,76927.63,Medium
+Chilli,9,2024,77614.2,Medium
+Chilli,10,2024,82386.77,Medium
+Chilli,11,2024,85870.71,Medium
+Chilli,12,2024,72691.11,Medium
+Chilli,1,2025,84059.33,Medium
+Chilli,2,2025,75244.21,Medium
+Chilli,3,2025,72053.25,Medium
+Chilli,4,2025,85290.17,Medium
+Chilli,5,2025,78059.84,Medium
+Chilli,6,2025,80555.68,Medium
+Chilli,7,2025,83977.03,Medium
+Chilli,8,2025,82973.52,Medium
+Chilli,9,2025,80766.62,Medium
+Chilli,10,2025,84564.04,Medium
+Chilli,11,2025,75684.01,Medium
+Chilli,12,2025,73398.78,Medium
+Chilli,1,2026,81477.69,Medium
+Chilli,2,2026,75168.76,Medium
+Chilli,3,2026,80140.63,Medium
+Chilli,4,2026,79927.63,Medium
+Chilli,5,2026,80669.16,Medium
+Chilli,6,2026,86583.38,Medium
+Chilli,7,2026,76245.03,Medium
+Chilli,8,2026,73054.52,Medium
+Chilli,9,2026,84405.62,Medium
+Chilli,10,2026,74406.15,Medium
+Chilli,11,2026,85955.37,Medium
+Chilli,12,2026,84672.65,Medium
+Cucumber,1,2021,19931.94,Medium
+Cucumber,2,2021,18204.82,Medium
+Cucumber,3,2021,18591.21,Medium
+Cucumber,4,2021,18576.62,Medium
+Cucumber,5,2021,18443.98,Medium
+Cucumber,6,2021,20170.34,Medium
+Cucumber,7,2021,20336.56,Medium
+Cucumber,8,2021,18505.51,Medium
+Cucumber,9,2021,21062.02,Medium
+Cucumber,10,2021,20935.12,Medium
+Cucumber,11,2021,18786.2,Medium
+Cucumber,12,2021,18057.91,Medium
+Cucumber,1,2022,21019.34,Medium
+Cucumber,2,2022,21565.62,Medium
+Cucumber,3,2022,20649.79,Medium
+Cucumber,4,2022,18086.19,Medium
+Cucumber,5,2022,20495.84,Medium
+Cucumber,6,2022,18453.43,Medium
+Cucumber,7,2022,19237.92,Medium
+Cucumber,8,2022,19407.09,Medium
+Cucumber,9,2022,19245.5,Medium
+Cucumber,10,2022,18609.77,Medium
+Cucumber,11,2022,18990.89,Medium
+Cucumber,12,2022,20340.33,Medium
+Cucumber,1,2023,20230.87,Medium
+Cucumber,2,2023,18440.69,Medium
+Cucumber,3,2023,18460.28,Medium
+Cucumber,4,2023,19341.66,Medium
+Cucumber,5,2023,19971.36,Medium
+Cucumber,6,2023,18053.0,Medium
+Cucumber,7,2023,21927.08,Medium
+Cucumber,8,2023,18746.05,Medium
+Cucumber,9,2023,19043.95,Medium
+Cucumber,10,2023,19122.62,Medium
+Cucumber,11,2023,18607.4,Medium
+Cucumber,12,2023,21562.91,Medium
+Cucumber,1,2024,19586.55,Medium
+Cucumber,2,2024,20796.38,Medium
+Cucumber,3,2024,19276.2,Medium
+Cucumber,4,2024,19959.8,Medium
+Cucumber,5,2024,21938.8,Medium
+Cucumber,6,2024,18716.92,Medium
+Cucumber,7,2024,18674.67,Medium
+Cucumber,8,2024,18491.61,Medium
+Cucumber,9,2024,18413.69,Medium
+Cucumber,10,2024,18998.27,Medium
+Cucumber,11,2024,18746.81,Medium
+Cucumber,12,2024,21517.93,Medium
+Cucumber,1,2025,20392.16,Medium
+Cucumber,2,2025,20878.58,Medium
+Cucumber,3,2025,19293.08,Medium
+Cucumber,4,2025,19321.47,Medium
+Cucumber,5,2025,19224.92,Medium
+Cucumber,6,2025,20483.56,Medium
+Cucumber,7,2025,19118.59,Medium
+Cucumber,8,2025,21599.97,Medium
+Cucumber,9,2025,20864.59,Medium
+Cucumber,10,2025,20561.96,Medium
+Cucumber,11,2025,20160.89,Medium
+Cucumber,12,2025,19667.46,Medium
+Cucumber,1,2026,18422.16,Medium
+Cucumber,2,2026,20201.36,Medium
+Cucumber,3,2026,18859.68,Medium
+Cucumber,4,2026,19568.89,Medium
+Cucumber,5,2026,19637.72,Medium
+Cucumber,6,2026,21438.64,Medium
+Cucumber,7,2026,19586.08,Medium
+Cucumber,8,2026,20312.19,Medium
+Cucumber,9,2026,18079.03,Medium
+Cucumber,10,2026,18108.34,Medium
+Cucumber,11,2026,20535.44,Medium
+Cucumber,12,2026,18154.39,Medium
+Sugarcane,1,2026,3000,High
+Sugarcane,2,2026,3000,High
+Sugarcane,3,2026,3000,High
+Sugarcane,4,2026,3000,High
+Sugarcane,5,2026,3000,High
+Sugarcane,6,2026,3000,High
+Sugarcane,7,2026,3000,High
+Sugarcane,8,2026,3000,High
+Sugarcane,9,2026,3000,High
+Sugarcane,10,2026,3000,High
+Sugarcane,11,2026,3000,High
+Sugarcane,12,2026,3000,High
+Black Pepper,1,2026,550000,High
+Black Pepper,2,2026,550000,High
+Black Pepper,3,2026,550000,High
+Black Pepper,4,2026,550000,High
+Black Pepper,5,2026,550000,High
+Black Pepper,6,2026,550000,High
+Black Pepper,7,2026,550000,High
+Black Pepper,8,2026,550000,High
+Black Pepper,9,2026,550000,High
+Black Pepper,10,2026,550000,High
+Black Pepper,11,2026,550000,High
+Black Pepper,12,2026,550000,High
+Arecanut,1,2026,450000,Medium
+Arecanut,2,2026,450000,Medium
+Arecanut,3,2026,450000,Medium
+Arecanut,4,2026,450000,Medium
+Arecanut,5,2026,450000,Medium
+Arecanut,6,2026,450000,Medium
+Arecanut,7,2026,450000,Medium
+Arecanut,8,2026,450000,Medium
+Arecanut,9,2026,450000,Medium
+Arecanut,10,2026,450000,Medium
+Arecanut,11,2026,450000,Medium
+Arecanut,12,2026,450000,Medium
+Ash gourd,1,2026,12000,Low
+Ash gourd,2,2026,12000,Low
+Ash gourd,3,2026,12000,Low
+Ash gourd,4,2026,12000,Low
+Ash gourd,5,2026,12000,Low
+Ash gourd,6,2026,12000,Low
+Ash gourd,7,2026,12000,Low
+Ash gourd,8,2026,12000,Low
+Ash gourd,9,2026,12000,Low
+Ash gourd,10,2026,12000,Low
+Ash gourd,11,2026,12000,Low
+Ash gourd,12,2026,12000,Low
+Tomato,1,2026,18000,Medium
+Tomato,2,2026,18000,Medium
+Tomato,3,2026,18000,Medium
+Tomato,4,2026,18000,Medium
+Tomato,5,2026,18000,Medium
+Tomato,6,2026,18000,Medium
+Tomato,7,2026,18000,Medium
+Tomato,8,2026,18000,Medium
+Tomato,9,2026,18000,Medium
+Tomato,10,2026,18000,Medium
+Tomato,11,2026,18000,Medium
+Tomato,12,2026,18000,Medium
+Cardamom,1,2026,900000,High
+Cardamom,2,2026,900000,High
+Cardamom,3,2026,900000,High
+Cardamom,4,2026,900000,High
+Cardamom,5,2026,900000,High
+Cardamom,6,2026,900000,High
+Cardamom,7,2026,900000,High
+Cardamom,8,2026,900000,High
+Cardamom,9,2026,900000,High
+Cardamom,10,2026,900000,High
+Cardamom,11,2026,900000,High
+Cardamom,12,2026,900000,High
+Cashew,1,2026,700000,High
+Cashew,2,2026,700000,High
+Cashew,3,2026,700000,High
+Cashew,4,2026,700000,High
+Cashew,5,2026,700000,High
+Cashew,6,2026,700000,High
+Cashew,7,2026,700000,High
+Cashew,8,2026,700000,High
+Cashew,9,2026,700000,High
+Cashew,10,2026,700000,High
+Cashew,11,2026,700000,High
+Cashew,12,2026,700000,High
